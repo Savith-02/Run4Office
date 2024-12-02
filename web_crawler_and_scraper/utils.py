@@ -28,7 +28,7 @@ def format_and_save_file(content, url, filename, output_directory):
     content = remove_whitespace_between_tags(content)
     content = remove_whitespace_between_tags_and_text(content)
     # os.makedirs(f"./../{output_directory}", exist_ok=True)
-    filepath = f"./../url_filter/formatted_files/{output_directory}_{filename}"
+    filepath = f"./../url_filter/formatted_files/{output_directory}_{filename}.txt"
     with open(filepath, 'w', encoding='utf-8') as file:
         file.write("URL: " + url + "\n\n")
         file.write(content)
