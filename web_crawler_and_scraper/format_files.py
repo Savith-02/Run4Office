@@ -31,7 +31,7 @@ def remove_whitespace_between_tags(html):
 
 # Function to process all files in the /scraped_files directory and save them to /formatted_files
 input_directory = './scraped_files'
-output_directory = './formatted_files'
+output_directory = './../formatted_files'
 
 def process_files_in_directory():
     print("Formatting files started")

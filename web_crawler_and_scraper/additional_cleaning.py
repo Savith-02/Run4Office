@@ -20,3 +20,11 @@ def strip_structure(text):
     cleaned_text = '\n'.join([line.strip() for line in text.splitlines() if line.strip()])
     return cleaned_text
 
+def remove_whitespace_between_tags(html):
+    return re.sub(r'>\s+<', '><', html)
+
+def remove_whitespace_between_tags_and_text(html):
+    html = re.sub(r'>\s+', '>', html)
+    html = re.sub(r'\s+<', '<', html)
+    html = re.sub(r'\s+', ' ', html)
+    return html.strip()

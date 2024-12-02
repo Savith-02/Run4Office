@@ -2,3 +2,6 @@
 __pycache__
 __pycache__/
 .venv
+*/formatted_files/*
+*/scraped_files/*
+*/logs/*

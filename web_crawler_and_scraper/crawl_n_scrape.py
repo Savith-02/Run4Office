@@ -17,7 +17,7 @@ from init import initialize_directories
 from bs4 import BeautifulSoup
 from init import clear_scraped_files
 from additional_cleaning import clean_html
-from utils import get_base_filename, update_checkpoint_file
+from utils import get_base_filename, update_checkpoint_file, format_and_save_file
 
 # Set a custom process name
 os.system("title web_crawler_scraper")  # For Windows
@@ -127,6 +127,7 @@ def save_to_file(url, soup):
     with open(filename, "w", encoding="utf-8") as file:
         file.write("URL: " + url + "\n\n")
         file.write(text)
+    format_and_save_file(text, url, base_filename, BASE_DIRECTORY)
 
 # Crawl the URL, extract content, and parse links
 def crawl(driver, url):
