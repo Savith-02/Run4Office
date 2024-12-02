@@ -1,0 +1,1995 @@
+URL: https://ballotpedia.org/List_of_current_mayors_of_the_top_100_cities_in_the_United_States
+
+<html>
+<body>
+<div>
+<div>
+<div>
+<div>
+<button type="button">×</button>
+<h4>Sign up to receive Ballotpedia's daily newsletter</h4>
+</div>
+<div>
+<form name="whatcounts-form-skin">
+<p>
+<label>Email *</label>
+</p>
+<p>
+<label>First Name</label>
+</p>
+<div>
+<div><div><div></div></div></div>
+<p>Please complete the Captcha above</p>
+</div>
+<p>
+</p>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<div>
+<button type="button">×</button>
+<h4>Ballotpedia on Facebook</h4>
+</div>
+<div>
+<p><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fballotpedia.org%2FList_of_current_mayors_of_the_top_100_cities_in_the_United_States">   Share this page</a></p>
+<p><a href="https://www.facebook.com/Ballotpedia/">   Follow Ballotpedia</a></p>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<div>
+<button type="button">×</button>
+<h4>Ballotpedia on Twitter</h4>
+</div>
+<div>
+<p><a href="https://twitter.com/home?status=https%3A%2F%2Fballotpedia.org%2FList_of_current_mayors_of_the_top_100_cities_in_the_United_States">   Share this page</a></p>
+<p><a href="https://twitter.com/Ballotpedia/">   Follow Ballotpedia</a></p>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<form>
+<div>
+<button type="submit"></button>
+</div>
+</form></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<div>
+<h1><span><span>List of current mayors of the top 100 cities in the United States</span></span></h1>
+<div>
+<div>From Ballotpedia</div>
+<div>
+Jump to:					,
+</div>
+<div><div><table>
+<tbody><tr>
+<th><big>Ballotpedia'smunicipal content</big></th></tr>
+<tr>
+<td><div><div></div></div>
+</td></tr>
+<tr>
+<th>Elections
+</th></tr>
+<tr>
+<td><a href="/United_States_municipal_elections,_2024">2024 municipal</a>
+</td></tr>
+<tr>
+<td><a href="/United_States_mayoral_elections,_2024">2024 mayoral</a>
+</td></tr>
+<tr>
+<td><a href="/Political_recall_efforts#2024">2024 recall</a>
+</td></tr>
+<tr>
+<th>Officials
+</th></tr>
+<tr>
+<td><a>Mayors</a>
+</td></tr>
+<tr>
+<td><a href="/List_of_current_city_council_officials_of_the_top_100_cities_in_the_United_States">City council members</a>
+</td></tr>
+</tbody></table>
+<p>This page lists the <b>current mayors of the <a href="/Largest_cities_in_the_United_States_by_population">100 largest U.S. cities</a> by population</b>. As of 2020, 64,537,560 individuals lived in these cities, accounting for 19.47 percent of the nation's total population.
+</p><p>In the top 100 cities, there are 47 <a href="/Mayor-council_government">strong mayor governments</a>, 46 <a href="/Council-manager_government">council-manager governments</a>, six , and one <a href="/City_commission">city commission</a>.
+</p><p>As of December 2024, the <a href="/Party_affiliation_of_the_mayors_of_the_100_largest_cities">partisan breakdown</a> of the mayors of the 100 largest U.S. cities is 63 <a href="/Democrats">Democrats</a>, 25 <a href="/Republicans">Republicans</a>, one <a href="/Libertarian">Libertarian</a>, four <a href="/Independent">independents</a>, and five <a href="/Nonpartisan">nonpartisans</a>. Two mayors' partisan affiliations are unknown.
+</p><p>Based on 2020 population estimates, 76% of the population of the top 100 cities lived in cities with Democratic mayors, and 16% lived in cities with Republican mayors at the start of 2024.
+</p><p>As of 2024, <a href="/Allen_Joines">Allen Joines</a> (D), mayor of <a href="/Winston-Salem,_North_Carolina">Winston-Salem, North Carolina</a>, had been in office the longest. He first took office in 2001.
+</p><p>This page includes:
+</p>
+<ul><li>: A list of mayors of the 100 cities, including the year each mayor took office, when the current term expires, and the city's type of government.</li>
+<li>: A list of mayoral elections happening in 2024.</li>
+<li>: Charts tracking mayoral partisan affiliation from 2016 to present.</li></ul>
+<div><div><h2>Contents</h2><span></span></div>
+<ul>
+<li>
+<ul>
+</ul>
+</li>
+</ul>
+</div>
+<h2><span>List of mayors</span></h2>
+<dl><dd><dl><dd><i>See also: <a href="/Largest_cities_in_the_United_States_by_population">Largest cities in the United States by population</a></i></dd></dl></dd></dl>
+<center></center>
+<p>The following table lists the current mayors of the top 100 U.S. cities by population, including the year each mayor took office, when the current term expires, and the city's type of government. Each type of government has a different distribution of power and different responsibilities between the mayor and the city council. The types of government are:
+</p>
+<ul><li><b><a href="/Mayor-council_government">Strong mayor</a>:</b> The city council serves as the city's primary legislative body, and the mayor serves as the city's chief executive.</li>
+<li><b><a href="/Council-manager_government">Council-manager</a>:</b> An elected city council—which includes the mayor and serves as the city's primary legislative body—appoints a chief executive called a city manager to oversee day-to-day municipal operations and to implement the council's policy and legislative initiatives.</li>
+<li><b><a href="/City_commission">City commission</a>:</b> A city council, composed of an elected mayor and a board of elected commissioners, serves as the city's primary legislative and administrative body.</li>
+<li><b>Hybrid:</b> The city council serves as the city's primary legislative body, and the mayor serves as the city's chief executive. The mayor, however, appoints a city manager to oversee the city's day-to-day operations and to implement city policies.</li></ul>
+<p><small><i><b>Note</b>: In cities where mayoral elections are nonpartisan, Ballotpedia uses one or more of the following sources to identify each officeholder's partisan affiliation: (1) direct communication from the officeholder, (2) previous candidacy for partisan office, or (3) identification of partisan affiliation by multiple media outlets.</i></small>
+</p><div>
+<table>
+<thead><tr>
+<th><b>100 Largest Cities By Population</b>
+</th></tr></thead><tbody>
+<tr>
+<td>1
+</td>
+<td><a href="/New_York,_New_York">New York, New York</a>
+</td>
+<td>8,804,190
+</td>
+<td><a href="/Eric_Adams_(New_York)">Eric Adams</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_New_York,_New_York_(2021)">2022</a>
+</td>
+<td><a href="/Mayoral_election_in_New_York,_New_York_(2025)">2026</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>2
+</td>
+<td><a href="/Los_Angeles,_California">Los Angeles, California</a>
+</td>
+<td>3,898,747
+</td>
+<td><a href="/Karen_Bass">Karen Bass</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Los_Angeles,_California_(2022)">2022</a>
+</td>
+<td>2026
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>3
+</td>
+<td><a href="/Chicago,_Illinois">Chicago, Illinois</a>
+</td>
+<td>2,746,388
+</td>
+<td><a href="/Brandon_Johnson">Brandon Johnson</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Chicago,_Illinois_(2023)">2023</a>
+</td>
+<td>2027
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>4
+</td>
+<td><a href="/Houston,_Texas">Houston, Texas</a>
+</td>
+<td>2,304,580
+</td>
+<td><a href="/John_Whitmire">John Whitmire</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Houston,_Texas_(2023)">2024</a>
+</td>
+<td>2028
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>5
+</td>
+<td><a href="/Phoenix,_Arizona">Phoenix, Arizona</a>
+</td>
+<td>1,608,139
+</td>
+<td><a href="/Kate_Gallego">Kate Gallego</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Phoenix,_Arizona_(2018)">2019</a>
+</td>
+<td><a href="/Mayoral_election_in_Phoenix,_Arizona_(2024)">2025</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td><a href="/Mayoral_election_in_Phoenix,_Arizona_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>6
+</td>
+<td><a href="/Philadelphia,_Pennsylvania">Philadelphia, Pennsylvania</a>
+</td>
+<td>1,603,797
+</td>
+<td><a href="/Cherelle_Parker">Cherelle Parker</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Philadelphia,_Pennsylvania_(2023)">2024</a>
+</td>
+<td>2028
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>7
+</td>
+<td><a href="/San_Antonio,_Texas">San Antonio, Texas</a>
+</td>
+<td>1,434,625
+</td>
+<td><a href="/Ron_Nirenberg">Ron Nirenberg</a> <span><b>(I)</b></span>
+</td>
+<td><a href="/Municipal_elections_in_San_Antonio,_Texas_(2017)">2017</a>
+</td>
+<td><a href="/Mayoral_election_in_San_Antonio,_Texas_(2025)">2025</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>8
+</td>
+<td><a href="/San_Diego,_California">San Diego, California</a>
+</td>
+<td>1,386,932
+</td>
+<td><a href="/Todd_Gloria">Todd Gloria</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_San_Diego,_California_(2020)">2020</a>
+</td>
+<td><a href="/Mayoral_election_in_San_Diego,_California_(2024)">2024</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td><a href="/Mayoral_election_in_San_Diego,_California_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>9
+</td>
+<td><a href="/Dallas,_Texas">Dallas, Texas</a>
+</td>
+<td>1,304,379
+</td>
+<td><a href="/Eric_Johnson_(Texas)">Eric Johnson</a> <span><b>(R)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Dallas,_Texas_(2019)">2019</a>
+</td>
+<td>2027
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>10
+</td>
+<td><a href="/San_Jose,_California">San Jose, California</a>
+</td>
+<td>1,013,240
+</td>
+<td><a href="/Matt_Mahan">Matt Mahan</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_San_Jose,_California_(2022)">2023</a>
+</td>
+<td><a href="/Mayoral_election_in_San_Jose,_California_(2024)">2024</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td><a href="/Mayoral_election_in_San_Jose,_California_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>11
+</td>
+<td><a href="/Austin,_Texas">Austin, Texas</a>
+</td>
+<td>961,855
+</td>
+<td><a href="/Kirk_Watson">Kirk Watson</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Austin,_Texas_(2022)">2023</a>
+</td>
+<td><a href="/Mayoral_election_in_Austin,_Texas_(2024)">2025</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td><a href="/Mayoral_election_in_Austin,_Texas_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>12
+</td>
+<td><a href="/Jacksonville,_Florida">Jacksonville, Florida</a>
+</td>
+<td>949,611
+</td>
+<td><a href="/Donna_Deegan">Donna Deegan</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Jacksonville,_Florida_(2023)">2023</a>
+</td>
+<td>2027
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>13
+</td>
+<td><a href="/Fort_Worth,_Texas">Fort Worth, Texas</a>
+</td>
+<td>918,915
+</td>
+<td><a href="/Mattie_Parker">Mattie Parker</a> <span><b>(R)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Fort_Worth,_Texas_(2021)">2021</a>
+</td>
+<td><a href="/Mayoral_election_in_Fort_Worth,_Texas_(2025)">2025</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>14
+</td>
+<td><a href="/Columbus,_Ohio">Columbus, Ohio</a>
+</td>
+<td>905,748
+</td>
+<td><a href="/Andrew_J._Ginther">Andrew J. Ginther</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Municipal_elections_in_Columbus,_Ohio_(2015)">2015</a>
+</td>
+<td>2027
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>15
+</td>
+<td><a href="/Indianapolis,_Indiana">Indianapolis, Indiana</a>
+</td>
+<td>897,041
+</td>
+<td><a href="/Joseph_Hogsett">Joseph Hogsett</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Municipal_elections_in_Indianapolis,_Indiana_(2015)">2016</a>
+</td>
+<td><a href="/Mayoral_election_in_Indianapolis,_Indiana_(2023)">2024</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>16
+</td>
+<td><a href="/Charlotte,_North_Carolina">Charlotte, North Carolina</a>
+</td>
+<td>874,579
+</td>
+<td><a href="/Vi_Lyles">Vi Lyles</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Charlotte,_North_Carolina_(2017)">2017</a>
+</td>
+<td><a href="/Mayoral_election_in_Charlotte,_North_Carolina_(2025)">2025</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>17
+</td>
+<td><a href="/San_Francisco,_California">San Francisco, California</a>
+</td>
+<td>873,965
+</td>
+<td><a href="/London_Breed">London Breed</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_San_Francisco,_California_(2018)">2018</a>
+</td>
+<td><a href="/Mayoral_election_in_San_Francisco,_California_(2024)">2025</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td><a href="/Mayoral_election_in_San_Francisco,_California_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>18
+</td>
+<td><a href="/Seattle,_Washington">Seattle, Washington</a>
+</td>
+<td>737,015
+</td>
+<td><a href="/Bruce_Harrell">Bruce Harrell</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Seattle,_Washington_(2021)">2022</a>
+</td>
+<td><a href="/Mayoral_election_in_Seattle,_Washington_(2025)">2025</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>19
+</td>
+<td><a href="/Denver,_Colorado">Denver, Colorado</a>
+</td>
+<td>715,522
+</td>
+<td><a href="/Michael_Johnston_(Colorado)">Michael Johnston</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Denver,_Colorado_(2023)">2023</a>
+</td>
+<td>2027
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>20
+</td>
+<td><a href="/Nashville,_Tennessee">Nashville, Tennessee</a>
+</td>
+<td>715,884
+</td>
+<td><a href="/Freddie_O%27Connell">Freddie O'Connell</a> <span><b>(D)</b>
+</span></td>
+<td><a href="/Mayoral_election_in_Nashville,_Tennessee_(2023)">2023</a>
+</td>
+<td>2027
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>21
+</td>
+<td><a href="/Oklahoma_City,_Oklahoma">Oklahoma City, Oklahoma</a>
+</td>
+<td>681,054
+</td>
+<td><a href="/David_Holt">David Holt</a> <span><b>(R)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Oklahoma_City,_Oklahoma_(2018)">2018</a>
+</td>
+<td>2026
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>22
+</td>
+<td><a href="/El_Paso,_Texas">El Paso, Texas</a>
+</td>
+<td>678,815
+</td>
+<td><a href="/Oscar_Leeser">Oscar Leeser</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_El_Paso,_Texas_(2020)">2021</a>
+</td>
+<td><a href="/Mayoral_election_in_El_Paso,_Texas_(2024)">2025</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td><a href="/Mayoral_election_in_El_Paso,_Texas_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>23
+</td>
+<td><a href="/Boston,_Massachusetts">Boston, Massachusetts</a>
+</td>
+<td>675,647
+</td>
+<td><a href="/Michelle_Wu">Michelle Wu</a> <span><b>(D)</b></span>
+</td>
+<td>2021
+</td>
+<td><a href="/Mayoral_election_in_Boston,_Massachusetts_(2025)">2026</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>24
+</td>
+<td><a href="/Portland,_Oregon">Portland, Oregon</a>
+</td>
+<td>652,503
+</td>
+<td><a href="/Ted_Wheeler">Ted Wheeler</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Municipal_elections_in_Portland,_Oregon_(2016)">2017</a>
+</td>
+<td><a href="/Mayoral_election_in_Portland,_Oregon_(2024)">2025</a>
+</td>
+<td><a href="/City_commission">City commission</a>
+</td>
+<td><a href="/Mayoral_election_in_Portland,_Oregon_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>25
+</td>
+<td><a href="/Las_Vegas,_Nevada">Las Vegas, Nevada</a>
+</td>
+<td>641,903
+</td>
+<td><a href="/Carolyn_Goodman">Carolyn Goodman</a> (Nonpartisan)
+</td>
+<td>2011
+</td>
+<td><a href="/Mayoral_election_in_Las_Vegas,_Nevada_(2024)">2024</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td><a href="/Mayoral_election_in_Las_Vegas,_Nevada_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>26
+</td>
+<td><a href="/Detroit,_Michigan">Detroit, Michigan</a>
+</td>
+<td>639,111
+</td>
+<td><a href="/Mike_Duggan">Mike Duggan</a> <span><b>(D)</b></span>
+</td>
+<td>2014
+</td>
+<td><a href="/Mayoral_election_in_Detroit,_Michigan_(2025)">2026</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>27
+</td>
+<td><a href="/Memphis,_Tennessee">Memphis, Tennessee</a>
+</td>
+<td>633,104
+</td>
+<td><a href="/Paul_Young_(Tennessee)">Paul Young</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Memphis,_Tennessee_(2023)">2024</a>
+</td>
+<td>2028
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>28
+</td>
+<td><a href="/Louisville,_Kentucky">Louisville, Kentucky</a>
+</td>
+<td>633,045
+</td>
+<td><a href="/Craig_Greenberg">Craig Greenberg</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Louisville,_Kentucky_(2022)">2023</a>
+</td>
+<td>2027
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>29
+</td>
+<td><a href="/Baltimore,_Maryland">Baltimore, Maryland</a>
+</td>
+<td>585,708
+</td>
+<td><a href="/Brandon_M._Scott">Brandon M. Scott</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Baltimore,_Maryland_(2020)">2020</a>
+</td>
+<td><a href="/Mayoral_election_in_Baltimore,_Maryland_(2024)">2024</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td><a href="/Mayoral_election_in_Baltimore,_Maryland_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>30
+</td>
+<td><a href="/Milwaukee,_Wisconsin">Milwaukee, Wisconsin</a>
+</td>
+<td>577,222
+</td>
+<td><a href="/Cavalier_Johnson">Cavalier Johnson</a> <span><b>(D)</b></span>
+</td>
+<td>2021
+</td>
+<td>2028
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td><a href="/Mayoral_election_in_Milwaukee,_Wisconsin_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>31
+</td>
+<td><a href="/Albuquerque,_New_Mexico">Albuquerque, New Mexico</a>
+</td>
+<td>564,559
+</td>
+<td><a href="/Tim_Keller">Tim Keller</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Albuquerque,_New_Mexico_(2017)">2017</a>
+</td>
+<td><a href="/Mayoral_election_in_Albuquerque,_New_Mexico_(2025)">2025</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>32
+</td>
+<td><a href="/Tucson,_Arizona">Tucson, Arizona</a>
+</td>
+<td>542,629
+</td>
+<td><a href="/Regina_Romero">Regina Romero</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Tucson,_Arizona_(2019)">2019</a>
+</td>
+<td>2027
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>33
+</td>
+<td><a href="/Fresno,_California">Fresno, California</a>
+</td>
+<td>542,107
+</td>
+<td><a href="/Jerry_Dyer">Jerry Dyer</a> <span><b>(R)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Fresno,_California_(2020)">2021</a>
+</td>
+<td>2028
+</td>
+<td>Hybrid
+</td>
+<td><a href="/Mayoral_election_in_Fresno,_California_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>34
+</td>
+<td><a href="/Sacramento,_California">Sacramento, California</a>
+</td>
+<td>524,943
+</td>
+<td><a href="/Darrell_Steinberg">Darrell Steinberg</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Municipal_elections_in_Sacramento,_California_(2016)">2016</a>
+</td>
+<td><a href="/Mayoral_election_in_Sacramento,_California_(2024)">2024</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td><a href="/Mayoral_election_in_Sacramento,_California_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>35
+</td>
+<td><a href="/Kansas_City,_Missouri">Kansas City, Missouri</a>
+</td>
+<td>508,090
+</td>
+<td><a href="/Quinton_Lucas">Quinton Lucas</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Kansas_City,_Missouri_(2019)">2019</a>
+</td>
+<td>2027
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>36
+</td>
+<td><a href="/Mesa,_Arizona">Mesa, Arizona</a>
+</td>
+<td>504,258
+</td>
+<td><a href="/John_Giles">John Giles</a> <span><b>(R)</b></span>
+</td>
+<td><a href="/Municipal_elections_in_Mesa,_Arizona_(2014)">2014</a>
+</td>
+<td><a href="/Mayoral_election_in_Mesa,_Arizona_(2024)"> 2025</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td><a href="/Mayoral_election_in_Mesa,_Arizona_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>37
+</td>
+<td><a href="/Atlanta,_Georgia">Atlanta, Georgia</a>
+</td>
+<td>498,715
+</td>
+<td><a href="/Andre_Dickens">Andre Dickens</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Atlanta,_Georgia_(2021)">2022</a>
+</td>
+<td><a href="/Mayoral_election_in_Atlanta,_Georgia_(2025)">2026</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>38
+</td>
+<td><a href="/Omaha,_Nebraska">Omaha, Nebraska</a>
+</td>
+<td>486,051
+</td>
+<td><a href="/Jean_Stothert">Jean Stothert</a> <span><b>(R)</b></span>
+</td>
+<td>2013
+</td>
+<td><a href="/Mayoral_election_in_Omaha,_Nebraska_(2025)">2025</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>39
+</td>
+<td><a href="/Colorado_Springs,_Colorado">Colorado Springs, Colorado</a>
+</td>
+<td>478,961
+</td>
+<td><a href="/Yemi_Mobolade">Yemi Mobolade</a> <span><b>(I)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Colorado_Springs,_Colorado_(2023)">2023</a>
+</td>
+<td>2027
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>40
+</td>
+<td><a href="/Raleigh,_North_Carolina">Raleigh, North Carolina</a>
+</td>
+<td>467,665
+</td>
+<td><a href="/Mary-Ann_Baldwin">Mary-Ann Baldwin</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Raleigh,_North_Carolina_(2019)">2019</a>
+</td>
+<td><a href="/Mayoral_election_in_Raleigh,_North_Carolina_(2024)">2024</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td><a href="/Mayoral_election_in_Raleigh,_North_Carolina_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>41
+</td>
+<td><a href="/Long_Beach,_California">Long Beach, California</a>
+</td>
+<td>466,742
+</td>
+<td><a href="/Rex_Richardson">Rex Richardson</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Long_Beach,_California_(2022)">2022</a>
+</td>
+<td>2026
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>42
+</td>
+<td><a href="/Virginia_Beach,_Virginia">Virginia Beach, Virginia</a>
+</td>
+<td>459,470
+</td>
+<td><a href="/Bob_Dyer">Bob Dyer</a> <span><b>(R)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Virginia_Beach,_Virginia_(2018)">2018</a>
+</td>
+<td><a href="/Mayoral_election_in_Virginia_Beach,_Virginia_(2024)">2025</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td><a href="/Mayoral_election_in_Virginia_Beach,_Virginia_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>43
+</td>
+<td><a href="/Miami,_Florida">Miami, Florida</a>
+</td>
+<td>442,241
+</td>
+<td><a href="/Francis_Suarez">Francis Suarez</a> <span><b>(R)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Miami,_Florida_(2021)">2021</a>
+</td>
+<td><a href="/Mayoral_election_in_Miami,_Florida_(2025)">2025</a>
+</td>
+<td>Hybrid
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>44
+</td>
+<td><a href="/Oakland,_California">Oakland, California</a>
+</td>
+<td>440,646
+</td>
+<td><a href="/Sheng_Thao">Sheng Thao</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Oakland,_California_(2022)">2023</a>
+</td>
+<td>2027
+</td>
+<td>Hybrid
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>45
+</td>
+<td><a href="/Minneapolis,_Minnesota">Minneapolis, Minnesota</a>
+</td>
+<td>429,954
+</td>
+<td><a href="/Jacob_Frey">Jacob Frey</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Minneapolis,_Minnesota_(2021)">2022</a>
+</td>
+<td><a href="/Mayoral_election_in_Minneapolis,_Minnesota_(2025)">2026</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>46
+</td>
+<td><a href="/Tulsa,_Oklahoma">Tulsa, Oklahoma</a>
+</td>
+<td>413,066
+</td>
+<td><a href="/G._T._Bynum">G. T. Bynum</a> <span><b>(R)</b></span>
+</td>
+<td><a href="/Municipal_elections_in_Tulsa,_Oklahoma_(2016)">2016</a>
+</td>
+<td><a href="/Mayoral_election_in_Tulsa,_Oklahoma_(2024)">2024</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td><a href="/Mayoral_election_in_Tulsa,_Oklahoma_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>47
+</td>
+<td><a href="/Bakersfield,_California">Bakersfield, California</a>
+</td>
+<td>403,455
+</td>
+<td><a href="/Karen_Goh">Karen Goh</a> <span><b>(R)</b></span>
+</td>
+<td><a href="/Municipal_elections_in_Bakersfield,_California_(2016)">2017</a>
+</td>
+<td><a href="/Mayoral_election_in_Bakersfield,_California_(2024)">2025</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td><a href="/Mayoral_election_in_Bakersfield,_California_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>48
+</td>
+<td><a href="/Wichita,_Kansas">Wichita, Kansas</a>
+</td>
+<td>397,532
+</td>
+<td><a href="/Lily_Wu">Lily Wu</a> <span><b>(L)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Wichita,_Kansas_(2023)">2024</a>
+</td>
+<td>2028
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>49
+</td>
+<td><a href="/Arlington,_Texas">Arlington, Texas</a>
+</td>
+<td>394,266
+</td>
+<td><a href="/Jim_Ross_(Mayor_of_Arlington,_Texas)">Jim Ross</a> (Unknown)
+</td>
+<td><a href="/Mayoral_election_in_Arlington,_Texas_(2021)">2021</a>
+</td>
+<td>2025
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>50
+</td>
+<td><a href="/Aurora,_Colorado">Aurora, Colorado</a>
+</td>
+<td>386,261
+</td>
+<td><a href="/Mike_Coffman_(Colorado)">Mike Coffman</a> <span><b>(R)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Aurora,_Colorado_(2019)">2019</a>
+</td>
+<td>2027
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>51
+</td>
+<td><a href="/Tampa,_Florida">Tampa, Florida</a>
+</td>
+<td>384,959
+</td>
+<td><a href="/Jane_Castor">Jane Castor</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Tampa,_Florida_(2019)">2019</a>
+</td>
+<td>2027
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>52
+</td>
+<td><a href="/New_Orleans,_Louisiana">New Orleans, Louisiana</a>
+</td>
+<td>383,997
+</td>
+<td><a href="/LaToya_Cantrell">LaToya Cantrell</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_New_Orleans,_Louisiana_(2017)">2018</a>
+</td>
+<td><a href="/Mayoral_election_in_New_Orleans,_Louisiana_(2025)">2026</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>53
+</td>
+<td><a href="/Cleveland,_Ohio">Cleveland, Ohio</a>
+</td>
+<td>372,624
+</td>
+<td><a href="/Justin_Bibb">Justin Bibb</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Cleveland,_Ohio_(2021)">2022</a>
+</td>
+<td><a href="/Mayoral_election_in_Cleveland,_Ohio_(2025)">2026</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>54
+</td>
+<td><a href="/Honolulu,_Hawaii">Honolulu, Hawaii</a>
+</td>
+<td>350,964
+</td>
+<td><a href="/Rick_Blangiardi">Rick Blangiardi</a> <span><b>(I)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Honolulu,_Hawaii_(2020)">2021</a>
+</td>
+<td><a href="/Mayoral_election_in_Honolulu,_Hawaii_(2024)">2024</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td><a href="/Mayoral_election_in_Honolulu,_Hawaii_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>55
+</td>
+<td><a href="/Anaheim,_California">Anaheim, California</a>
+</td>
+<td>346,824
+</td>
+<td><a href="/Ashleigh_Aitken">Ashleigh Aitken</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Anaheim,_California_(2022)">2022</a>
+</td>
+<td>2026
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>56
+</td>
+<td><a href="/Lexington,_Kentucky">Lexington, Kentucky</a>
+</td>
+<td>322,570
+</td>
+<td><a href="/Linda_Gorton">Linda Gorton</a> <span><b>(R)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Lexington,_Kentucky_(2018)">2019</a>
+</td>
+<td>2027
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>57
+</td>
+<td><a href="/Stockton,_California">Stockton, California</a>
+</td>
+<td>320,804
+</td>
+<td><a href="/Kevin_Lincoln_II">Kevin Lincoln II</a> <span><b>(R)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Stockton,_California_(2020)">2021</a>
+</td>
+<td><a href="/Mayoral_election_in_Stockton,_California_(2024)">2024</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td><a href="/Mayoral_election_in_Stockton,_California_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>58
+</td>
+<td><a href="/Corpus_Christi,_Texas">Corpus Christi, Texas</a>
+</td>
+<td>317,863
+</td>
+<td><a href="/Paulette_Guajardo">Paulette Guajardo</a> (Nonpartisan)
+</td>
+<td><a href="/Mayoral_election_in_Corpus_Christi,_Texas_(2020)">2021</a>
+</td>
+<td><a href="/Mayoral_election_in_Corpus_Christi,_Texas_(2024)">2025</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td><a href="/Mayoral_election_in_Corpus_Christi,_Texas_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>59
+</td>
+<td><a href="/Henderson,_Nevada">Henderson, Nevada</a>
+</td>
+<td>317,610
+</td>
+<td><a href="/Michelle_Romero">Michelle Romero</a> <span><b>(R)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Henderson,_Nevada_(2022)">2023</a>
+</td>
+<td>2027
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>60
+</td>
+<td><a href="/Riverside,_California">Riverside, California</a>
+</td>
+<td>314,998
+</td>
+<td><a href="/Patricia_Lock_Dawson">Patricia Lock Dawson</a> (Nonpartisan)
+</td>
+<td>2012
+</td>
+<td><a href="/Mayoral_election_in_Riverside,_California_(2024)">2024</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td><a href="/Mayoral_election_in_Riverside,_California_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>61
+</td>
+<td><a href="/Newark,_New_Jersey">Newark, New Jersey</a>
+</td>
+<td>311,549
+</td>
+<td><a href="/Ras_J._Baraka">Ras J. Baraka</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Municipal_elections_in_Newark,_New_Jersey_(2014)">2014</a>
+</td>
+<td>2026
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>62
+</td>
+<td><a href="/St._Paul,_Minnesota">St. Paul, Minnesota</a>
+</td>
+<td>311,527
+</td>
+<td><a href="/Melvin_Carter_III">Melvin Carter III</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_St._Paul,_Minnesota_(2021)">2022</a>
+</td>
+<td><a href="/Mayoral_election_in_St._Paul,_Minnesota_(2025)">2026</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>63
+</td>
+<td><a href="/Santa_Ana,_California">Santa Ana, California</a>
+</td>
+<td>310,227
+</td>
+<td><a href="/Valerie_Amezcua">Valerie Amezcua</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Santa_Ana,_California_(2022)">2022</a>
+</td>
+<td><a href="/Mayoral_election_in_Santa_Ana,_California_(2024)">2024</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td><a href="/Mayoral_election_in_Santa_Ana,_California_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>64
+</td>
+<td><a href="/Cincinnati,_Ohio">Cincinnati, Ohio</a>
+</td>
+<td>309,317
+</td>
+<td><a href="/Aftab_Pureval">Aftab Pureval</a> <span><b>(D)</b></span>
+</td>
+<td>2022
+</td>
+<td><a href="/Mayoral_election_in_Cincinnati,_Ohio_(2025)">2026</a>
+</td>
+<td>Hybrid
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>65
+</td>
+<td><a href="/Irvine,_California">Irvine, California</a>
+</td>
+<td>307,670
+</td>
+<td><a href="/Farrah_Khan">Farrah Khan</a> <span><b>(D)</b></span>
+</td>
+<td>2020
+</td>
+<td><a href="/Mayoral_election_in_Irvine,_California_(2024)">2024</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td><a href="/Mayoral_election_in_Irvine,_California_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>66
+</td>
+<td><a href="/Orlando,_Florida">Orlando, Florida</a>
+</td>
+<td>307,573
+</td>
+<td><a href="/Buddy_Dyer">Buddy Dyer</a> <span><b>(D)</b></span>
+</td>
+<td>2003
+</td>
+<td><a href="/Mayoral_election_in_Orlando,_Florida_(2023)">2024</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>67
+</td>
+<td><a href="/Pittsburgh,_Pennsylvania">Pittsburgh, Pennsylvania</a>
+</td>
+<td>302,971
+</td>
+<td><a href="/Edward_Gainey">Edward Gainey</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Municipal_elections_in_Pittsburgh,_Pennsylvania_(2021)">2022</a>
+</td>
+<td><a href="/Mayoral_election_in_Pittsburgh,_Pennsylvania_(2025)">2026</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>68
+</td>
+<td><a href="/St._Louis,_Missouri">St. Louis, Missouri</a>
+</td>
+<td>301,578
+</td>
+<td><a href="/Tishaura_Jones">Tishaura Jones</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_St._Louis,_Missouri_(2021)">2021</a>
+</td>
+<td><a href="/Mayoral_election_in_St._Louis,_Missouri_(2025)">2025</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>69
+</td>
+<td><a href="/Greensboro,_North_Carolina">Greensboro, North Carolina</a>
+</td>
+<td>299,035
+</td>
+<td><a href="/Nancy_B._Vaughan">Nancy B. Vaughan</a> <span><b>(D)</b></span>
+</td>
+<td>2013
+</td>
+<td><a href="/Mayoral_election_in_Greensboro,_North_Carolina_(2025)">2025</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>70
+</td>
+<td><a href="/Jersey_City,_New_Jersey">Jersey City, New Jersey</a>
+</td>
+<td>292,449
+</td>
+<td><a href="/Steven_Fulop">Steven Fulop</a> <span><b>(D)</b></span>
+</td>
+<td>2013
+</td>
+<td><a href="/Mayoral_election_in_Jersey_City,_New_Jersey_(2025)">2026</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>71
+</td>
+<td><a href="/Anchorage,_Alaska">Anchorage, Alaska</a>
+</td>
+<td>291,247
+</td>
+<td><a href="/Suzanne_LaFrance">Suzanne LaFrance</a> (Nonpartisan)
+</td>
+<td><a href="/Mayoral_election_in_Anchorage,_Alaska_(2024)">2024</a>
+</td>
+<td>2027
+</td>
+<td>Hybrid
+</td>
+<td><a href="/Mayoral_election_in_Anchorage,_Alaska_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>72
+</td>
+<td><a href="/Lincoln,_Nebraska">Lincoln, Nebraska</a>
+</td>
+<td>291,082
+</td>
+<td><a href="/Leirion_Gaylor_Baird">Leirion Gaylor Baird</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Lincoln,_Nebraska_(2019)">2019</a>
+</td>
+<td>2027
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>73
+</td>
+<td><a href="/Plano,_Texas">Plano, Texas</a>
+</td>
+<td>285,494
+</td>
+<td><a href="/John_Muns">John Muns</a> <span><b>(R)</b></span>
+</td>
+<td>2021
+</td>
+<td><a href="/Mayoral_election_in_Plano,_Texas_(2025)">2025</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>74
+</td>
+<td><a href="/Durham,_North_Carolina">Durham, North Carolina</a>
+</td>
+<td>283,506
+</td>
+<td><a href="/Leonardo_Williams">Leonardo Williams</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Durham,_North_Carolina_(2023)">2023</a>
+</td>
+<td><a href="/Mayoral_election_in_Durham,_North_Carolina_(2025)">2025</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>75
+</td>
+<td><a href="/Buffalo,_New_York">Buffalo, New York</a>
+</td>
+<td>278,349
+</td>
+<td><a href="/Christopher_P._Scanlon">Christopher P. Scanlon</a> <span><b>(D)</b></span>
+</td>
+<td>2024
+</td>
+<td><a href="/Mayoral_election_in_Buffalo,_New_York_(2025)">2025</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>76
+</td>
+<td><a href="/Chandler,_Arizona">Chandler, Arizona</a>
+</td>
+<td>275,987
+</td>
+<td><a href="/Kevin_Hartke">Kevin Hartke</a> <span><b>(R)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Chandler,_Arizona_(2018)">2019</a>
+</td>
+<td>2027
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>77
+</td>
+<td><a href="/Chula_Vista,_California">Chula Vista, California</a>
+</td>
+<td>275,487
+</td>
+<td><a href="/John_McCann_(California)">John McCann</a> <span><b>(R)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Chula_Vista,_California_(2022)">2022</a>
+</td>
+<td>2026
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>78
+</td>
+<td><a href="/Toledo,_Ohio">Toledo, Ohio</a>
+</td>
+<td>270,871
+</td>
+<td><a href="/Wade_Kapszukiewicz">Wade Kapszukiewicz</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Toledo,_Ohio_(2021)">2022</a>
+</td>
+<td><a href="/Mayoral_election_in_Toledo,_Ohio_(2025)">2026</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>79
+</td>
+<td><a href="/Madison,_Wisconsin">Madison, Wisconsin</a>
+</td>
+<td>269,840
+</td>
+<td><a href="/Satya_Rhodes-Conway">Satya Rhodes-Conway</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Madison,_Wisconsin_(2019)">2019</a>
+</td>
+<td>2027
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>80
+</td>
+<td><a href="/Gilbert,_Arizona">Gilbert, Arizona</a>
+</td>
+<td>267,918
+</td>
+<td><a href="/Brigette_Peterson">Brigette Peterson</a> <span><b>(R)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Gilbert,_Arizona_(2020)">2021</a>
+</td>
+<td><a href="/Mayoral_election_in_Gilbert,_Arizona_(2024)">2025</a>
+</td>
+<td>Hybrid
+</td>
+<td><a href="/Mayoral_election_in_Gilbert,_Arizona_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>81
+</td>
+<td><a href="/Reno,_Nevada">Reno, Nevada</a>
+</td>
+<td>264,165
+</td>
+<td><a href="/Hillary_Schieve">Hillary Schieve</a> (Nonpartisan)
+</td>
+<td>2014
+</td>
+<td>2026
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>82
+</td>
+<td><a href="/Fort_Wayne,_Indiana">Fort Wayne, Indiana</a>
+</td>
+<td>263,886
+</td>
+<td><a href="/Sharon_Tucker">Sharon Tucker</a> <span><b>(D)</b></span>
+</td>
+<td>2024
+</td>
+<td>2027
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>83
+</td>
+<td><a href="/North_Las_Vegas,_Nevada">North Las Vegas, Nevada</a>
+</td>
+<td>262,527
+</td>
+<td><a href="/Pamela_Goynes-Brown">Pamela Goynes-Brown</a> <span><b>(D)</b></span>
+</td>
+<td>2022
+</td>
+<td>2026
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>84
+</td>
+<td><a href="/St._Petersburg,_Florida">St. Petersburg, Florida</a>
+</td>
+<td>258,308
+</td>
+<td><a href="/Kenneth_Welch">Kenneth Welch</a> <span><b>(D)</b></span>
+</td>
+<td>2022
+</td>
+<td>2027
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>85
+</td>
+<td><a href="/Lubbock,_Texas">Lubbock, Texas</a>
+</td>
+<td>257,141
+</td>
+<td><a href="/Mark_McBrayer">Mark McBrayer</a> <span><b>(R)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Lubbock,_Texas_(2024)">2024</a>
+</td>
+<td>2026
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td><a href="/Mayoral_election_in_Lubbock,_Texas_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>86
+</td>
+<td><a href="/Irving,_Texas">Irving, Texas</a>
+</td>
+<td>256,684
+</td>
+<td><a href="/Rick_Stopfer">Rick Stopfer</a> <span><b>(R)</b></span>
+</td>
+<td><a href="/Municipal_elections_in_Irving,_Texas_(2017)">2017</a>
+</td>
+<td>2026
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>87
+</td>
+<td><a href="/Laredo,_Texas">Laredo, Texas</a>
+</td>
+<td>255,205
+</td>
+<td><a href="/Victor_Trevi%C3%B1o_(Mayor_of_Laredo,_Texas)">Victor Treviño</a> (Unknown)
+</td>
+<td><a href="/Mayoral_election_in_Laredo,_Texas_(2022)">2022</a>
+</td>
+<td>2026
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>88
+</td>
+<td><a href="/Winston-Salem,_North_Carolina">Winston-Salem, North Carolina</a>
+</td>
+<td>249,545
+</td>
+<td><a href="/Allen_Joines">Allen Joines</a> <span><b>(D)</b></span>
+</td>
+<td>2001
+</td>
+<td><a href="/Mayoral_election_in_Winston-Salem,_North_Carolina_(2024)">2024</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td><a href="/Mayoral_election_in_Winston-Salem,_North_Carolina_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>89
+</td>
+<td><a href="/Chesapeake,_Virginia">Chesapeake, Virginia</a>
+</td>
+<td>249,422
+</td>
+<td><a href="/Richard_West_(Virginia)">Richard West</a> <span><b>(R)</b></span>
+</td>
+<td>2008
+</td>
+<td><a href="/Mayoral_election_in_Chesapeake,_Virginia_(2024)">2024</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td><a href="/Mayoral_election_in_Chesapeake,_Virginia_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>90
+</td>
+<td><a href="/Glendale,_Arizona">Glendale, Arizona</a>
+</td>
+<td>248,325
+</td>
+<td><a href="/Jerry_Weiers">Jerry Weiers</a> <span><b>(R)</b></span>
+</td>
+<td>2013
+</td>
+<td><a href="/Mayoral_election_in_Glendale,_Arizona_(2024)">2024</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td><a href="/Mayoral_election_in_Glendale,_Arizona_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>91
+</td>
+<td><a href="/Garland,_Texas">Garland, Texas</a>
+</td>
+<td>246,018
+</td>
+<td><a href="/Scott_LeMay">Scott LeMay</a> <span><b>(R)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Garland,_Texas_(2019)">2019</a>
+</td>
+<td><a href="/Mayoral_election_in_Garland,_Texas_(2025)">2025</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>92
+</td>
+<td><a href="/Scottsdale,_Arizona">Scottsdale, Arizona</a>
+</td>
+<td>241,361
+</td>
+<td><a href="/David_Ortega">David Ortega</a> <span><b>(I)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Scottsdale,_Arizona_(2020)">2021</a>
+</td>
+<td><a href="/Mayoral_election_in_Scottsdale,_Arizona_(2024)">2025</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td><a href="/Mayoral_election_in_Scottsdale,_Arizona_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>93
+</td>
+<td><a href="/Norfolk,_Virginia">Norfolk, Virginia</a>
+</td>
+<td>238,005
+</td>
+<td><a href="/Kenny_Alexander">Kenneth Alexander</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Municipal_elections_in_Norfolk,_Virginia_(2016)">2016</a>
+</td>
+<td><a href="/Mayoral_election_in_Norfolk,_Virginia_(2020)">2024</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td><a href="/Mayoral_election_in_Norfolk,_Virginia_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>94
+</td>
+<td><a href="/Boise,_Idaho">Boise, Idaho</a>
+</td>
+<td>235,684
+</td>
+<td><a href="/Lauren_McLean">Lauren McLean</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Boise,_Idaho_(2019)">2020</a>
+</td>
+<td>2028
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>95
+</td>
+<td><a href="/Fremont,_California">Fremont, California</a>
+</td>
+<td>230,504
+</td>
+<td><a href="/Lily_Mei">Lily Mei</a> <span><b>(D)</b>
+</span></td>
+<td><a href="/Municipal_elections_in_Fremont,_California_(2016)">2016</a>
+</td>
+<td><a href="/Mayoral_election_in_Fremont,_California_(2024)">2024</a>
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td><a href="/Mayoral_election_in_Fremont,_California_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>96
+</td>
+<td><a href="/Spokane,_Washington">Spokane, Washington</a>
+</td>
+<td>228,989
+</td>
+<td><a href="/Lisa_Brown_(Washington)">Lisa Brown</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Spokane,_Washington_(2023)">2024</a>
+</td>
+<td>2028
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>97
+</td>
+<td><a href="/Santa_Clarita,_California">Santa Clarita, California</a>
+</td>
+<td>228,673
+</td>
+<td><a href="/Cameron_Smyth">Cameron Smyth</a> <span><b>(R)</b></span>
+</td>
+<td>2023
+</td>
+<td>2024
+</td>
+<td><a href="/Council-manager_government">Council-manager</a>
+</td>
+<td>No
+</td></tr>
+<tr>
+<td>98
+</td>
+<td><a href="/Baton_Rouge,_Louisiana">Baton Rouge, Louisiana</a>
+</td>
+<td>227,470
+</td>
+<td><a href="/Sharon_Weston_Broome">Sharon Weston Broome</a> <span><b>(D)</b></span>
+</td>
+<td><a href="/Municipal_elections_in_Baton_Rouge,_Louisiana_(2016)">2017</a>
+</td>
+<td><a href="/Mayoral_election_in_Baton_Rouge,_Louisiana_(2024)">2024</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td><a href="/Mayoral_election_in_Baton_Rouge,_Louisiana_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>99
+</td>
+<td><a href="/Richmond,_Virginia">Richmond, Virginia</a>
+</td>
+<td>226,610
+</td>
+<td><a href="/Levar_Stoney">Levar Stoney</a> <span><b>(D)</b></span>
+</td>
+<td>2016
+</td>
+<td><a href="/Mayoral_election_in_Richmond,_Virginia_(2024)">2024</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td><a href="/Mayoral_election_in_Richmond,_Virginia_(2024)">Yes</a>
+</td></tr>
+<tr>
+<td>100
+</td>
+<td><a href="/Hialeah,_Florida">Hialeah, Florida</a>
+</td>
+<td>223,109
+</td>
+<td><a href="/Esteban_Bovo_Jr.">Esteban Bovo Jr.</a> <span><b>(R)</b></span>
+</td>
+<td><a href="/Mayoral_election_in_Hialeah,_Florida_(2021)">2021</a>
+</td>
+<td><a href="/Mayoral_election_in_Hialeah,_Florida_(2025)">2025</a>
+</td>
+<td><a href="/Mayor-council_government">Strong mayor</a>
+</td>
+<td>No
+</td></tr></tbody></table>
+</div>
+<h2><span>Mayoral elections in 2024</span></h2>
+<dl><dd><dl><dd><i>See also: <a href="/United_States_mayoral_elections,_2024">United States mayoral elections, 2024</a></i></dd></dl></dd></dl>
+<div>
+<ul><li><a href="/Mayoral_election_in_Augusta,_Maine_(2024)">Mayoral election in Augusta, Maine (2024)</a></li><li><a href="/Mayoral_election_in_Austin,_Texas_(2024)">Mayoral election in Austin, Texas (2024)</a></li><li><a href="/Mayoral_election_in_Bakersfield,_California_(2024)">Mayoral election in Bakersfield, California (2024)</a></li><li><a href="/Mayoral_election_in_Baltimore,_Maryland_(2024)">Mayoral election in Baltimore, Maryland (2024)</a></li><li><a href="/Mayoral_election_in_Baton_Rouge,_Louisiana_(2024)">Mayoral election in Baton Rouge, Louisiana (2024)</a></li><li><a href="/Mayoral_election_in_Carson_City,_Nevada_(2024)">Mayoral election in Carson City, Nevada (2024)</a></li><li><a href="/Mayoral_election_in_Chesapeake,_Virginia_(2024)">Mayoral election in Chesapeake, Virginia (2024)</a></li><li><a href="/Mayoral_election_in_Cheyenne,_Wyoming_(2024)">Mayoral election in Cheyenne, Wyoming (2024)</a></li><li><a href="/Mayoral_election_in_Corpus_Christi,_Texas_(2024)">Mayoral election in Corpus Christi, Texas (2024)</a></li><li><a href="/Mayoral_election_in_El_Paso,_Texas_(2024)">Mayoral election in El Paso, Texas (2024)</a></li><li><a href="/Mayoral_election_in_Frankfort,_Kentucky_(2024)">Mayoral election in Frankfort, Kentucky (2024)</a></li><li><a href="/Mayoral_election_in_Fremont,_California_(2024)">Mayoral election in Fremont, California (2024)</a></li><li><a href="/Mayoral_election_in_Fresno,_California_(2024)">Mayoral election in Fresno, California (2024)</a></li><li><a href="/Mayoral_election_in_Gilbert,_Arizona_(2024)">Mayoral election in Gilbert, Arizona (2024)</a></li><li><a href="/Mayoral_election_in_Glendale,_Arizona_(2024)">Mayoral election in Glendale, Arizona (2024)</a></li><li><a href="/Mayoral_election_in_Honolulu,_Hawaii_(2024)">Mayoral election in Honolulu, Hawaii (2024)</a></li><li><a href="/Mayoral_election_in_Irvine,_California_(2024)">Mayoral election in Irvine, California (2024)</a></li><li><a href="/Mayoral_election_in_Juneau,_Alaska_(2024)">Mayoral election in Juneau, Alaska (2024)</a></li><li><a href="/Mayoral_election_in_Las_Vegas,_Nevada_(2024)">Mayoral election in Las Vegas, Nevada (2024)</a></li><li><a href="/Mayoral_election_in_Lubbock,_Texas_(2024)">Mayoral election in Lubbock, Texas (2024)</a></li><li><a href="/Mayoral_election_in_Mesa,_Arizona_(2024)">Mayoral election in Mesa, Arizona (2024)</a></li><li><a href="/Mayoral_election_in_Milwaukee,_Wisconsin_(2024)">Mayoral election in Milwaukee, Wisconsin (2024)</a></li><li><a href="/Mayoral_election_in_Montpelier,_Vermont_(2024)">Mayoral election in Montpelier, Vermont (2024)</a></li><li><a href="/Mayoral_election_in_Norfolk,_Virginia_(2024)">Mayoral election in Norfolk, Virginia (2024)</a></li><li><a href="/Mayoral_election_in_Phoenix,_Arizona_(2024)">Mayoral election in Phoenix, Arizona (2024)</a></li><li><a href="/Mayoral_election_in_Portland,_Oregon_(2024)">Mayoral election in Portland, Oregon (2024)</a></li><li><a href="/Mayoral_election_in_Raleigh,_North_Carolina_(2024)">Mayoral election in Raleigh, North Carolina (2024)</a></li><li><a href="/Mayoral_election_in_Richmond,_Virginia_(2024)">Mayoral election in Richmond, Virginia (2024)</a></li><li><a href="/Mayoral_election_in_Riverside,_California_(2024)">Mayoral election in Riverside, California (2024)</a></li><li><a href="/Mayoral_election_in_Sacramento,_California_(2024)">Mayoral election in Sacramento, California (2024)</a></li><li><a href="/Mayoral_election_in_Salem,_Oregon_(2024)">Mayoral election in Salem, Oregon (2024)</a></li><li><a href="/Mayoral_election_in_San_Francisco,_California_(2024)">Mayoral election in San Francisco, California (2024)</a></li><li><a href="/Mayoral_election_in_San_Jose,_California_(2024)">Mayoral election in San Jose, California (2024)</a></li><li><a href="/Mayoral_election_in_Santa_Ana,_California_(2024)">Mayoral election in Santa Ana, California (2024)</a></li><li><a href="/Mayoral_election_in_Scottsdale,_Arizona_(2024)">Mayoral election in Scottsdale, Arizona (2024)</a></li><li><a href="/Mayoral_election_in_Stockton,_California_(2024)">Mayoral election in Stockton, California (2024)</a></li><li><a href="/Mayoral_election_in_Tulsa,_Oklahoma_(2024)">Mayoral election in Tulsa, Oklahoma (2024)</a></li><li><a href="/Mayoral_election_in_Virginia_Beach,_Virginia_(2024)">Mayoral election in Virginia Beach, Virginia (2024)</a></li><li><a href="/Mayoral_election_in_Winston-Salem,_North_Carolina_(2024)">Mayoral election in Winston-Salem, North Carolina (2024)</a></li><li><a href="/Mayoral_election_in_San_Diego,_California_(2024)">Mayoral election in San Diego, California (2024)</a></li><li><a href="/Mayoral_election_in_Anchorage,_Alaska_(2024)">Mayoral election in Anchorage, Alaska (2024)</a></li><li><a href="/Mayoral_election_in_Baltimore,_Maryland,_2024_(May_14_Democratic_primary)">Mayoral election in Baltimore, Maryland, 2024 (May 14 Democratic primary)</a></li><li><a href="/Mayoral_election_in_Anchorage,_Alaska_(April_2,_2024,_general_election)">Mayoral election in Anchorage, Alaska (April 2, 2024, general election)</a></li><li><a href="/Mayoral_election_in_Las_Vegas,_Nevada_2024_(June_11_primary_election)">Mayoral election in Las Vegas, Nevada 2024 (June 11 primary election)</a></li></ul>
+</div>
+<h2><span>Mayoral partisanship</span></h2>
+<dl><dd><dl><dd><i>See also: <a href="/Partisanship_in_United_States_municipal_elections_(2024)">Partisanship in United States municipal elections (2024)</a></i></dd></dl></dd></dl>
+<p>As of December 2024, the mayors of 63 of the country's 100 largest cities are affiliated with the <a href="/Democratic_Party">Democratic Party</a>.
+</p><p><small><i>Note: Ballotpedia used one or more of the following sources to identify each officeholder's partisan affiliation: (1) direct communication from the officeholder, (2) current or previous candidacy for partisan office, or (3) identification of partisan affiliation by multiple media outlets.</i></small>
+</p><p>
+</p>
+<h3><span>Historical data</span></h3>
+<dl><dd><dl><dd><i>See also: <a href="/Party_affiliation_of_the_mayors_of_the_100_largest_cities">Party affiliation of the mayors of the 100 largest cities</a></i></dd></dl></dd></dl>
+<p>The chart below shows the partisan breakdown of mayors of the top 100 cities at the start of each year since 2016.
+</p><p>
+</p>
+<h2><span>See also</span></h2>
+<table>
+<tbody><tr>
+<th><a href="/Local_Politics">Local Politics</a>
+</th>
+<th><a href="/Elections">2024 Election Analysis</a>
+</th></tr>
+<tr>
+<td><div><div></div></div>
+</td>
+<td><div><div></div></div>
+</td></tr>
+<tr>
+<td>
+<p><a href="/Municipal_Government">Municipal government</a>
+<a href="/Local_Courts">Local courts</a>
+<a href="/School_Boards_and_School_Board_Elections">School boards</a>
+<a href="/Local_Ballot_Measures">Local ballot measures</a>
+<a href="/Recall_overview">Local recalls</a>
+</p>
+</td>
+<td>
+<p><a href="/United_States_municipal_elections,_2024">Municipal elections, 2024</a>
+<a href="/United_States_mayoral_elections,_2024">Mayoral elections, 2024</a>
+<a href="/Local_trial_court_judicial_elections,_2024">Local court elections, 2024</a>
+<a href="/School_board_elections,_2024">School board elections, 2024</a>
+<a href="/Local_ballot_measure_elections_in_2024">Local ballot measure elections, 2024</a>
+<a href="/Political_recall_efforts,_2024">Political recall efforts, 2024</a>
+</p>
+</td></tr></tbody></table>
+<h2><span>Footnotes</span></h2>
+<div><div>
+<div><ol>
+<li> <span><a href="https://data.census.gov/cedsci/"><i>United States Census Bureau</i>, "Explore Census Data," accessed February 10, 2022</a></span>
+</li>
+<li> <span><i>In cities where mayoral elections are nonpartisan, Ballotpedia uses one or more of the following sources to identify each officeholder's partisan affiliation: (1) direct communication from the officeholder, (2) previous candidacy for partisan office, or (3) identification of partisan affiliation by multiple media outlets.</i></span>
+</li>
+</ol></div></div></div>
+</div></div> <div>
+Retrieved from "<a href="https://ballotpedia.org/wiki/index.php?title=List_of_current_mayors_of_the_top_100_cities_in_the_United_States&amp;oldid=9607242">https://ballotpedia.org/wiki/index.php?title=List_of_current_mayors_of_the_top_100_cities_in_the_United_States&amp;oldid=9607242</a>"					</div>
+<div><div><div><a href="/Special:Categories">Categories</a>: <ul><li><a href="/Category:Marquee,_overview_page,_2020">Marquee, overview page, 2020</a></li><li><a href="/Category:Marquee,_overview_page,_2021">Marquee, overview page, 2021</a></li><li><a href="/Category:Marquee,_overview_page,_2022">Marquee, overview page, 2022</a></li><li><a href="/Category:Marquee,_overview_page,_2023">Marquee, overview page, 2023</a></li><li><a href="/wiki/index.php?title=Category:Marquee,_overview_page,_2024&amp;action=edit&amp;redlink=1">Marquee, overview page, 2024</a></li><li><a href="/Category:Municipal_government_officeholder_list_pages">Municipal government officeholder list pages</a></li><li><a href="/Category:One-off_pages,_active">One-off pages, active</a></li></ul></div></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<ul><li><a href="/Election_results,_2024">2024 Election results hub</a></li>
+<li><span><a href="/Ballotpedia%27s_Election_Analysis_Hub,_2024">Ballotpedia's 2024 elections analysis</a></span>
+<ul><li><a href="/Election_results,_2024:_Pivot_Counties_in_the_2024_presidential_election">Pivot Counties in the 2024 presidential election</a></li>
+<li><a href="/Election_results,_2024:_New_members_elected_to_Congress">New members elected to Congress</a></li>
+<li><a href="/Election_results,_2024:_Comparison_of_state_delegations_to_the_118th_and_119th_Congresses">Comparison of state delegations to the 118th and 119th Congresses</a></li>
+<li><a href="/Election_results,_2024:_Congressional_margin_of_victory_analysis">Congressional margin of victory analysis</a></li>
+<li><a href="/Election_results,_2024:_Congressional_elections_decided_by_10_percentage_points_or_fewer">Congressional elections decided by 10 percentage points or fewer</a></li>
+<li><a href="/Election_results,_2024:_State_legislative_veto-proof_majorities">State legislative veto-proof majorities</a></li>
+<li><a href="/Incumbents_defeated_in_state_legislative_elections,_2024">Incumbents defeated in state legislative elections</a></li>
+<li><a href="/Margin_of_victory_analysis_for_the_2024_state_legislative_elections">State legislative margin of victory analysis</a></li>
+<li><a href="/Election_results,_2024:_State_legislative_seats_that_changed_party_control">State legislative seats that changed party control</a></li>
+<li><a href="/Election_results,_2024:_State_legislative_races_decided_by_fewer_than_100_votes">State legislative races decided by fewer than 100 votes</a></li>
+<li><a href="/2024_ballot_measures#Trends_in_2024">Ballot measure trends in 2024</a></li>
+<li><a href="/Election_results,_2024:_Analysis_of_voter_turnout_in_the_2024_general_election">Analysis of voter turnout in the 2024 general election</a></li>
+<li><a href="/Election_results,_2024:_Wave_elections">Wave elections in 2024</a></li></ul></li>
+<li><span><a href="/Elections">2024 Elections</a></span>
+<ul><li><a href="/Presidential_election,_2024">2024 Presidential election</a></li>
+<li><a href="/Presidential_candidates,_2024">2024 Presidential candidates</a></li>
+<li><a href="/United_States_Congress_elections,_2024">2024 Congressional elections</a></li>
+<li><a href="/Special_elections_to_the_118th_United_States_Congress_(2023-2024)">Special Congressional elections (2023-2024)</a></li>
+<li><a href="/State_executive_official_elections,_2024">2024 State executive elections</a></li>
+<li><a href="/State_legislative_elections,_2024">2024 State legislative elections</a></li>
+<li><a href="/State_judicial_elections,_2024">2024 State judge elections</a></li>
+<li><a href="/United_States_municipal_elections,_2024">2024 Local elections</a></li>
+<li><a href="/2024_ballot_measures">2024 Ballot measures</a></li>
+<li><a href="/Ballotpedia%27s_Top_15_Elections_to_Watch,_2024">Ballotpedia's top 15 elections to watch in 2024</a></li>
+<li><a href="/Ballotpedia%27s_Top_15_Ballot_Measures_and_Trends_to_Watch,_2024">Ballotpedia's top 15 ballot measures to watch in 2024</a></li></ul></li>
+<li><span><a href="/Main_page">2025 Elections</a></span>
+<ul><li><a href="/Elections_calendar">Upcoming elections</a></li>
+<li><a href="/Statewide_primary_elections_calendar">2025 Statewide primary dates</a></li>
+<li><a href="/State_executive_official_elections,_2025">2025 State executive elections</a></li>
+<li><a href="/State_legislative_elections,_2025">2025 State legislative elections</a></li>
+<li><a href="/United_States_municipal_elections,_2025">2025 Local elections</a></li>
+<li><a href="/2025_ballot_measures">2025 Ballot measures</a></li></ul></li>
+<li><span><a href="/Joe_Biden_presidential_administration">The Biden administration</a></span>
+<ul><li><a href="/Joe_Biden%27s_Cabinet">Cabinet officials</a></li>
+<li><a href="/Joe_Biden%27s_executive_orders_and_actions">Executive orders and actions</a></li>
+<li><a href="/Joe_Biden_presidential_administration#Key_legislation">Key legislation</a></li>
+<li><a href="/Federal_judges_nominated_by_Joe_Biden">Judicial nominations</a></li>
+<li><a href="/Joe_Biden_presidential_transition#White_House_senior_staff">White House senior staff</a></li>
+<li><a href="/Joe_Biden:_Vetoed_legislation">Vetoes</a></li></ul></li>
+<li><span><a href="/Federal_Politics">Government</a></span>
+<ul><li><a href="/Executive_Branch">U.S. President</a></li>
+<li><a href="/Legislative_Branch">U.S. Congress</a></li>
+<li><a href="/Ballot_Measures_overview">Ballot measures</a></li>
+<li><a href="/Supreme_Court_of_the_United_States">U.S. Supreme Court</a></li>
+<li><a href="/United_States_federal_courts">Federal courts</a></li>
+<li><a href="/States#State_governments">State government</a></li>
+<li><a href="/Municipal_Government">Municipal government</a></li>
+<li><a href="/School_Boards_and_School_Board_Elections">School boards</a></li>
+<li><a href="/Recall_overview">Recalls</a></li></ul></li>
+<li><a href="/Public_Policy">Public Policy</a>
+<ul><li><a href="/Administrative_State_Index">Administrative state</a></li>
+<li><a href="/Index_of_articles_about_criminal_justice_policy">Criminal justice policy</a></li>
+<li><a href="/Index_of_articles_about_education_policy">Education policy</a></li>
+<li><a href="/Index_of_articles_about_environmental,_social,_and_corporate_governance_(ESG)">Environmental, social, and corporate governance (ESG)</a></li>
+<li><a href="/Index_of_articles_about_federalism">Federalism</a></li>
+<li><a href="/Index_of_articles_about_unemployment_insurance">Unemployment insurance</a></li>
+<li><a href="/Index_of_articles_about_work_requirements">Work requirements</a></li>
+<li><a href="/Public_Policy">Policy in the states</a></li></ul></li>
+<li><span><a href="/Ballotpedia:About">More...</a></span>
+<ul><li><a href="https://ballotpedia.org/wiki/index.php?title=Sample_ballot&amp;Source=sidebar">Ballotpedia's Sample Ballot</a></li>
+<li><a href="/Ballotpedia%E2%80%99s_Voter_Toolkit">Ballotpedia's 2024 Voter Toolkit</a></li>
+<li><a href="/Survey">Ballotpedia's Candidate Survey</a></li>
+<li><a href="/Status_of_redistricting_after_the_2020_census">Redistricting</a></li>
+<li><a href="/State_government_trifectas">Trifectas</a></li>
+<li><a href="/Election_Policy">Election policy</a></li>
+<li><a href="/Ballot_Access">Running for office</a></li>
+<li><a href="https://legislation.ballotpedia.org/elections/home">Election legislation tracking</a></li>
+<li><a href="/On_the_Ballot">Ballotpedia's weekly podcast</a></li></ul></li>
+<li><span><a href="/Ballotpedia:About">About us</a></span>
+<ul><li><a href="/Ballotpedia:About">About Ballotpedia</a></li>
+<li><a href="/Support">Donate</a></li>
+<li><a href="/Ballotpedia%27s_editorial_independence_policy">Editorial independence</a></li>
+<li><a href="/Ballotpedia:Index_of_Contents">Index</a></li>
+<li><a href="/Ballotpedia:Job_opportunities">Job opportunities</a></li>
+<li><a href="/News_and_events">News and events</a></li>
+<li><a href="/Ballotpedia:Staff">Staff</a></li>
+<li><a href="/Support:Volunteer">Volunteer</a></li></ul> </li></ul></div>
+<div><div><h2> PAGE CONTENTS<span>Return to top</span></h2></div><ul><li></li><li></li><li><ul></ul></li><li></li><li></li></ul>
+</div>
+<div><div></div></div><div></div><div></div><div><div><span>×</span> </div></div></body></html>
