@@ -1,0 +1,273 @@
+URL: https://ballotpedia.org/Federal_Politics
+
+<html>
+<body>
+<div>
+<button>×</button>
+<h4>Sign up to receive Ballotpedia's daily newsletter</h4>
+</div>
+<div>
+<form>
+<p>
+<label>Email *</label>
+</p>
+<p>
+<label>First Name</label>
+</p>
+<div></div>
+<p>Please complete the Captcha above</p>
+</div>
+<p>
+</p>
+</form>
+</div>
+<div>
+<button>×</button>
+<h4>Ballotpedia on Facebook</h4>
+</div>
+<div>
+<p><a>   Share this page</a></p>
+<p><a>   Follow Ballotpedia</a></p>
+</div>
+<div>
+<button>×</button>
+<h4>Ballotpedia on Twitter</h4>
+</div>
+<div>
+<p><a>   Share this page</a></p>
+<p><a>   Follow Ballotpedia</a></p>
+</div>
+<div>
+<form>
+<div>
+<button></button>
+</div>
+</form></div>
+<div>
+<h1><span>Federal Politics</span></h1>
+<div>From Ballotpedia</div>
+<div>
+Jump to:					,
+</div>
+<div></div>
+<div>
+<p></p><small>
+<ul><li><a>Main</a></li>
+<li><a>Executive branch</a></li>
+<li><a>President Joe Biden</a></li>
+<li><a>Biden's Cabinet</a></li>
+<li>
+<ul><li><a>Dept. of State</a></li>
+<li><a>Dept. of Defense</a></li>
+<li><a>Dept. of Justice</a></li>
+<li><a>Dept. of the Treasury</a></li>
+<li><a>Dept. of Homeland Security</a></li>
+<li><a>Dept. of Education</a></li>
+<li><a>Dept. of Health and Human Services</a></li>
+<li><a>Dept. of Labor</a></li>
+<li><a>Dept. of Veterans Affairs</a></li>
+<li><a>Dept. of Transportation</a></li>
+<li><a>Dept. of Energy</a></li>
+<li><a>Dept. of Housing and Urban Development</a></li>
+<li><a>Dept. of the Interior</a></li>
+<li><a>Dept. of Agriculture</a></li>
+<li><a>Dept. of Commerce</a></li>
+<li>Cabinet-level offices
+<ul><li><a>White House Chief of Staff</a></li>
+<li><a>Environmental Protection Agency</a></li>
+<li><a>Office of Management and Budget</a></li>
+<li><a>U.S. Mission to the United Nations</a></li>
+<li><a>Small Business Administration</a></li></ul></li>
+<li><a>Appointed officials</a></li>
+<li>
+<ul><li>
+<ul><li><a>Iran nuclear agreement: U.S. withheld cash until hostages were released</a></li>
+<li><a>Congressional investigation of CENTCOM’s intelligence reports on the Islamic State</a></li>
+<li><a>Iran nuclear agreement</a></li>
+<li><a>Gaza crisis</a></li>
+<li><a>ISIS insurgency</a></li>
+<li><a>Benghazi</a></li>
+<li><a>Syria</a></li>
+<li><a>CIA interrogation tactics</a></li>
+<li><a>2014 Ebola outbreak</a></li>
+<li><a>VA secret waiting lists</a></li></ul></li>
+<li>
+<ul><li><a>President Obama's Immigration Accountability Executive Actions</a></li>
+<li><a>Republican effort to defund Planned Parenthood, 2015</a></li>
+<li><a>Keystone XL Pipeline political timeline</a></li>
+<li><a>Ferguson, MO shooting</a></li>
+<li><a>2014 immigration rise</a></li>
+<li><a>Obamacare overview</a></li>
+<li><a>Obamacare lawsuits</a></li>
+<li><a>Boehner lawsuit</a></li></ul></li>
+<li>
+<ul><li><a>Trans-Pacific Partnership trade deal</a></li>
+<li><a>The Transatlantic Trade and Investment Partnership</a></li>
+<li><a>IRS targeting allegations</a></li></ul></li></ul></li></ul></li>
+<li><a>Legislative branch</a>
+<ul><li><a>118th Congress</a></li>
+<li><a>Incumbents</a></li>
+<li><a>2024 Elections</a></li>
+<li><a>2023-2024 Special Elections</a></li>
+<li><a>Previous Election Coverage</a></li></ul></li>
+<li><a>Judicial branch</a>
+<ul><li>
+<ul><li><a>Associate Justice</a></li>
+<li><a>Supreme Court of the United States</a></li>
+<li><a>Supreme Court cases, October term 2022-2023</a></li>
+<li><a>History of the Supreme Court</a></li>
+<li><a>Chief Justice Eras</a></li>
+<li><a>Historic cases</a></li></ul></li>
+<li>
+<ul><li><a>United States Court of Appeals</a></li>
+<li><a>United States District Court</a></li>
+<li><a>United States Bankruptcy Court</a></li>
+<li><a>Subject-matter jurisdiction courts</a></li>
+<li><a>United States territorial courts</a></li></ul></li>
+<li>
+<ul><li><a>Washington, D.C.</a></li>
+<li><a>District of Columbia Court of Appeals</a></li>
+<li><a>Superior Court of the District of Columbia</a></li>
+<li><a>Judicial selection in Washington, D.C.</a></li></ul></li>
+<li><a>Current Federal Judicial Vacancies</a></li>
+<li>
+<ul><li><a>Presidential nominations</a></li>
+<li><a>Federal judicial nominations by president</a></li>
+<li><a>President pages</a></li></ul></li></ul></li></ul>
+</small><p>
+</p>
+</div>
+<div><h2><span>Learn about politics in your state</span></h2>
+<div>Click your state <span> Find information about your federal elected officials.</span></div>
+<div><select><option>Choose your state...</option><option>Alabama</option><option>Alaska</option><option>Arizona</option><option>Arkansas</option><option>California</option><option>Colorado</option><option>Connecticut</option><option>Delaware</option><option>Florida</option><option>Georgia</option><option>Hawaii</option><option>Idaho</option><option>Illinois</option><option>Indiana</option><option>Iowa</option><option>Kansas</option><option>Kentucky</option><option>Louisiana</option><option>Maine</option><option>Maryland</option><option>Massachusetts</option><option>Michigan</option><option>Minnesota</option><option>Mississippi</option><option>Missouri</option><option>Montana</option><option>Nebraska</option><option>Nevada</option><option>New Hampshire</option><option>New Jersey</option><option>New Mexico</option><option>New York</option><option>North Carolina</option><option>North Dakota</option><option>Ohio</option><option>Oklahoma</option><option>Oregon</option><option>Pennsylvania</option><option>Rhode Island</option><option>South Carolina</option><option>South Dakota</option><option>Tennessee</option><option>Texas</option><option>Utah</option><option>Vermont</option><option>Virginia</option><option>Washington</option><option>Washington, D.C.</option><option>West Virginia</option><option>Wisconsin</option><option>Wyoming</option></select></div><div>http://ballotpedia.org/STATE</div>
+<div>
+<h2><span>Welcome to Ballotpedia's federal politics portal</span></h2>
+<div>Welcome to the portal for Ballotpedia's coverage of federal politics! Our federal-level projects cover the <a>executive branch</a>, the <a>legislative branch</a>, the <a>judicial branch</a>, and <a>presidential candidates</a>. Writers on Ballotpedia's federal projects covered the following elections in 2024:
+<ul><li><a>The presidential election</a></li>
+<li>33 <a>U.S. Senate regular elections</a></li>
+<li>435 <a>U.S. House of Representatives regular elections</a></li>
+<li><a>Special elections to the 118th United States Congress (2023-2024)</a></li></ul>
+Our goal is to make information about what is happening at the federal level, from elections to legislation, accessible to the average citizen. Our coverage keeps our readers current and informed on the decisions being made in the highest offices in the country.</div>
+<div>
+<h2><span>Highlights</span></h2>
+<div>
+<ul><li><a>Presidential candidates, 2024</a></li>
+<li><a>United States Congress elections, 2024</a></li>
+<li><a>118th United States Congress</a></li>
+<li><a>Supreme Court of the United States</a></li></ul>
+</div>
+<div>
+<h2><span>Learn more about federal pages on Ballotpedia</span></h2>
+<div>
+<ul><li><a>Executive branch</a></li>
+<li><a>Legislative branch</a></li>
+<li><a>Judicial branch</a></li>
+<li><a>Federal policy</a></li></ul>
+</div>
+<div><table>
+<tbody><tr>
+<td>
+<div></div>
+</td>
+<td>
+<div></div>
+</td>
+<td>
+<div></div>
+</td>
+<td>
+<div></div>
+</td>
+<td>
+<div></div>
+</td>
+<td>
+</td></tr></tbody></table></div> <div>
+Retrieved from "<a>https://ballotpedia.org/wiki/index.php?title=Federal_Politics&amp;oldid=9081089</a>"					</div>
+<div><a>Category</a>: <ul><li><a>Portals</a></li></ul></div>
+<div>
+</div>
+<div>
+<ul><li><a>2024 Election results hub</a></li>
+<li><span><a>Ballotpedia's 2024 elections analysis</a></span>
+<ul><li><a>Pivot Counties in the 2024 presidential election</a></li>
+<li><a>New members elected to Congress</a></li>
+<li><a>Comparison of state delegations to the 118th and 119th Congresses</a></li>
+<li><a>Congressional margin of victory analysis</a></li>
+<li><a>Congressional elections decided by 10 percentage points or fewer</a></li>
+<li><a>State legislative veto-proof majorities</a></li>
+<li><a>Incumbents defeated in state legislative elections</a></li>
+<li><a>State legislative margin of victory analysis</a></li>
+<li><a>State legislative seats that changed party control</a></li>
+<li><a>State legislative races decided by fewer than 100 votes</a></li>
+<li><a>Ballot measure trends in 2024</a></li>
+<li><a>Analysis of voter turnout in the 2024 general election</a></li>
+<li><a>Wave elections in 2024</a></li></ul></li>
+<li><span><a>2024 Elections</a></span>
+<ul><li><a>2024 Presidential election</a></li>
+<li><a>2024 Presidential candidates</a></li>
+<li><a>2024 Congressional elections</a></li>
+<li><a>Special Congressional elections (2023-2024)</a></li>
+<li><a>2024 State executive elections</a></li>
+<li><a>2024 State legislative elections</a></li>
+<li><a>2024 State judge elections</a></li>
+<li><a>2024 Local elections</a></li>
+<li><a>2024 Ballot measures</a></li>
+<li><a>Ballotpedia's top 15 elections to watch in 2024</a></li>
+<li><a>Ballotpedia's top 15 ballot measures to watch in 2024</a></li></ul></li>
+<li><span><a>2025 Elections</a></span>
+<ul><li><a>Upcoming elections</a></li>
+<li><a>2025 Statewide primary dates</a></li>
+<li><a>2025 State executive elections</a></li>
+<li><a>2025 State legislative elections</a></li>
+<li><a>2025 Local elections</a></li>
+<li><a>2025 Ballot measures</a></li></ul></li>
+<li><span><a>The Biden administration</a></span>
+<ul><li><a>Cabinet officials</a></li>
+<li><a>Executive orders and actions</a></li>
+<li><a>Key legislation</a></li>
+<li><a>Judicial nominations</a></li>
+<li><a>White House senior staff</a></li>
+<li><a>Vetoes</a></li></ul></li>
+<li><span><a>Government</a></span>
+<ul><li><a>U.S. President</a></li>
+<li><a>U.S. Congress</a></li>
+<li><a>Ballot measures</a></li>
+<li><a>U.S. Supreme Court</a></li>
+<li><a>Federal courts</a></li>
+<li><a>State government</a></li>
+<li><a>Municipal government</a></li>
+<li><a>School boards</a></li>
+<li><a>Recalls</a></li></ul></li>
+<li><a>Public Policy</a>
+<ul><li><a>Administrative state</a></li>
+<li><a>Criminal justice policy</a></li>
+<li><a>Education policy</a></li>
+<li><a>Environmental, social, and corporate governance (ESG)</a></li>
+<li><a>Federalism</a></li>
+<li><a>Unemployment insurance</a></li>
+<li><a>Work requirements</a></li>
+<li><a>Policy in the states</a></li></ul></li>
+<li><span><a>More...</a></span>
+<ul><li><a>Ballotpedia's Sample Ballot</a></li>
+<li><a>Ballotpedia's 2024 Voter Toolkit</a></li>
+<li><a>Ballotpedia's Candidate Survey</a></li>
+<li><a>Redistricting</a></li>
+<li><a>Trifectas</a></li>
+<li><a>Election policy</a></li>
+<li><a>Running for office</a></li>
+<li><a>Election legislation tracking</a></li>
+<li><a>Ballotpedia's weekly podcast</a></li></ul></li>
+<li><span><a>About us</a></span>
+<ul><li><a>About Ballotpedia</a></li>
+<li><a>Donate</a></li>
+<li><a>Editorial independence</a></li>
+<li><a>Index</a></li>
+<li><a>Job opportunities</a></li>
+<li><a>News and events</a></li>
+<li><a>Staff</a></li>
+<li><a>Volunteer</a></li></ul> </li></ul></div>
+<div><h2> PAGE CONTENTS<span>Return to top</span></h2></div><ul><li></li><li></li><li></li><li></li></ul>
+<div>
+</div>
+<div></div><div></div><div></div><div><span>×</span> <div></div></body></html>

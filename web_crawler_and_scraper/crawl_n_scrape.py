@@ -17,6 +17,8 @@ from init import initialize_directories
 from bs4 import BeautifulSoup
 from init import clear_scraped_files
 from additional_cleaning import clean_html
+from utils import get_base_filename, update_checkpoint_file
+
 # Set a custom process name
 os.system("title web_crawler_scraper")  # For Windows
 # Global log file handles
@@ -28,6 +30,7 @@ queue = Queue()
 
 # Global variables
 PAGE_LIMIT = 5  # Set this to an integer to limit the number of pages, or None for no limit
+BASE_DIRECTORY = None
 crawled_count = 0  # Counter for the number of pages crawled
 crawled_count_lock = threading.Lock()  # Lock for safe access to crawled_count
 
@@ -105,8 +108,9 @@ def parse_links(soup, base_url):
 
 # Save the cleaned HTML to a file
 def save_to_file(url, soup):
+    # global BASE_DIRECTORY
     base_filename = urlparse(url).path.replace("/", "_") or "index"
-    filename = f"./scraped_files/{base_filename}.txt"
+    filename = f"./scraped_files/{BASE_DIRECTORY}/{base_filename}.txt"
 
     # Check if file exists, and create unique filename if necessary
     if os.path.exists(filename):
@@ -130,7 +134,8 @@ def crawl(driver, url):
     # Check limit safely with a lock
     with crawled_count_lock:
         if PAGE_LIMIT is not None and crawled_count >= PAGE_LIMIT:
-            return  # Stop if the limit is reached
+            print(f"Crawling stopped at {crawled_count} pages.")
+            return
     # print(f"Crawling: {url}")
     if url not in visited:
         # print(url)
@@ -156,7 +161,8 @@ def worker(driver):
         # Check for PAGE_LIMIT
         with crawled_count_lock:
             if PAGE_LIMIT is not None and crawled_count >= PAGE_LIMIT:
-                break  # Exit if PAGE_LIMIT is reached
+                print(f"Crawling stopped at {crawled_count} pages.")
+                break 
         
         # If queue is empty, also exit the worker loop
         if queue.empty():
@@ -176,10 +182,13 @@ def scrape_website(start_url, page_limit=None):
     if page_limit:
         PAGE_LIMIT = page_limit
     print(f"PAGE_LIMIT is: {PAGE_LIMIT}")
-    initialize_directories()
-    clear_scraped_files()
-    rejected_log, crawled_log = open_log_files()
-
+    initialize_directories(start_url)
+    clear_scraped_files(start_url)
+    global rejected_log
+    global crawled_log
+    rejected_log, crawled_log = open_log_files(start_url)
+    global BASE_DIRECTORY
+    BASE_DIRECTORY = get_base_filename(start_url)
     queue.put(start_url)
 
     # Initialize Selenium WebDriver
@@ -197,23 +206,12 @@ def scrape_website(start_url, page_limit=None):
         thread.join()
 
     # Close the driver and log files after finishing crawling
+
+    global crawled_count
+    crawled_count = 0
     driver.quit()
     rejected_log.close()
     crawled_log.close()
+    queue.queue.clear()
+    visited.clear()
 
-def update_checkpoint_file(current_url, checkpoint_file='checkpoint.txt'):
-    # Check if the checkpoint file exists
-    if os.path.exists(checkpoint_file):
-        with open(checkpoint_file, 'r', encoding='utf-8') as file:
-            first_line = file.readline().strip()
-    else:
-        first_line = None
-
-    # Compare the first line with the current URL
-    if first_line != current_url:
-        # Empty the file and write the current URL
-        with open(checkpoint_file, 'w', encoding='utf-8') as file:
-            file.write(current_url + '\n')
-        print(f"Checkpoint file updated. New URL: {current_url}")
-    else:
-        print("Checkpoint file is up-to-date. No changes made.")

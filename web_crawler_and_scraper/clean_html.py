@@ -9,7 +9,7 @@ def clean_soup(soup):
        remove_elements_by_class_pattern(soup, [r"^header", r"^footer", r"^hidden", r"^nav"])
        remove_elements_by_id_pattern(soup, [r"^header", r"^footer", r"^hidden", r"^nav"])
        remove_empty_elements(soup)
-       remove_unwanted_attributes(soup, ['href', "type", "name"])
+       remove_unwanted_attributes(soup, [])
 
        # print("After remove_unwanted_attributes:", soup)
     # remove_attributes(soup, ['style', 'height', 'padding', 'width', 'align', 'valign'])

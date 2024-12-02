@@ -1,13 +1,15 @@
+from utils import get_base_filename
 # logger.py
 # Global log file handles
 rejected_log = None
 crawled_log = None
 
 # Open log files at the start
-def open_log_files():
+def open_log_files(start_url):
+    base_directory = get_base_filename(start_url)
     global rejected_log, crawled_log
-    rejected_log = open("./logs/rejected_links.log", "w", encoding="utf-8")  # Open in append mode
-    crawled_log = open("./logs/crawled_links.log", "w", encoding="utf-8")    # Open in append mode
+    rejected_log = open(f"./logs/{base_directory}/rejected_links.log", "w", encoding="utf-8")  # Open in append mode
+    crawled_log = open(f"./logs/{base_directory}/crawled_links.log", "w", encoding="utf-8")    # Open in append mode
     return rejected_log, crawled_log
 
 # Log rejected URLs with reasons
