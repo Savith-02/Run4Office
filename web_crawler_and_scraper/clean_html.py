@@ -1,11 +1,11 @@
 from bs4 import Comment, Doctype
 import re
 from web_crawler_and_scraper.additional_cleaning import clean_unwanted_links, remove_empty_elements
+
 # Main function to clean the soup
 def clean_soup(soup):
     remove_unwanted_elements(soup)
     remove_doctype(soup)
-    # remove_empty_elements(soup)  # Remove elements that are empty after cleaning
 
 # Remove unwanted HTML elements and attributes
 def remove_unwanted_elements(soup):
@@ -14,6 +14,7 @@ def remove_unwanted_elements(soup):
     remove_comments(soup)
     clean_unwanted_links(soup)
     remove_empty_elements(soup)
+
 def remove_specific_tags(soup, tags):
     # Remove specific tags and their contents
     for element in soup(tags):
@@ -33,12 +34,6 @@ def remove_comments(soup):
     # Remove comments from HTML
     for comment in soup.find_all(string=lambda text: isinstance(text, Comment)):
         comment.extract()
-
-def remove_empty_elements(soup):
-# Remove elements that are empty (contain no text or child tags)
-    for element in soup.find_all(True):
-        if not element.get_text(strip=True) and not element.find(True):
-            element.decompose()
 
 def strip_structure(soup):
     # def keep_text_and_links(tag):

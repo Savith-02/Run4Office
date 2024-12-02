@@ -1,5 +1,23 @@
 import re
 
+def remove_empty_elements(soup):
+    # Iterate over all elements in the soup
+    for element in soup.find_all():
+        # Check if the element is empty (no text and no children)
+        if not element.get_text(strip=True) and not element.find_all():
+            element.decompose()  # Remove the empty element
+    return soup
+
+# Function to replace repeating opening tags with a single tag
+def replace_repeating_opening_tags(html):
+    # This will match consecutive opening tags of the same type and replace with a single tag
+    return re.sub(r'(<(\w+)>)(\s*<\2>)+', r'\1', html)
+
+# Function to replace repeating closing tags with a single tag
+def replace_repeating_closing_tags(html):
+    # This will match consecutive closing tags of the same type and replace with a single closing tag
+    return re.sub(r'(</(\w+)>)(\s*</\2>)+', r'\1', html)
+
 def clean_unwanted_links(soup):
     """
     Remove <a> tags containing unwanted links such as 'Turn off more accessible mode', 'Turn on Animations', etc.
@@ -28,21 +46,3 @@ def clean_unwanted_links(soup):
             a_tag.decompose()  # Remove the tag
 
     return soup
-
-def remove_empty_elements(soup):
-    # Iterate over all elements in the soup
-    for element in soup.find_all():
-        # Check if the element is empty (no text and no children)
-        if not element.get_text(strip=True) and not element.find_all():
-            element.decompose()  # Remove the empty element
-    return soup
-
-# Function to replace repeating opening tags with a single tag
-def replace_repeating_opening_tags(html):
-    # This will match consecutive opening tags of the same type and replace with a single tag
-    return re.sub(r'(<(\w+)>)(\s*<\2>)+', r'\1', html)
-
-# Function to replace repeating closing tags with a single tag
-def replace_repeating_closing_tags(html):
-    # This will match consecutive closing tags of the same type and replace with a single closing tag
-    return re.sub(r'(</(\w+)>)(\s*</\2>)+', r'\1', html)
