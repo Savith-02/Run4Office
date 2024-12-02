@@ -7,6 +7,6 @@ urls = [
     "https://www.ird.gov.lk/"
 ]
 for url in urls:
-    scrape_website(url, 1)
+    scrape_website(url, 5)
 
 

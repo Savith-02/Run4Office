@@ -5,3 +5,4 @@ __pycache__/
 */formatted_files/*
 */scraped_files/*
 */logs/*
+*/filtered/*

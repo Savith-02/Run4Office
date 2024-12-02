@@ -31,9 +31,10 @@ def evaluate_relevance(content):
                         "- Assign higher scores to content with clear and unambiguous future election data.\n"
                         "- Assign lower scores if the information is outdated or vague.\n\n"
                         "Scoring Guidelines:\n"
-                        "- 0: No relevant or timely information.\n"
-                        "- 5: Partially relevant or vague future-related information.\n"
-                        "- 10: Highly relevant, clear, and updated future-related information.\n\n"
+                        "- 0: No relevant or timely info.\n"
+                        "- 1-4: Limited or partially relevant information.\n"
+                        "- 5-7: Moderately relevant and timely info.\n"
+                        "- 8-10: Highly relevant, clear, and updated info.\n"
                         "Respond with **only** the numeric score (0 to 10)."
                     )},
                     {"role": "user", "content": content}
@@ -43,7 +44,7 @@ def evaluate_relevance(content):
             # Parse the response
             score = response.choices[0].message.content.strip()
             score = float(score)
-
+            print(f"Score: {score}")
             # Ensure score is within range
             if 0 <= score <= 10:
                 return score

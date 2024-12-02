@@ -24,7 +24,7 @@ def test_single_file(file_name):
 
         # Append the score to the second line
         with open(file_path, 'w', encoding='utf-8') as file:
-            file.write(f"URL: {url}\n")
+            file.write(f"{url}\n")
             file.write(f"Score: {score}\n")
             file.write(content)
 

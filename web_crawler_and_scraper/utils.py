@@ -23,8 +23,6 @@ def update_checkpoint_file(current_url, checkpoint_file='checkpoint.txt'):
         print("Checkpoint file is up-to-date. No changes made.")
 
 def format_and_save_file(content, url, filename, output_directory):
-    print(f"Saving file: {filename}")
-    print(f"Output directory: {output_directory}")
     content = remove_whitespace_between_tags(content)
     content = remove_whitespace_between_tags_and_text(content)
     # os.makedirs(f"./../{output_directory}", exist_ok=True)

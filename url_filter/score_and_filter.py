@@ -16,24 +16,24 @@ def extract_content(file_path):
         content = "".join(lines[1:]).strip()
     return url, content
 
-
+def score_and_filter():
 # Process all files in the input directory
-for filename in os.listdir(input_dir):
-    file_path = os.path.join(input_dir, filename)
+    for filename in os.listdir(input_dir):
+        file_path = os.path.join(input_dir, filename)
 
-    # Ensure it's a text file
-    if os.path.isfile(file_path) and filename.endswith('.txt'):
-        url, content = extract_content(file_path)
-        score = evaluate_relevance(content)
+        # Ensure it's a text file
+        if os.path.isfile(file_path) and filename.endswith('.txt'):
+            url, content = extract_content(file_path)
+            score = evaluate_relevance(content)
 
-        # Append the score to the second line
-        with open(file_path, 'w', encoding='utf-8') as file:
-            file.write(f"URL: {url}\n")
-            file.write(f"Score: {score}\n")
-            file.write(content)
+            # Append the score to the second line
+            with open(file_path, 'w', encoding='utf-8') as file:
+                file.write(f"{url}\n")
+                file.write(f"Score: {score}\n")
+                file.write(content)
 
-        # Copy files with score > 6 to the filtered directory
-        if score > 6:
-            shutil.copy(file_path, output_dir)
+            # Copy files with score > 6 to the filtered directory
+            if score > 6:
+                shutil.copy(file_path, output_dir)
 
-print("Processing complete.")
+            print(f"Processed file: {filename} with score: {score}")
