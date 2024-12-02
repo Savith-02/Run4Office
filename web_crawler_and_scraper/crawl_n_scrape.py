@@ -10,11 +10,13 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
-from web_crawler_and_scraper.clean_html import clean_soup, strip_structure, remove_elements_by_class_pattern, remove_elements_by_id_pattern, remove_unwanted_attributes
-from web_crawler_and_scraper.logger import open_log_files, log_rejection, log_crawled_link
-from web_crawler_and_scraper.init import initialize_directories
+# from web_crawler_and_scraper.clean_html import clean_soup, strip_structure
+from clean_html import clean_soup
+from logger import open_log_files, log_rejection, log_crawled_link
+from init import initialize_directories
 from bs4 import BeautifulSoup
-
+from init import clear_scraped_files
+from additional_cleaning import clean_html
 # Set a custom process name
 os.system("title web_crawler_scraper")  # For Windows
 # Global log file handles
@@ -44,7 +46,7 @@ def fetch_and_parse_page(driver, url):
         if response.status_code != 200:
             log_rejection(url, f"Rejected due to HTTP status code: {response.status_code}")
             return None, None
-        
+        # print(f"Fetching: {url}")
         driver.get(url)
         time.sleep(2)  # Wait for JavaScript content to load
         page_source = driver.page_source
@@ -54,8 +56,9 @@ def fetch_and_parse_page(driver, url):
             log_rejection(url, "Rejected due to non-English content")
             return None, None
 
-        # Parse HTML and clean unnecessary elements
         soup = BeautifulSoup(page_source, 'html.parser')
+        # print(f"Parsed: {url}")
+        # print(soup)
         return soup, url
     except Exception as e:
         log_rejection(url, f"Error: {e}")
@@ -63,6 +66,7 @@ def fetch_and_parse_page(driver, url):
 
 # Parse links from the page content
 def parse_links(soup, base_url):
+    # print(f"Parsing links from: {base_url}")
     links = set()
     rejected_links = []
     required_params = {"lang": "en"}  # Only consider links with 'lang=en'
@@ -90,6 +94,7 @@ def parse_links(soup, base_url):
             if reject:
                 rejected_links.append(url)
             else:
+                # print(f"link added: {url}")
                 links.add(url)
 
     # Log rejected links if any
@@ -101,7 +106,7 @@ def parse_links(soup, base_url):
 # Save the cleaned HTML to a file
 def save_to_file(url, soup):
     base_filename = urlparse(url).path.replace("/", "_") or "index"
-    filename = f"./web_crawler_and_scraper/scraped_files/{base_filename}.txt"
+    filename = f"./scraped_files/{base_filename}.txt"
 
     # Check if file exists, and create unique filename if necessary
     if os.path.exists(filename):
@@ -111,16 +116,13 @@ def save_to_file(url, soup):
             counter += 1
         filename = f"{base}_{counter}{ext}"
 
-    # Convert soup to string and remove empty lines
-    soup = remove_elements_by_class_pattern(soup, [r"^header", r"^footer", r"^hidden", r"^nav"])
-    soup = remove_elements_by_id_pattern(soup, [r"^hidden", r"^nav", r"^header", r"^footer", r"^div"])
-    soup = remove_unwanted_attributes(soup, ['href', "type", "name"])
     clean_soup(soup)
-    cleaned_content = strip_structure(soup)
-    # Save the cleaned HTML content to the file
+    plain_text = str(soup)
+    text = clean_html(plain_text)
+
     with open(filename, "w", encoding="utf-8") as file:
         file.write("URL: " + url + "\n\n")
-        file.write(cleaned_content)
+        file.write(text)
 
 # Crawl the URL, extract content, and parse links
 def crawl(driver, url):
@@ -129,18 +131,20 @@ def crawl(driver, url):
     with crawled_count_lock:
         if PAGE_LIMIT is not None and crawled_count >= PAGE_LIMIT:
             return  # Stop if the limit is reached
-
+    # print(f"Crawling: {url}")
     if url not in visited:
-        print(url)
+        # print(url)
         log_crawled_link(url)
         visited.add(url)
         soup, actual_url = fetch_and_parse_page(driver, url)
         if soup:
-            save_to_file(actual_url, soup)  # Save the cleaned HTML content to file
+            # print("Soup after saving to file", soup)
             links = parse_links(soup, actual_url)
+            # print("Links", links)
             for link in links:
                 if link not in visited:
                     queue.put(link)
+            save_to_file(actual_url, soup)  # Save the cleaned HTML content to file
                     
         # Increment the crawled count within the lock
         with crawled_count_lock:
@@ -171,7 +175,9 @@ def scrape_website(start_url, page_limit=None):
     global PAGE_LIMIT
     if page_limit:
         PAGE_LIMIT = page_limit
+    print(f"PAGE_LIMIT is: {PAGE_LIMIT}")
     initialize_directories()
+    clear_scraped_files()
     rejected_log, crawled_log = open_log_files()
 
     queue.put(start_url)

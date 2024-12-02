@@ -1,19 +1,27 @@
 from bs4 import Comment, Doctype
 import re
-from web_crawler_and_scraper.additional_cleaning import clean_unwanted_links, remove_empty_elements
-
 # Main function to clean the soup
 def clean_soup(soup):
-    remove_unwanted_elements(soup)
-    remove_doctype(soup)
+       remove_doctype(soup)
+       remove_comments(soup)
+       remove_specific_tags(soup, ['head', 'script', 'style', 'br', 'svg', 'audio', 'video', 'picture', 'source', 'object', 'embed', 'applet', 'comment', 'img', 'noscript'])
+       clean_unwanted_links(soup)
+       remove_elements_by_class_pattern(soup, [r"^header", r"^footer", r"^hidden", r"^nav"])
+       remove_elements_by_id_pattern(soup, [r"^header", r"^footer", r"^hidden", r"^nav"])
+       remove_empty_elements(soup)
+       remove_unwanted_attributes(soup, ['href', "type", "name"])
 
-# Remove unwanted HTML elements and attributes
-def remove_unwanted_elements(soup):
-    remove_specific_tags(soup, ['head', 'script', 'style', 'br', 'svg', 'audio', 'video', 'picture', 'source', 'object', 'embed', 'applet', 'comment', 'img', 'noscript'])
-    remove_attributes(soup, ['style', 'height', 'padding', 'width', 'align', 'valign'])
-    remove_comments(soup)
-    clean_unwanted_links(soup)
-    remove_empty_elements(soup)
+       # print("After remove_unwanted_attributes:", soup)
+    # remove_attributes(soup, ['style', 'height', 'padding', 'width', 'align', 'valign'])
+    # remove_empty_elements(soup)  # Remove elements that are empty after cleaning
+
+def remove_empty_elements(soup):
+    # Iterate over all elements in the soup
+    for element in soup.find_all():
+        # Check if the element is empty (no text and no children)
+        if not element.get_text(strip=True) and not element.find_all():
+            element.decompose()  # Remove the empty element
+    return soup
 
 def remove_specific_tags(soup, tags):
     # Remove specific tags and their contents
@@ -34,25 +42,6 @@ def remove_comments(soup):
     # Remove comments from HTML
     for comment in soup.find_all(string=lambda text: isinstance(text, Comment)):
         comment.extract()
-
-def strip_structure(soup):
-    # def keep_text_and_links(tag):
-    #     for child in list(tag.children)[::-1]:
-    #         if isinstance(child, str):
-    #             continue
-    #         keep_text_and_links(child)
-    #     if not isinstance(tag, str):
-    #         if tag in soup.find_all(True):
-    #             tag.unwrap()
-    # keep_text_and_links(soup)
-    # cleaned_html = str(soup)
-    # cleaned_html = '\n'.join([line.strip() for line in cleaned_html.split('\n') if line.strip()])
-    # return cleaned_html
-    plain_text = str(soup)
-    # plain_text = soup.get_text(separator='\n')  # Each block of text separated by a newline
-    cleaned_text = '\n'.join([line.strip() for line in plain_text.splitlines() if line.strip()])
-    
-    return cleaned_text
 
 def remove_doctype(soup):
     doctype = soup.find(string=lambda text: isinstance(text, Doctype))
@@ -103,4 +92,33 @@ def remove_unwanted_attributes(soup, allowed_attributes):
         for attr in list(tag.attrs):  # Iterate over a copy of current attributes
             if attr not in allowed_attributes:  # Remove if not in allowed list
                 del tag.attrs[attr]
+    return soup
+
+def clean_unwanted_links(soup):
+    """
+    Remove <a> tags containing unwanted links such as 'Turn off more accessible mode', 'Turn on Animations', etc.
+    """
+    # Define unwanted link texts or patterns
+    unwanted_texts = [
+        "Turn off more accessible mode",
+        "Turn on Animations",
+        "Turn off Animations",
+        "Skip Ribbon Commands",
+        "Skip to main content",
+        "Turn on more accessible mode",
+        "Skip to main content"
+    ]
+    
+    unwanted_hrefs = [
+        "javascript",  # Match hrefs starting with 'javascript:'
+        "#"
+    ]
+
+    # Remove <a> tags that match unwanted text or hrefs
+    for a_tag in soup.find_all("a"):
+        if any(text in a_tag.get_text() for text in unwanted_texts):
+            a_tag.decompose()  # Remove the tag
+        elif any(a_tag.get("href", "").startswith(href) for href in unwanted_hrefs):
+            a_tag.decompose()  # Remove the tag
+
     return soup

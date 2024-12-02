@@ -3,9 +3,6 @@ URL: https://ballotpedia.org/List_of_current_mayors_of_the_top_100_cities_in_the
 <html>
 <body>
 <div>
-<div>
-<div>
-<div>
 <button type="button">×</button>
 <h4>Sign up to receive Ballotpedia's daily newsletter</h4>
 </div>
@@ -17,20 +14,13 @@ URL: https://ballotpedia.org/List_of_current_mayors_of_the_top_100_cities_in_the
 <p>
 <label>First Name</label>
 </p>
-<div>
-<div><div><div></div></div></div>
+<div></div>
 <p>Please complete the Captcha above</p>
 </div>
 <p>
 </p>
 </form>
 </div>
-</div>
-</div>
-</div>
-<div>
-<div>
-<div>
 <div>
 <button type="button">×</button>
 <h4>Ballotpedia on Facebook</h4>
@@ -39,12 +29,6 @@ URL: https://ballotpedia.org/List_of_current_mayors_of_the_top_100_cities_in_the
 <p><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fballotpedia.org%2FList_of_current_mayors_of_the_top_100_cities_in_the_United_States">   Share this page</a></p>
 <p><a href="https://www.facebook.com/Ballotpedia/">   Follow Ballotpedia</a></p>
 </div>
-</div>
-</div>
-</div>
-<div>
-<div>
-<div>
 <div>
 <button type="button">×</button>
 <h4>Ballotpedia on Twitter</h4>
@@ -53,44 +37,23 @@ URL: https://ballotpedia.org/List_of_current_mayors_of_the_top_100_cities_in_the
 <p><a href="https://twitter.com/home?status=https%3A%2F%2Fballotpedia.org%2FList_of_current_mayors_of_the_top_100_cities_in_the_United_States">   Share this page</a></p>
 <p><a href="https://twitter.com/Ballotpedia/">   Follow Ballotpedia</a></p>
 </div>
-</div>
-</div>
-</div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
 <div>
 <form>
 <div>
 <button type="submit"></button>
 </div>
 </form></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
 <div>
-<div>
-<div>
-<div>
-<h1><span><span>List of current mayors of the top 100 cities in the United States</span></span></h1>
-<div>
+<h1><span>List of current mayors of the top 100 cities in the United States</span></h1>
 <div>From Ballotpedia</div>
 <div>
 Jump to:					,
 </div>
-<div><div><table>
+<div><table>
 <tbody><tr>
 <th><big>Ballotpedia'smunicipal content</big></th></tr>
 <tr>
-<td><div><div></div></div>
+<td><div></div>
 </td></tr>
 <tr>
 <th>Elections
@@ -124,7 +87,7 @@ Jump to:					,
 <ul><li>: A list of mayors of the 100 cities, including the year each mayor took office, when the current term expires, and the city's type of government.</li>
 <li>: A list of mayoral elections happening in 2024.</li>
 <li>: Charts tracking mayoral partisan affiliation from 2016 to present.</li></ul>
-<div><div><h2>Contents</h2><span></span></div>
+<div><h2>Contents</h2><span></span></div>
 <ul>
 <li>
 <ul>
@@ -1848,6 +1811,8 @@ Jump to:					,
 <td>No
 </td></tr></tbody></table>
 </div>
+<div>
+</div>
 <h2><span>Mayoral elections in 2024</span></h2>
 <dl><dd><dl><dd><i>See also: <a href="/United_States_mayoral_elections,_2024">United States mayoral elections, 2024</a></i></dd></dl></dd></dl>
 <div>
@@ -1864,7 +1829,7 @@ Jump to:					,
 <p>The chart below shows the partisan breakdown of mayors of the top 100 cities at the start of each year since 2016.
 </p><p>
 </p>
-<h2><span>See also</span></h2>
+<div></div><h2><span>See also</span></h2>
 <table>
 <tbody><tr>
 <th><a href="/Local_Politics">Local Politics</a>
@@ -1872,9 +1837,9 @@ Jump to:					,
 <th><a href="/Elections">2024 Election Analysis</a>
 </th></tr>
 <tr>
-<td><div><div></div></div>
+<td><div></div>
 </td>
-<td><div><div></div></div>
+<td><div></div>
 </td></tr>
 <tr>
 <td>
@@ -1894,21 +1859,18 @@ Jump to:					,
 <a href="/Political_recall_efforts,_2024">Political recall efforts, 2024</a>
 </p>
 </td></tr></tbody></table>
+<div>
+</div>
 <h2><span>Footnotes</span></h2>
-<div><div>
 <div><ol>
 <li> <span><a href="https://data.census.gov/cedsci/"><i>United States Census Bureau</i>, "Explore Census Data," accessed February 10, 2022</a></span>
 </li>
 <li> <span><i>In cities where mayoral elections are nonpartisan, Ballotpedia uses one or more of the following sources to identify each officeholder's partisan affiliation: (1) direct communication from the officeholder, (2) previous candidacy for partisan office, or (3) identification of partisan affiliation by multiple media outlets.</i></span>
 </li>
-</ol></div></div></div>
-</div></div> <div>
+</ol></div> <div>
 Retrieved from "<a href="https://ballotpedia.org/wiki/index.php?title=List_of_current_mayors_of_the_top_100_cities_in_the_United_States&amp;oldid=9607242">https://ballotpedia.org/wiki/index.php?title=List_of_current_mayors_of_the_top_100_cities_in_the_United_States&amp;oldid=9607242</a>"					</div>
-<div><div><div><a href="/Special:Categories">Categories</a>: <ul><li><a href="/Category:Marquee,_overview_page,_2020">Marquee, overview page, 2020</a></li><li><a href="/Category:Marquee,_overview_page,_2021">Marquee, overview page, 2021</a></li><li><a href="/Category:Marquee,_overview_page,_2022">Marquee, overview page, 2022</a></li><li><a href="/Category:Marquee,_overview_page,_2023">Marquee, overview page, 2023</a></li><li><a href="/wiki/index.php?title=Category:Marquee,_overview_page,_2024&amp;action=edit&amp;redlink=1">Marquee, overview page, 2024</a></li><li><a href="/Category:Municipal_government_officeholder_list_pages">Municipal government officeholder list pages</a></li><li><a href="/Category:One-off_pages,_active">One-off pages, active</a></li></ul></div></div></div>
-</div>
-</div>
-</div>
-</div>
+<div><a href="/Special:Categories">Categories</a>: <ul><li><a href="/Category:Marquee,_overview_page,_2020">Marquee, overview page, 2020</a></li><li><a href="/Category:Marquee,_overview_page,_2021">Marquee, overview page, 2021</a></li><li><a href="/Category:Marquee,_overview_page,_2022">Marquee, overview page, 2022</a></li><li><a href="/Category:Marquee,_overview_page,_2023">Marquee, overview page, 2023</a></li><li><a href="/wiki/index.php?title=Category:Marquee,_overview_page,_2024&amp;action=edit&amp;redlink=1">Marquee, overview page, 2024</a></li><li><a href="/Category:Municipal_government_officeholder_list_pages">Municipal government officeholder list pages</a></li><li><a href="/Category:One-off_pages,_active">One-off pages, active</a></li></ul></div>
+<div>
 </div>
 <div>
 <ul><li><a href="/Election_results,_2024">2024 Election results hub</a></li>
@@ -1990,6 +1952,7 @@ Retrieved from "<a href="https://ballotpedia.org/wiki/index.php?title=List_of_cu
 <li><a href="/News_and_events">News and events</a></li>
 <li><a href="/Ballotpedia:Staff">Staff</a></li>
 <li><a href="/Support:Volunteer">Volunteer</a></li></ul> </li></ul></div>
-<div><div><h2> PAGE CONTENTS<span>Return to top</span></h2></div><ul><li></li><li></li><li><ul></ul></li><li></li><li></li></ul>
+<div><h2> PAGE CONTENTS<span>Return to top</span></h2></div><ul><li></li><li></li><li><ul></ul></li><li></li><li></li></ul>
+<div>
 </div>
-<div><div></div></div><div></div><div></div><div><div><span>×</span> </div></div></body></html>
+<div></div><div><span>×</span> <div></div></body></html>

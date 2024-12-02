@@ -3,13 +3,12 @@ import shutil
 
 # Initialize the scraped files directory
 def initialize_directories():
-    os.makedirs("./web_crawler_and_scraper/logs", exist_ok=True)
-    os.makedirs("./web_crawler_and_scraper/scraped_files", exist_ok=True)
+    os.makedirs("./logs", exist_ok=True)
+    os.makedirs("./scraped_files", exist_ok=True)
     # Call this function during initialization if needed
-    clear_scraped_files()
 
 def clear_scraped_files():
-    folder = "./web_crawler_and_scraper/scraped_files"
+    folder = "./scraped_files"
     for filename in os.listdir(folder):
         file_path = os.path.join(folder, filename)
         try:
