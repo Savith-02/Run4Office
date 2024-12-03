@@ -15,3 +15,5 @@ main.py
 docker-compose.yml
 Dockerfile
 .dockerignore
+RAG/
+vector_db/
