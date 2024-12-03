@@ -1,0 +1,4 @@
+['https://ballotpedia.org/File:Brianna_Galatioto.png'] - Rejected due to query parameters.
+https://ballotpedia.org/Ballotpedia:Geoff_Pallay - Error: HTTPConnectionPool(host='localhost', port=56428): Read timed out. (read timeout=120)
+https://ballotpedia.org/Mayoral_election_in_Honolulu,_Hawaii_(2024) - Error: HTTPConnectionPool(host='localhost', port=56428): Read timed out. (read timeout=120)
+https://ballotpedia.org/Template:Municipal_government_hnt - Error: HTTPConnectionPool(host='localhost', port=56428): Read timed out. (read timeout=120)

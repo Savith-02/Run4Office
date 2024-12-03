@@ -46,7 +46,8 @@ def evaluate_relevance(content):
             score = float(score)
             print(f"Score: {score}")
             # Ensure score is within range
-            if 0 <= score <= 10:
+            if 0.0 <= score <= 10.0:
+                print("Score succesfully parsed")
                 return score
             else:
                 raise ValueError(f"Score out of range: {score}")

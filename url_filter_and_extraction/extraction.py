@@ -2,9 +2,11 @@ import os
 from openai import OpenAI
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
+from utils import extract_content
+
 # Directories
 FILTERED_DIR = "./filtered"
-OUTPUT_DIR = "./unstructured_data"
+OUTPUT_DIR = "./../unstructured_data"
 
 client = OpenAI(
     api_key=os.environ.get("OPENAI_API_KEY"),
@@ -55,13 +57,14 @@ def process_all_files():
     for file_name in os.listdir(FILTERED_DIR):
         file_path = os.path.join(FILTERED_DIR, file_name)
         if os.path.isfile(file_path):
-            print(f"Processing: {file_name}")
-            extracted_data = process_file(file_path)
+            url, content = extract_content(file_path)
+            extracted_data = process_file(content)
 
             if extracted_data:
                 # Save unstructured data to the output directory
                 output_file_path = os.path.join(OUTPUT_DIR, f"{file_name}_unstructured.txt")
                 with open(output_file_path, "w") as output_file:
+                    output_file.write(f"{url}\n")
                     output_file.write(extracted_data)
                 print(f"Saved unstructured data to {output_file_path}")
             else:
