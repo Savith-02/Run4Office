@@ -1,7 +1,0 @@
-URL: https://ballotpedia.org/List_of_current_mayors_of_the_top_100_cities_in_the_United_States
-{"Position_title": "Mayor", 
-"Description": "Chief executive of the city, with varying powers depending on the type of government. Types of Government include: Strong Mayor - The mayor serves as the city's chief executive with significant powers; Council-Manager - An elected city council appoints a city manager to oversee day-to-day operations; City Commission - A city council composed of elected officials serves as both the legislative and administrative body; Hybrid - The mayor has executive powers but also appoints a city manager.", 
-"Next_election_date": "2024", 
-"Name_of_district": "Austin, Corpus Christi, El Paso, Lubbock", 
-"State_of_district": "Texas", 
-"Other_relevant_info": "Mayoral elections in 2024 are significant as they will determine the leadership in many major cities across the U.S."}

@@ -1,9 +1,0 @@
-URL: https://ballotpedia.org/List_of_current_mayors_of_the_top_100_cities_in_the_United_States
-{"Position_title": "Mayor of Bakersfield", 
-"Description": "Chief executive of the city, with varying powers depending on the type of government.", 
-"Next_election_date": "2024", 
-"Filing_window_end": "Not mentioned", 
-"Filing_window_start": "Not mentioned", 
-"Name_of_district": "Bakersfield", 
-"State_of_district": "California", 
-"Other_relevant_info": "Mayoral elections in 2024 are significant as they will determine the leadership in many major cities across the U.S."}
