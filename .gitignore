@@ -11,3 +11,7 @@ __pycache__/
 shared_data/structured_data_csv/*
 shared_data/structured_data_json/*
 shared_data/unstructured_data/*
+main.py
+docker-compose.yml
+Dockerfile
+.dockerignore
