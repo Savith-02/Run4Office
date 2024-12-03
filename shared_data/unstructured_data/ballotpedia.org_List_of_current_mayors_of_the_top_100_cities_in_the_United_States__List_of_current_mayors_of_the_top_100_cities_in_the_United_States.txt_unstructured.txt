@@ -41,19 +41,24 @@ URL: https://ballotpedia.org/List_of_current_mayors_of_the_top_100_cities_in_the
     - Virginia Beach, Virginia
     - Winston-Salem, North Carolina
     - San Diego, California
-  - Specific election dates:
-    - Baltimore, Maryland: May 14, 2024 (Democratic primary)
-    - Anchorage, Alaska: April 2, 2024 (general election)
-    - Las Vegas, Nevada: June 11, 2024 (primary election)
+    - Anchorage, Alaska (April 2, 2024, general election)
+    - Baltimore, Maryland (May 14 Democratic primary)
+    - Las Vegas, Nevada (June 11 primary election)
 
 - **Position Titles and Descriptions:**
   - **Mayor**: Chief executive of the city, with varying powers depending on the type of government.
   - **Types of Government**:
-    - **Strong Mayor**: The mayor serves as the chief executive, with the city council as the primary legislative body.
+    - **Strong Mayor**: The mayor serves as the city's chief executive with significant powers.
     - **Council-Manager**: An elected city council appoints a city manager to oversee day-to-day operations.
-    - **City Commission**: A city council composed of an elected mayor and a board of elected commissioners serves as both legislative and administrative body.
-    - **Hybrid**: Similar to strong mayor, but with a city manager appointed by the mayor.
+    - **City Commission**: A city council composed of elected officials serves as both the legislative and administrative body.
+    - **Hybrid**: The mayor has executive powers but also appoints a city manager.
 
 - **Future-Related Updates:**
-  - As of December 2024, the partisan breakdown of the mayors of the 100 largest U.S. cities is 63 Democrats, 25 Republicans, 1 Libertarian, 4 Independents, and 5 Nonpartisans.
-  - The longest-serving mayor as of 2024 is Allen Joines (D) of Winston-Salem, North Carolina, who took office in 2001.
+  - As of December 2024, the partisan breakdown of mayors in the top 100 U.S. cities is:
+    - 63 Democrats
+    - 25 Republicans
+    - 1 Libertarian
+    - 4 Independents
+    - 5 Nonpartisans
+    - 2 mayors' partisan affiliations are unknown.
+  - Mayoral elections in 2024 are significant as they will determine the leadership in many major cities across the U.S.

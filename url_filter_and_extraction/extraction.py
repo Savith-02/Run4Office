@@ -6,7 +6,7 @@ from utils import extract_content
 
 # Directories
 FILTERED_DIR = "./filtered"
-OUTPUT_DIR = "./../unstructured_data"
+OUTPUT_DIR = "./../shared_data/unstructured_data"
 
 client = OpenAI(
     api_key=os.environ.get("OPENAI_API_KEY"),

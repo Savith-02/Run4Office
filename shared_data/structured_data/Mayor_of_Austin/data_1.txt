@@ -1,0 +1,16 @@
+Role: Mayor of Austin
+
+Election Information:
+- The next mayoral election for Austin, Texas is set to occur in 2024.
+
+Position Description and Responsibilities:
+- The Mayor serves as the city's chief executive.
+- The specific powers of the Mayor can vary based on the structure of the city's government. The structures can be:
+  - Strong Mayor: The Mayor has significant executive powers.
+  - Council-Manager: Mayor is part of a city council which appoints a city manager to handle day-to-day operations.
+  - City Commission: Mayor is part of a city council that serves as both the legislative and administrative body.
+  - Hybrid: The Mayor has executive powers but also appoints a city manager.
+
+Additional Information:
+- The mayoral elections of 2024 will be a determining factor for the leadership in many major cities across the U.S.
+- As of December 2024, the partisan breakdown of mayors in the top 100 U.S cities is distributed amongst 63 Democrats, 25 Republicans, 1 Libertarian, 4 Independents, 5 Nonpartisans, and 2 mayors whose partisan affiliations are unknown.
