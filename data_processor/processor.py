@@ -1,6 +1,6 @@
 import os
 from llmPrompts import use_llm_for_extraction, use_llm_for_position_data
-from util import save_position_data_json, extract_content
+from util import save_position_data_json, extract_content,save_position_data_csv
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 from dataTemplate import PositionDataTemplate
 
@@ -29,12 +29,13 @@ def process_text_with_llms(text, url, base_dir=f"{SHARED_DATA_DIR}/structured_da
         
         # Fetch position-specific data using LLM
 
-        position_data = use_llm_for_position_data(position, text)
         try:
+            position_data = use_llm_for_position_data(position, text)
             position_data = PositionDataTemplate(**position_data)
             save_position_data_json(position, position_data, url, base_dir)
+            save_position_data_csv(position, position_data, url, base_dir)
         except Exception as e:
-            print(f"Error processing data for {position}: {e}")
+            print(f"\nError processing data for {position}: {e}\n")
             continue
 
 # Example usage
@@ -45,3 +46,4 @@ if __name__ == "__main__":
       print(f"Processing file: {file_name}")
       url, input_text = extract_content(file_path)
       process_text_with_llms(input_text, url)
+    break

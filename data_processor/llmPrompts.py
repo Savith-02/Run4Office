@@ -1,6 +1,8 @@
 from openai import OpenAI
 import os
+import json
 from util import validate_extracted_positions
+
 client = OpenAI(
     api_key=os.environ.get("OPENAI_API_KEY"),
 )
@@ -72,7 +74,8 @@ def use_llm_for_position_data(position, text):
         if not position_data or len(position_data.strip()) == 0:
             print(f"No data extracted for position: {position}. Skipping this position.")
             return None
-        return position_data
+        position_data_dict = json.loads(position_data)
+        return position_data_dict
     except Exception as e:
         print(f"Error extracting data for position {position}: {e}")
         return None

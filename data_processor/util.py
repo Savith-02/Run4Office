@@ -14,7 +14,7 @@ def validate_extracted_positions(positions):
             raise ValueError(f"Invalid role detected: {pos}. Ensure roles are properly formatted.")
     return positions
 
-def save_position_data_json(position, data, url, base_dir=f"{SHARED_DATA_DIR}/structured_data"):
+def save_position_data_json(position, data, url, base_dir=f"{SHARED_DATA_DIR}/structured_data_json"):
     """
     Saves data for a specific position into its corresponding directory and file.
     Creates a directory if it doesn't already exist.
@@ -34,55 +34,52 @@ def save_position_data_json(position, data, url, base_dir=f"{SHARED_DATA_DIR}/st
         # Save data to the file
         with open(file_path, "w") as file:
             data_dict = data.model_dump()
-            data_dict["url"] = url
+            data_dict["url"] = url.split(": ")[1]
             file.write(json.dumps(data_dict, indent=4))
         print(f"Data for '{position}' saved to {file_path}")
     except Exception as e:
         print(f"Error saving data for position {position}: {e}")
 
 import csv
-import os
-from typing import List
+from typing import Dict
 
-def save_position_data_csv(position: str, data, url: str, csv_file_path: str = "positions_data.csv"):
-    # Define the CSV headers
-    headers = [
-        "Position_title", "Description", "Next_election_date", "Filing_window_start",
-        "Filing_window_end", "Name_of_district", "State_of_district", "Other_relevant_info", "url"
-    ]
-    
-    # Convert Pydantic data to a dictionary
+def save_position_data_csv(position: str, data: Dict, url: str, base_dir: str = f"{SHARED_DATA_DIR}/structured_data_csv"):
+    """
+    Saves data for a specific position into its corresponding CSV file.
+    Creates a directory and CSV file if they don't already exist.
+    If the position CSV exists, appends new records to it.
+    """
+    # Create a safe folder name for the position
+    os.makedirs(base_dir, exist_ok=True)
+    folder_name = position.replace(" ", "_").replace(",", "")
+
+    # Define the path for the CSV file
+    csv_file_path = os.path.join(base_dir, f"{folder_name}.csv")
+
+    # Convert the data into a dictionary and add the URL
+    data_dict = data.model_dump() if hasattr(data, "model_dump") else data
+    data_dict["url"] = url.split(": ")[1]
+
+    # Define the header based on the keys in the data dictionary
+    headers = list(data_dict.keys())
+
+    # Check if the CSV file exists and write data accordingly
+    file_exists = os.path.isfile(csv_file_path)
     try:
-        data_dict = data.model_dump()
-        data_dict["url"] = url
-    except AttributeError:
-        print(f"Invalid data format for position '{position}'.")
-        return
+        with open(csv_file_path, mode="a", newline="", encoding="utf-8") as csvfile:
+            writer = csv.DictWriter(csvfile, fieldnames=headers)
+            
+            # Write the header only if the file doesn't already exist
+            if not file_exists:
+                writer.writeheader()
+            
+            # Write the data row
+            writer.writerow(data_dict)
+        
+        print(f"Data for '{position}' saved to {csv_file_path}")
+    except Exception as e:
+        print(f"Error saving data for position '{position}' in CSV: {e}")
 
-    # Read existing data
-    records = []
-    position_exists = False
-    if os.path.exists(csv_file_path):
-        with open(csv_file_path, mode="r", newline="", encoding="utf-8") as csv_file:
-            reader = csv.DictReader(csv_file)
-            for row in reader:
-                # If position exists, update its data
-                if row["Position_title"] == data_dict["Position_title"]:
-                    row.update(data_dict)
-                    position_exists = True
-                records.append(row)
-
-    # If position doesn't exist, add it
-    if not position_exists:
-        records.append(data_dict)
-    
-    # Write updated data back to the CSV
-    with open(csv_file_path, mode="w", newline="", encoding="utf-8") as csv_file:
-        writer = csv.DictWriter(csv_file, fieldnames=headers)
-        writer.writeheader()
-        writer.writerows(records)
-    
-    print(f"Data for '{position}' has been {'updated' if position_exists else 'added'} in {csv_file_path}")
 
 def extract_content(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:

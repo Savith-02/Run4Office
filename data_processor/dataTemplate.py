@@ -12,7 +12,7 @@ class PositionDataTemplate(BaseModel):
     Other_relevant_info: Optional[str] = Field(None, title="Any other relevant information")
 
     class Config:
-        schema_extra = {
+        json_schema_extra = {
             "example": {
                 "Position_title": "Mayor of Fort Wayne",
                 "Description": "Chief executive responsible for proposing budget, signing legislation, appointing directors, and overseeing city operations.",
