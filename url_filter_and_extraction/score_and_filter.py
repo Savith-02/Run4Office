@@ -8,6 +8,7 @@ from utils import extract_content
 # Directory paths
 input_dir = "./formatted_files"
 output_dir = "./filtered"
+CUTOFF_SCORE = 6
 
 # Ensure the filtered directory exists
 os.makedirs(output_dir, exist_ok=True)
@@ -27,8 +28,8 @@ def test_single_file(file_name):
             file.write(f"Score: {score}\n")
             file.write(content)
 
-        # Copy files with score > 6 to the filtered directory
-        if score > 6:
+        # Copy files with score > CUTOFF_SCORE to the filtered directory
+        if score > CUTOFF_SCORE: 
             shutil.copy(file_path, output_dir)
         
         print(f"Processed file: {file_name} with score: {score}")
