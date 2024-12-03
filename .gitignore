@@ -6,5 +6,5 @@ __pycache__/
 */scraped_files/*
 */logs/*
 */filtered/*
-*/structured_data/*
-*/unstructured_data/*
+shared_data/structured_data/*
+shared_data/unstructured_data/*
