@@ -1,0 +1,63 @@
+- **Next Election Dates:**
+  - Mayoral elections in 2024 for various cities including:
+    - Augusta, Maine
+    - Austin, Texas
+    - Bakersfield, California
+    - Baltimore, Maryland
+    - Baton Rouge, Louisiana
+    - Carson City, Nevada
+    - Chesapeake, Virginia
+    - Cheyenne, Wyoming
+    - Corpus Christi, Texas
+    - El Paso, Texas
+    - Frankfort, Kentucky
+    - Fremont, California
+    - Fresno, California
+    - Gilbert, Arizona
+    - Glendale, Arizona
+    - Honolulu, Hawaii
+    - Irvine, California
+    - Juneau, Alaska
+    - Las Vegas, Nevada
+    - Lubbock, Texas
+    - Mesa, Arizona
+    - Milwaukee, Wisconsin
+    - Montpelier, Vermont
+    - Norfolk, Virginia
+    - Phoenix, Arizona
+    - Portland, Oregon
+    - Raleigh, North Carolina
+    - Richmond, Virginia
+    - Riverside, California
+    - Sacramento, California
+    - Salem, Oregon
+    - San Francisco, California
+    - San Jose, California
+    - Santa Ana, California
+    - Scottsdale, Arizona
+    - Stockton, California
+    - Tulsa, Oklahoma
+    - Virginia Beach, Virginia
+    - Winston-Salem, North Carolina
+    - San Diego, California
+    - Anchorage, Alaska (April 2, 2024, general election)
+    - Baltimore, Maryland (May 14 Democratic primary)
+    - Las Vegas, Nevada (June 11 primary election)
+
+- **Position Titles and Descriptions:**
+  - **Mayors**: Chief executives of cities, with varying powers depending on the type of government.
+  - **Types of Government**:
+    - **Strong Mayor**: The mayor serves as the chief executive, and the city council is the primary legislative body.
+    - **Council-Manager**: An elected city council appoints a city manager to oversee daily operations.
+    - **City Commission**: A council composed of an elected mayor and commissioners serves as both legislative and administrative body.
+    - **Hybrid**: The mayor serves as chief executive but appoints a city manager for day-to-day operations.
+
+- **Future-Related Updates:**
+  - As of December 2024, the partisan breakdown of mayors in the top 100 cities includes:
+    - 63 Democrats
+    - 25 Republicans
+    - 1 Libertarian
+    - 4 Independents
+    - 5 Nonpartisans
+    - 2 mayors' partisan affiliations are unknown.
+  - The mayor of Winston-Salem, North Carolina, Allen Joines (D), has been in office since 2001, the longest-serving mayor among the top 100 cities.

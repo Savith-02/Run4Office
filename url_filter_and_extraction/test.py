@@ -1,6 +1,5 @@
 import os
 import shutil
-import os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 from evaluate_relevance import evaluate_relevance
