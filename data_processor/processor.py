@@ -9,7 +9,7 @@ UNSTRUCTURED_DIR = f"{SHARED_DATA_DIR}/unstructured_data"
 os.makedirs(UNSTRUCTURED_DIR, exist_ok=True)
 POSITION_LIMIT_PER_FILE = 5
 
-def process_text_with_llms(text, url, base_dir=f"{SHARED_DATA_DIR}/structured_data"):
+def process_text_with_llms(text, url):
     """
     Main function to process the input text:
     - Uses LLM to extract positions
@@ -32,8 +32,8 @@ def process_text_with_llms(text, url, base_dir=f"{SHARED_DATA_DIR}/structured_da
         try:
             position_data = use_llm_for_position_data(position, text)
             position_data = PositionDataTemplate(**position_data)
-            save_position_data_json(position, position_data, url, base_dir)
-            save_position_data_csv(position, position_data, url, base_dir)
+            save_position_data_json(position, position_data, url)
+            save_position_data_csv(position, position_data, url)
         except Exception as e:
             print(f"\nError processing data for {position}: {e}\n")
             continue
@@ -46,4 +46,3 @@ if __name__ == "__main__":
       print(f"Processing file: {file_name}")
       url, input_text = extract_content(file_path)
       process_text_with_llms(input_text, url)
-    break

@@ -4,9 +4,9 @@ from crawl_n_scrape import scrape_website
 
 urls = [
     "https://ballotpedia.org/List_of_current_mayors_of_the_top_100_cities_in_the_United_States",
-    "https://www.ird.gov.lk/"
+    "https://justfacts.votesmart.org/elections"
 ]
 for url in urls:
-    scrape_website(url, 5)
+    scrape_website(url, 15)
 
 
