@@ -30,11 +30,8 @@ def generate_extraction_prompt(text):
     """
 
 # Function to process a single file
-def process_file(file_path, model="gpt-4o-mini"):
+def process_file(content, model="gpt-4o-mini"):
     try:
-        with open(file_path, "r") as file:
-            content = file.read()
-
         # Create the extraction prompt
         prompt = generate_extraction_prompt(content)
 
@@ -49,7 +46,7 @@ def process_file(file_path, model="gpt-4o-mini"):
         extracted_data = response.choices[0].message.content
         return extracted_data
     except Exception as e:
-        print(f"Error processing file {file_path}: {e}")
+        print(f"Error processing file: {e}")
         return None
 
 # Process all files in the filtered directory
