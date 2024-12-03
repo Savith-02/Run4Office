@@ -1,16 +1,7 @@
-Role: Mayor
-
-Location: Texas (Cities - Austin, Corpus Christi, El Paso, Lubbock)
-
-- The mayoral elections for Austin, Corpus Christi, El Paso, and Lubbock in Texas are scheduled to take place in 2024.
-
-Role Responsibilities:
-- The mayor serves as the chief executive of the city. The extent of their powers varies depending on the type of city government. 
-- In a 'Strong Mayor' type of government, the mayor serves as the city's chief executive with significant powers. 
-- In a 'Council-Manager' type of government, an elected city council appoints a city manager to oversee day-to-day operations, but the mayor still retains certain executive powers.
-- In a 'City Commission' type of government, a city council consisting of elected officials acts as both the legislative and administrative body.
-- In a 'Hybrid' type of government, the mayor has executive powers but also appoints a city manager.
-
-Future-Related Updates:
-- As of December 2024, the partisan breakdown of mayors in the top 100 U.S. cities includes 63 Democrats, 25 Republicans, 1 Libertarian, 4 Independents, 5 Nonpartisans, and in 2 instances, the mayors' partisan affiliations are unknown.
-- The 2024 mayoral elections are considered significant as they will determine the leadership in many major cities across the U.S., including several in Texas.
+URL: https://ballotpedia.org/List_of_current_mayors_of_the_top_100_cities_in_the_United_States
+{"Position_title": "Mayor", 
+"Description": "Chief executive of the city, with varying powers depending on the type of government. Types of Government include: Strong Mayor - The mayor serves as the city's chief executive with significant powers; Council-Manager - An elected city council appoints a city manager to oversee day-to-day operations; City Commission - A city council composed of elected officials serves as both the legislative and administrative body; Hybrid - The mayor has executive powers but also appoints a city manager.", 
+"Next_election_date": "2024", 
+"Name_of_district": "Austin, Corpus Christi, El Paso, Lubbock", 
+"State_of_district": "Texas", 
+"Other_relevant_info": "Mayoral elections in 2024 are significant as they will determine the leadership in many major cities across the U.S."}

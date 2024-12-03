@@ -1,10 +1,2 @@
-Role: City Council of Fort Wayne
-
-- The City Council serves as the primary legislative body for the city of Fort Wayne. 
-- It is responsible for approving the city budget, levying taxes, and making or amending city laws and policies.
-- The council is composed of 9 members, 3 of whom are elected at large, while the other 6 are elected by districts.
-- The council is expected to be involved in upcoming meetings, such as the Committee Session on December 3, 2024, with topics including boards and commissions, bonds, neighborhood issues, political matters, and utilities.
-- The City Budget Process, which the Council is intrinsically involved in, operates on a fiscal year from January 1 to December 31. The budget process begins in June, proposed budgets are presented in September, and must be adopted by November 1.
-- The next City Council election is scheduled for 2027.
-- The previous City Council election occurred in 2023.
-- For the upcoming election, the filing deadline for the primary election was February 3, 2023, and the primary election date was May 2, 2023. The filing deadline for the general election was July 15, 2023, and the last general election date was November 7, 2023.
+URL: https://ballotpedia.org/Fort_Wayne,_Indiana
+{"Position_title": "City Council of Fort Wayne", "Description": "Primary legislative body responsible for approving the city budget, levying taxes, and making or amending city laws and policies. Composed of 9 members (3 elected at large, 6 by districts)", "Next_election_date": "2027", "Filing_window_end": "July 15, 2023", "Filing_window_start": "February 3, 2023", "Name_of_district": "Fort Wayne", "State_of_district": "Indiana", "Other_relevant_info": "Population of Fort Wayne: 265752; Demographics - Race: White 73.4%, African American 15.1%, Asian 4.7%, Native American 0.2%, Pacific Islander 0.1%, Two or more 4.5%, Ethnicity: Hispanic 9.2%; Median Household Income: $49411; High School Graduation Rate: 88.5%; College Graduation Rate: 27.8%; City Budget Process: Operates on a fiscal year from January 1 to December 31; budget process begins in June, proposed budgets presented in September, and must be adopted by November 1"}

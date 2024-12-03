@@ -1,5 +1,11 @@
-Role: Mayor of Augusta, Maine
-
-- Election Dates: Mayoral election for Augusta, Maine is scheduled for the year 2024. The specific date is not mentioned in the text. 
-- Role Description: As the Mayor, the person will serve as the chief executive of the city, Augusta. The extent of powers may vary depending on the type of government the city has, including 'Strong Mayor', 'Council-Manager', 'City Commission', or 'Hybrid'. In a 'Strong Mayor' government, the mayor has significant powers. In a 'Council-Manager' setup, a city manager is appointed by the elected city council to oversee daily operations. In a 'City Commission' government, the city council is composed of elected officials and serves as both the legislative and administrative body. A 'Hybrid' government gives the mayor executive powers but also includes an appointed city manager.
-- Future-Related Updates: The mayoral elections are significant in 2024 as they will decide the city leadership. As of December 2024, within the top 100 U.S. cities, there are 63 Democrat mayors, 25 Republican mayors, 1 Libertarian mayor, 4 Independent mayors, 5 Nonpartisan mayors and 2 mayors whose partisan affiliations are unknown.
+URL: https://ballotpedia.org/List_of_current_mayors_of_the_top_100_cities_in_the_United_States
+{
+"Position_title": "Mayor",
+"Description": "Chief executive of the city, with varying powers depending on the type of government.",
+"Next_election_date": "2024",
+"Filing_window_end": "Not specified",
+"Filing_window_start": "Not specified",
+"Name_of_district": "Augusta",
+"State_of_district": "Maine",
+"Other_relevant_info": "Mayoral elections in 2024 will determine the leadership in many major cities across the U.S."
+}

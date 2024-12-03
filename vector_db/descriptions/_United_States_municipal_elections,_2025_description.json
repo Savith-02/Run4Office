@@ -1,4 +1,0 @@
-{
-    "link": "https://ballotpedia.org/United_States_municipal_elections,_2025",
-    "description": "{\n    \"title\": \"United States Municipal Elections, 2025 Overview\",\n    \"actions\": [\n        \"Sign up for Ballotpedia's daily newsletter\",\n        {\n            \"form\": {\n                \"name\": \"whatcounts-form-skin\",\n                \"purpose\": \"To subscribe to Ballotpedia's daily newsletter\",\n                \"fields\": [\n                    \"Email *\",\n                    \"First Name\",\n                    \"Captcha completion\"\n                ]\n            }\n        },\n        \"Use Ballotpedia's sample ballot tool to find local elections in your area\",\n        \"View election years 2024, 2023, 2022, and 2021\",\n        \"Access historical election data, including statistics for mayoral and city council elections\",\n        \"Check the list of mayors of the 100 largest cities\"\n    ]\n}"
-}

@@ -1,9 +1,9 @@
-Role: Mayor of Bakersfield
-
-- Election Date: There is a mayoral election for Bakersfield, California in the year 2024. The exact date is not mentioned.
-
-- Role Description: The Mayor operates as the city's chief executive, with the level of their powers varying based on the type of government. However, there is no specific information given about the type of government in Bakersfield.
-
-- Future-Related Updates: Mayoral elections in 2024 are considered significant as they will impact the leadership of many major U.S. cities, including Bakersfield. As of December 2024, it's not specified under which partisan alignment the Mayor of Bakersfield falls, but in general, the major breakdown across the top 100 U.S. cities is: 63 Democrats, 25 Republicans, 1 Libertarian, 4 Independents, 5 Nonpartisans, 2 unknown. 
-
-There were no details available about any upcoming filing deadlines or key responsibilities specific to this role.
+URL: https://ballotpedia.org/List_of_current_mayors_of_the_top_100_cities_in_the_United_States
+{"Position_title": "Mayor of Bakersfield", 
+"Description": "Chief executive of the city, with varying powers depending on the type of government.", 
+"Next_election_date": "2024", 
+"Filing_window_end": "Not mentioned", 
+"Filing_window_start": "Not mentioned", 
+"Name_of_district": "Bakersfield", 
+"State_of_district": "California", 
+"Other_relevant_info": "Mayoral elections in 2024 are significant as they will determine the leadership in many major cities across the U.S."}

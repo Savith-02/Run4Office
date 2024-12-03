@@ -37,16 +37,28 @@ def use_llm_for_extraction(text):
 
 def use_llm_for_position_data(position, text):
     """
-    Uses an LLM to extract data for a specific position.
+    Uses an LLM to extract structured data in JSON format for a specific position, 
+    including position title, description, election dates, filing window, and other 
+    relevant information. Returns only the relevant extracted information in JSON format.
     """
     system_prompt = (
-        "You are an expert in gathering detailed, role-specific data from textual content. "
-        "Your task is to extract all relevant information about the given role from the provided text. "
-        "Please ensure you capture the most up-to-date and relevant information, including election dates, filing deadlines, "
-        "or any key responsibilities or events related to the role."
+        "You are an expert in gathering detailed, structured data from political positions. "
+        "Your task is to extract only the relevant data from the provided text about the given position. "
+        "Return the output strictly in JSON format without any additional descriptions, comments, or text. "
+        "The fields to be extracted and returned in JSON format are as follows:\n"
+        '{"Position_title": "Position title", '
+        '"Description": "Description of the position", '
+        '"Next_election_date": "Date of next election", '
+        '"Filing_window_end": "End date of the filing window", '
+        '"Filing_window_start": "Start date of the filing window", '
+        '"Name_of_district": "District name", '
+        '"State_of_district": "State of the district", '
+        '"Other_relevant_info": "Other relevant information"}\n'
+        "Do not include any other information or descriptions other than what is specified above. Only the extracted data should be returned in strict JSON format."
     )
+
     user_prompt = f"Extract all relevant data regarding the following position: '{position}'.\n\nText: {text}"
-    
+
     try:
         response = client.chat.completions.create(
             model="gpt-4",

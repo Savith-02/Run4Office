@@ -1,13 +1,11 @@
-- Role: Mayor of Fort Wayne
-- Responsibilities: The Mayor of Fort Wayne acts as the chief executive responsible for proposing a budget, signing legislation, appointing directors, and overseeing city operations.
-- Current Mayor: Sharon Tucker (D)
-- Assumed Office: April 23, 2024
-- Next Mayoral Election: 2027
-- Last Mayoral Election: 2023
-- Filing Deadline for Primary Election: February 3, 2023
-- Primary Election Date: May 2, 2023
-- Filing Deadline for General Election: July 15, 2023
-- Last General Election Date: November 7, 2023
-- City Budget Process: Operates on a fiscal year from January 1 to December 31; budget process begins in June, proposed budgets presented in September, and must be adopted by November 1.
-- Mayor's Office Contact Information: Citizens Square, Suite 425, 200 East Berry St., Fort Wayne, IN 46802, Phone: 260-427-8311
-- Upcoming Meetings: The next known meeting will occur on December 3, 2024. Topics included boards and commissions, bond, neighborhood, political, utility.
+URL: https://ballotpedia.org/Fort_Wayne,_Indiana
+{
+"Position_title": "Mayor of Fort Wayne",
+"Description": "Chief executive responsible for proposing a budget, signing legislation, appointing directors, and overseeing city operations.",
+"Next_election_date": "2027",
+"Filing_window_end": "July 15, 2023",
+"Filing_window_start": "February 3, 2023",
+"Name_of_district": "Fort Wayne",
+"State_of_district": "IN",
+"Other_relevant_info": "Current Mayor: Sharon Tucker (D), assumed office April 23, 2024."
+}
