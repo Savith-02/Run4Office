@@ -1,0 +1,26 @@
+URL: https://ballotpedia.org/List_of_current_mayors_of_the_top_100_cities_in_the_United_States#Mayoral_partisanship
+- **Election Dates:**
+  - Mayoral elections in 2024:
+    - April 2, 2024: Anchorage, Alaska (general election)
+    - May 14, 2024: Baltimore, Maryland (Democratic primary)
+    - June 11, 2024: Las Vegas, Nevada (primary election)
+
+- **Position Titles and Descriptions:**
+  - **Mayor**: Chief executive of a city, with varying powers depending on the type of government.
+    - Types of government:
+      - **Strong Mayor**: Mayor serves as the chief executive, city council is the primary legislative body.
+      - **Council-Manager**: Elected city council appoints a city manager to oversee operations.
+      - **City Commission**: Elected mayor and commissioners serve as both legislative and administrative body.
+      - **Hybrid**: Mayor serves as chief executive but appoints a city manager for operations.
+  
+- **Future-Related Updates:**
+  - Mayoral elections scheduled for various cities in 2024, including:
+    - Augusta, Maine
+    - Austin, Texas
+    - Baltimore, Maryland
+    - Baton Rouge, Louisiana
+    - San Diego, California
+    - Richmond, Virginia
+    - Winston-Salem, North Carolina
+    - Others listed in the text.
+  - As of December 2024, the partisan breakdown of mayors in the 100 largest U.S. cities is 63 Democrats, 25 Republicans, 1 Libertarian, 4 Independents, and 5 Nonpartisans.

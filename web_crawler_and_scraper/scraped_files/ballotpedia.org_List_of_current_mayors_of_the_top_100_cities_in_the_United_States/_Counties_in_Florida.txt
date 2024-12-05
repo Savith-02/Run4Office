@@ -1,0 +1,457 @@
+URL: https://ballotpedia.org/Counties_in_Florida
+
+<html>
+<body>
+<div>
+<button>×</button>
+<h4>Sign up to receive Ballotpedia's daily newsletter</h4>
+</div>
+<div>
+<form>
+<p>
+<label>Email *</label>
+</p>
+<p>
+<label>First Name</label>
+</p>
+<div></div>
+<p>Please complete the Captcha above</p>
+</div>
+<p>
+</p>
+</form>
+</div>
+<div>
+<button>×</button>
+<h4>Ballotpedia on Facebook</h4>
+</div>
+<div>
+<p><a>   Share this page</a></p>
+<p><a>   Follow Ballotpedia</a></p>
+</div>
+<div>
+<button>×</button>
+<h4>Ballotpedia on Twitter</h4>
+</div>
+<div>
+<p><a>   Share this page</a></p>
+<p><a>   Follow Ballotpedia</a></p>
+</div>
+<div>
+<form>
+<div>
+<button></button>
+</div>
+</form></div>
+<div>
+<h1><span>Counties in Florida</span></h1>
+<div>From Ballotpedia</div>
+<div>
+Jump to:					,
+</div>
+<div>
+<p></p><small>
+<ul><li><a>Elections</a>
+<ul><li>2024
+<ul><li><a>Municipal elections, 2024</a></li>
+<li><a>School board elections, 2024</a></li>
+<li><a>Judicial elections, 2024</a></li>
+<li><a>Local measure elections, 2024</a></li>
+<li><a>Recall elections, 2024</a></li></ul></li>
+<li>2023
+<ul><li><a>Municipal elections, 2023</a></li>
+<li><a>School board elections, 2023</a></li>
+<li><a>Judicial elections, 2023</a></li>
+<li><a>Local measure elections, 2023</a></li>
+<li><a>Recall elections, 2023</a></li></ul></li>
+<li>2022
+<ul><li><a>Municipal elections, 2022</a></li>
+<li><a>School board elections, 2022</a></li>
+<li><a>Judicial elections, 2022</a></li>
+<li><a>Local measure elections, 2022</a></li>
+<li><a>Recall elections, 2022</a></li></ul></li>
+<li>2021
+<ul><li><a>Municipal elections, 2021</a></li>
+<li><a>School board elections, 2021</a></li>
+<li><a>Judicial elections, 2021</a></li>
+<li><a>Local measure elections, 2021</a></li>
+<li><a>Recall elections, 2021</a></li></ul></li>
+<li>2020
+<ul><li><a>Municipal elections, 2020</a></li>
+<li><a>School board elections, 2020</a></li>
+<li><a>Judicial elections, 2020</a></li>
+<li><a>Local measure elections, 2020</a></li>
+<li><a>Recall elections, 2020</a></li></ul></li>
+<li>2019
+<ul><li><a>Municipal elections, 2019</a></li>
+<li><a>School board elections, 2019</a></li>
+<li><a>Judicial elections, 2019</a></li>
+<li><a>Local measure elections, 2019</a></li>
+<li><a>Recall elections, 2019</a></li></ul></li>
+<li>2018
+<ul><li><a>Municipal elections, 2018</a></li>
+<li><a>School board elections, 2018</a></li>
+<li><a>Judicial elections, 2018</a></li>
+<li><a>Local measure elections, 2018</a></li>
+<li><a>Recall elections, 2018</a></li></ul></li>
+<li>2017
+<ul><li><a>Municipal elections, 2017</a></li>
+<li><a>School board elections, 2017</a></li>
+<li><a>Judicial elections, 2017</a></li>
+<li><a>Local measure elections, 2017</a></li>
+<li><a>Recall elections, 2017</a></li></ul></li>
+<li><a>Past local elections</a></li></ul></li>
+<li><a>Municipal government</a>
+<ul><li><a>Top counties</a></li>
+<li><a>Top 100 cities</a></li>
+<li><a>Top 100 city mayors</a></li>
+<li><a>Top 100 city councils</a></li>
+<li><a>Municipal elections, 2024</a></li>
+<li><a>Mayoral elections, 2024</a></li>
+<li><a>Analysis</a>
+<ul><li><a>City spending analysis</a></li>
+<li><a>Partisanship in United States municipal elections</a></li>
+<li><a>Preemption conflicts between state and local governments</a></li>
+<li><a>Sanctuary policy preemption conflicts between the federal and local governments</a></li>
+<li><a>Local government responses to the sharing economy (ridesharing/homesharing)</a></li></ul></li></ul></li>
+<li><a>School boards</a>
+<ul><li><a>Top 1,000 school districts</a></li>
+<li><a>List of school districts</a></li>
+<li><a>School board elections, 2024</a></li>
+<li><a>State education agencies</a></li>
+<li><a>Analysis</a>
+<ul><li><a>School shootings analysis</a></li>
+<li><a>2022 district and board member characteristics analysis</a></li>
+<li><a>2022 election data analysis</a></li>
+<li><a>2021 election data analysis</a></li>
+<li><a>2020 election data analysis</a></li></ul></li></ul></li>
+<li><a>Local courts</a>
+<ul><li><a>Courts and judges by county</a></li>
+<li><a>Judicial election methods</a></li>
+<li><a>Judicial elections, 2024</a></li>
+<li><a>Past judicial elections</a></li></ul></li>
+<li><a>Local measures</a>
+<ul><li><a>Local measures by state</a></li>
+<li><a>Local measures by year</a></li>
+<li><a>Local measure elections, 2024</a></li>
+<li><a>Notable local measures on the ballot</a></li>
+<li><a>Ballot law</a>
+<ul><li><a>Laws governing ballot measures</a></li>
+<li><a>Laws governing initiatives</a></li>
+<li><a>Laws governing recall</a></li>
+<li><a>Ballot measure lawsuits, 2023</a></li>
+<li><a>Ballot law changes, 2023</a></li></ul></li></ul></li>
+<li><a>Recalls</a>
+<ul><li><a>Recall elections by state</a></li>
+<li><a>Recall elections by year</a></li>
+<li><a>Recall elections by office</a></li>
+<li><a>Recall elections, 2024</a></li>
+<li><a>Upcoming recall elections</a></li></ul></li>
+<li><a>Additional coverage</a>
+<ul><li><a>Front Page</a></li>
+<li><a>Elections</a></li>
+<li><a>Federal Politics</a></li>
+<li><a>State Politics</a></li>
+<li><a>Public Policy</a></li>
+<li><a>Influencers</a></li>
+<li><a>Fact check</a></li></ul></li></ul>
+</small><p>
+</p>
+</div>
+<table>
+<tbody><tr>
+<td><div></div>
+</td></tr>
+<tr>
+<th><center><b>Counties by state</b></center>
+</th></tr>
+<tr>
+<td><div><select><option>Choose your state...</option><option>Alabama</option><option>Alaska</option><option>Arizona</option><option>Arkansas</option><option>California</option><option>Colorado</option><option>Connecticut</option><option>Delaware</option><option>Florida</option><option>Georgia</option><option>Hawaii</option><option>Idaho</option><option>Illinois</option><option>Indiana</option><option>Iowa</option><option>Kansas</option><option>Kentucky</option><option>Louisiana</option><option>Maine</option><option>Maryland</option><option>Massachusetts</option><option>Michigan</option><option>Minnesota</option><option>Mississippi</option><option>Missouri</option><option>Montana</option><option>Nebraska</option><option>Nevada</option><option>New Hampshire</option><option>New Jersey</option><option>New Mexico</option><option>New York</option><option>North Carolina</option><option>North Dakota</option><option>Ohio</option><option>Oklahoma</option><option>Oregon</option><option>Pennsylvania</option><option>Rhode Island</option><option>South Carolina</option><option>South Dakota</option><option>Tennessee</option><option>Texas</option><option>Utah</option><option>Vermont</option><option>Virginia</option><option>Washington</option><option>Washington, D.C.</option><option>West Virginia</option><option>Wisconsin</option><option>Wyoming</option></select></div>
+</td></tr>
+<tr>
+<th><center><b>Municipal government</b></center>
+</th></tr>
+<tr>
+<td><center><small><a>Top counties</a><a>Top 100 cities by population</a>
+</small></center></td></tr></tbody></table>
+<p>Ballotpedia provides comprehensive coverage of elections in the <a>100 largest cities in America by population</a> and the <a>largest counties</a> that overlap those cities. This encompasses all city, county, judicial, school district, and special district offices appearing on the ballot within those cities.
+</p><p>This page includes the following resources:
+</p>
+<ul><li>The  covered by Ballotpedia in Florida</li>
+<li>A  and  of counties in Florida</li>
+<li>An overview of  in Florida</li>
+<li>An overview of the  in Florida</li></ul>
+<div><h2>Contents</h2><span></span></div>
+<ul>
+<li>
+<ul>
+</ul>
+</li>
+<li>
+<ul>
+</ul>
+</li>
+</ul>
+</div>
+<h2><span>Counties</span></h2>
+<h3><span>County government</span></h3>
+<p>Click the links below for information about the county governments in Ballotpedia's <a>coverage scope</a>:
+</p>
+<ul><li><a>Government of Duval County</a></li>
+<li><a>Government of Hillsborough County</a></li>
+<li><a>Government of Miami-Dade County</a></li>
+<li><a>Government of Orange County</a></li>
+<li><a>Government of Pinellas County</a></li></ul>
+<h3><span>Full list of counties</span></h3>
+<p>According to a 2022 study from the <a>U.S. Census Bureau</a>, this state's local governments consist of 66 counties, 412 cities, towns, and villages, and 1,374 special districts. <a>Jacksonville</a>, a consolidated city-county, is classified by the U.S. Census Bureau as a city government.
+</p><p>
+The following table defaults to displaying only 25 counties at a time. To change the number of counties displayed, use the drop-down menu above the upper left-hand corner of the table. You can also use the search bar above the upper-right corner of the table to look up a specific county.
+</p>
+<div><label>Show <select><option>10</option><option>25</option><option>50</option><option>100</option></select> entries</label></div><div><label>Search:</label></div><table>
+<thead>
+<tr><th>County</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><a>Alachua</a></td>
+</tr><tr>
+<td><a>Baker</a></td>
+</tr><tr>
+<td><a>Bay</a></td>
+</tr><tr>
+<td><a>Bradford</a></td>
+</tr><tr>
+<td><a>Brevard</a></td>
+</tr><tr>
+<td><a>Broward</a></td>
+</tr><tr>
+<td><a>Calhoun</a></td>
+</tr><tr>
+<td><a>Charlotte</a></td>
+</tr><tr>
+<td><a>Citrus</a></td>
+</tr><tr>
+<td><a>Clay</a></td>
+</tr><tr>
+<td><a>Collier</a></td>
+</tr><tr>
+<td><a>Columbia</a></td>
+</tr><tr>
+<td><a>DeSoto</a></td>
+</tr><tr>
+<td><a>Dixie</a></td>
+</tr><tr>
+<td><a>Duval</a></td>
+</tr><tr>
+<td><a>Escambia</a></td>
+</tr><tr>
+<td><a>Flagler</a></td>
+</tr><tr>
+<td><a>Franklin</a></td>
+</tr><tr>
+<td><a>Gadsden</a></td>
+</tr><tr>
+<td><a>Gilchrist</a></td>
+</tr><tr>
+<td><a>Glades</a></td>
+</tr><tr>
+<td><a>Gulf</a></td>
+</tr><tr>
+<td><a>Hamilton</a></td>
+</tr><tr>
+<td><a>Hardee</a></td>
+</tr><tr>
+<td><a>Hendry</a></td>
+</tr></tbody>
+</table><div>Showing 1 to 25 of 67 entries</div><div><a>Previous</a><span><a>1</a><a>2</a><a>3</a></span><a>Next</a></div>
+<p>
+</p>
+<h3><span>Map of counties</span></h3>
+<p>Counties in blue on the map below are part of Ballotpedia's <a>county coverage scope</a>:
+</p><p>
+</p>
+<h2><span>Elections</span></h2>
+<p>Click the links below for information about the elections held in each municipality. Please note that this is not a comprehensive list of municipalities that held elections each year in this state; <a>click here</a> to learn more about Ballotpedia's local government coverage scope.
+</p>
+<h3><span>2024</span></h3>
+<dl><dd><dl><dd><i>See also: <a>United States municipal elections, 2024</a> and <a>School board elections, 2024</a></i></dd></dl></dd></dl>
+<ul><li><a>Jacksonville, Florida</a></li>
+<li><a>Orlando, Florida</a></li>
+<li><a>St. Petersburg, Florida</a></li>
+<li><a>Tallahassee, Florida</a></li>
+<li><a>Miami-Dade County, Florida</a></li>
+<li><a>Orange County, Florida</a></li>
+<li><a>Pinellas County, Florida</a></li>
+<li><a>Hillsborough County, Florida</a></li>
+<li><a>Florida school board elections</a></li></ul>
+<h3><span>2023</span></h3>
+<dl><dd><dl><dd><i>See also: <a>United States municipal elections, 2023</a> and <a>School board elections, 2023</a></i></dd></dl></dd></dl>
+<ul><li><a>Hialeah, Florida</a></li>
+<li><a>Jacksonville, Florida</a></li>
+<li><a>Miami, Florida</a></li>
+<li><a>Orlando, Florida</a></li>
+<li><a>Tampa, Florida</a></li></ul>
+<h3><span>2022</span></h3>
+<dl><dd><dl><dd><i>See also: <a>United States municipal elections, 2022</a> and <a>School board elections, 2022</a></i></dd></dl></dd></dl>
+<ul><li><a>Hillsborough County, Florida</a></li>
+<li><a>Miami-Dade County, Florida</a></li>
+<li><a>Orange County, Florida</a></li>
+<li><a>Pinellas County, Florida</a></li>
+<li><a>Hialeah, Florida</a></li>
+<li><a>Jacksonville, Florida</a></li>
+<li><a>Tallahassee, Florida</a></li>
+<li><a>Florida school board elections</a></li></ul>
+<h3><span>2021</span></h3>
+<dl><dd><dl><dd><i>See also: <a>United States municipal elections, 2021</a> and <a>School board elections, 2021</a></i></dd></dl></dd></dl>
+<ul><li><a>Hialeah, Florida</a></li>
+<li><a>Miami, Florida</a></li>
+<li><a>Orlando, Florida</a></li>
+<li><a>St. Petersburg, Florida</a></li></ul>
+<h3><span>2020</span></h3>
+<dl><dd><dl><dd><i>See also: <a>United States municipal elections, 2020</a> and <a>School board elections, 2020</a></i></dd></dl></dd></dl>
+<ul><li><a>Hillsborough County, Florida</a></li>
+<li><a>Miami-Dade County, Florida</a></li>
+<li><a>Orange County, Florida</a></li>
+<li><a>Pinellas County, Florida</a></li>
+<li><a>Jacksonville, Florida</a></li>
+<li><a>Florida school board elections</a></li></ul>
+<p><big><b>Past elections</b></big>
+</p>
+<h2><span>Initiative process availability</span></h2>
+<dl><dd><dl><dd><i>See also: <a>Laws governing local ballot measures in Florida</a></i></dd></dl></dd></dl>
+<p>The local units of government in Florida that make the initiative process available are:
+</p>
+<ul><li>Charter cities, all 412 of which have a state mandated initiative and referendum process for charter amendments.</li>
+<li>Charter counties, which have the authority for the creation of an initiative and referendum process for charter amendment.  All 20 have exercised this power and have some form of initiative and referendum in their charters.</li></ul>
+<div></div><h2><span>See also</span></h2>
+<div><table>
+<tbody><tr>
+<th><a>Florida</a>
+</th>
+<th><a>Municipal government</a>
+</th>
+<th><a>Other local coverage</a>
+</th></tr>
+<tr>
+<td><div></div></td>
+<td><div></div></td>
+<td><div></div>
+</td></tr>
+<tr>
+<td>
+<ul><li><a>Florida</a></li>
+<li><a>Florida elections, 2024</a></li>
+<li><a>Public policy in Florida</a></li>
+<li><a>Endorsers in Florida</a></li></ul>
+</td>
+<td>
+<ul><li><a>Top counties</a></li>
+<li><a>100 largest cities</a></li>
+<li><a>Current mayors</a></li>
+<li><a>Current council officials</a></li></ul>
+</td>
+<td>
+<ul><li><a>2024 municipal elections</a></li>
+<li><a>School board elections, 2024</a></li>
+<li><a>Local ballot measure elections in 2024</a></li>
+<li><a>2024 local judicial elections</a></li></ul>
+</td></tr></tbody></table></div>
+<h2><span>External links</span></h2>
+<ul><li><a>Search Google News for this topic</a></li>
+<li><a>Florida municipal code library</a></li>
+<li><a>Florida state government website</a></li></ul>
+<h2><span>Footnotes</span></h2>
+<div><ol>
+<li> <span><a><i>U.S. Census Bureau</i>, "2022 Census of Governments – Organization," accessed October 16, 2023</a></span>
+</li>
+<li> <span><a><i>Ballotpedia</i>, "Types &amp; #s of local government by state," September 2012</a></span>
+</li>
+</ol></div> <div>
+Retrieved from "<a>https://ballotpedia.org/wiki/index.php?title=Counties_in_Florida&amp;oldid=8433733</a>"					</div>
+<div><a>Categories</a>: <ul><li><a>Pages using DynamicPageList3 dplreplace parser function</a></li><li><a>Florida</a></li><li><a>Counties</a></li><li><a>List of counties by state</a></li></ul></div>
+<div>
+</div>
+<div>
+<ul><li><a>2024 Election results hub</a></li>
+<li><span><a>Ballotpedia's 2024 elections analysis</a></span>
+<ul><li><a>Pivot Counties in the 2024 presidential election</a></li>
+<li><a>New members elected to Congress</a></li>
+<li><a>Comparison of state delegations to the 118th and 119th Congresses</a></li>
+<li><a>Congressional margin of victory analysis</a></li>
+<li><a>Congressional elections decided by 10 percentage points or fewer</a></li>
+<li><a>State legislative veto-proof majorities</a></li>
+<li><a>Incumbents defeated in state legislative elections</a></li>
+<li><a>State legislative margin of victory analysis</a></li>
+<li><a>State legislative seats that changed party control</a></li>
+<li><a>State legislative races decided by fewer than 100 votes</a></li>
+<li><a>Ballot measure trends in 2024</a></li>
+<li><a>Analysis of voter turnout in the 2024 general election</a></li>
+<li><a>Wave elections in 2024</a></li></ul></li>
+<li><span><a>2024 Elections</a></span>
+<ul><li><a>2024 Presidential election</a></li>
+<li><a>2024 Presidential candidates</a></li>
+<li><a>2024 Congressional elections</a></li>
+<li><a>Special Congressional elections (2023-2024)</a></li>
+<li><a>2024 State executive elections</a></li>
+<li><a>2024 State legislative elections</a></li>
+<li><a>2024 State judge elections</a></li>
+<li><a>2024 Local elections</a></li>
+<li><a>2024 Ballot measures</a></li>
+<li><a>Ballotpedia's top 15 elections to watch in 2024</a></li>
+<li><a>Ballotpedia's top 15 ballot measures to watch in 2024</a></li></ul></li>
+<li><span><a>2025 Elections</a></span>
+<ul><li><a>Upcoming elections</a></li>
+<li><a>2025 Statewide primary dates</a></li>
+<li><a>2025 State executive elections</a></li>
+<li><a>2025 State legislative elections</a></li>
+<li><a>2025 Local elections</a></li>
+<li><a>2025 Ballot measures</a></li></ul></li>
+<li><span><a>The Biden administration</a></span>
+<ul><li><a>Cabinet officials</a></li>
+<li><a>Executive orders and actions</a></li>
+<li><a>Key legislation</a></li>
+<li><a>Judicial nominations</a></li>
+<li><a>White House senior staff</a></li>
+<li><a>Vetoes</a></li></ul></li>
+<li><span><a>Government</a></span>
+<ul><li><a>U.S. President</a></li>
+<li><a>U.S. Congress</a></li>
+<li><a>Ballot measures</a></li>
+<li><a>U.S. Supreme Court</a></li>
+<li><a>Federal courts</a></li>
+<li><a>State government</a></li>
+<li><a>Municipal government</a></li>
+<li><a>School boards</a></li>
+<li><a>Recalls</a></li></ul></li>
+<li><a>Public Policy</a>
+<ul><li><a>Administrative state</a></li>
+<li><a>Criminal justice policy</a></li>
+<li><a>Education policy</a></li>
+<li><a>Environmental, social, and corporate governance (ESG)</a></li>
+<li><a>Federalism</a></li>
+<li><a>Unemployment insurance</a></li>
+<li><a>Work requirements</a></li>
+<li><a>Policy in the states</a></li></ul></li>
+<li><span><a>More...</a></span>
+<ul><li><a>Ballotpedia's Sample Ballot</a></li>
+<li><a>Ballotpedia's 2024 Voter Toolkit</a></li>
+<li><a>Ballotpedia's Candidate Survey</a></li>
+<li><a>Redistricting</a></li>
+<li><a>Trifectas</a></li>
+<li><a>Election policy</a></li>
+<li><a>Running for office</a></li>
+<li><a>Election legislation tracking</a></li>
+<li><a>Ballotpedia's weekly podcast</a></li></ul></li>
+<li><span><a>About us</a></span>
+<ul><li><a>About Ballotpedia</a></li>
+<li><a>Donate</a></li>
+<li><a>Editorial independence</a></li>
+<li><a>Index</a></li>
+<li><a>Job opportunities</a></li>
+<li><a>News and events</a></li>
+<li><a>Staff</a></li>
+<li><a>Volunteer</a></li></ul> </li></ul></div>
+<div><h2> PAGE CONTENTS<span>Return to top</span></h2></div><ul><li><ul></ul></li><li><ul></ul></li><li></li><li></li><li></li><li></li></ul>
+<div>
+</div>
+<div></div><div></div><div></div><div><span>×</span> <div></div></body></html>

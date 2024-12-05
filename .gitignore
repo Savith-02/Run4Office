@@ -2,15 +2,13 @@
 __pycache__
 __pycache__/
 .venv
-*/formatted_files/*
-*/scraped_files/*
+# */formatted_files/*
+# */scraped_files/*
 */logs/*
 */filtered/*
-*/shared_data/*
+# */shared_data/*
 *checkpoint*
-shared_data/structured_data_csv/*
-shared_data/structured_data_json/*
-shared_data/unstructured_data/*
+
 main.py
 docker-compose.yml
 Dockerfile

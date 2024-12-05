@@ -1,0 +1,11 @@
+{
+    "Position_title": "City Council of San Jose",
+    "Description": "Adopts city budget, levies taxes, makes/amends city laws, policies, and ordinances.",
+    "Next_election_date": "2026",
+    "Filing_window_start": "",
+    "Filing_window_end": "December 8, 2023",
+    "Name_of_district": "San Jose",
+    "State_of_district": "CA",
+    "Other_relevant_info": "Council-manager system",
+    "url": "https://ballotpedia.org/San_Jose,_California"
+}

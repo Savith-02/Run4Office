@@ -1,0 +1,11 @@
+{
+    "Position_title": "City Manager of San Jose",
+    "Description": "Oversees day-to-day operations, implements budget, appoints departmental directors.",
+    "Next_election_date": "2024",
+    "Filing_window_start": "Not stated",
+    "Filing_window_end": "December 8, 2023",
+    "Name_of_district": "San Jose",
+    "State_of_district": "California",
+    "Other_relevant_info": "City Government Structure: Council-manager system",
+    "url": "https://ballotpedia.org/San_Jose,_California"
+}

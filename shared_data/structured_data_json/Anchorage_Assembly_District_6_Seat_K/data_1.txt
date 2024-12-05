@@ -1,0 +1,11 @@
+{
+    "Position_title": "Anchorage Assembly District 6 Seat K",
+    "Description": "Prior office held by Suzanne LaFrance from 2017 to 2023.",
+    "Next_election_date": "April 2, 2024",
+    "Filing_window_start": "Not specified",
+    "Filing_window_end": "February 10, 2017",
+    "Name_of_district": "District 6",
+    "State_of_district": "Alaska",
+    "Other_relevant_info": "Suzanne LaFrance is registered as nonpartisan as of 2024. LaFrance's current term as Mayor will end on July 1, 2027.",
+    "url": "https://ballotpedia.org/Suzanne_LaFrance"
+}

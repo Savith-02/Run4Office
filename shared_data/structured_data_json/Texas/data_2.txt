@@ -1,0 +1,11 @@
+{
+    "Position_title": "Mayor",
+    "Description": "Chief executive of the city, responsible for overseeing city operations and implementing policies.",
+    "Next_election_date": "2024",
+    "Filing_window_start": "Not Provided",
+    "Filing_window_end": "Not Provided",
+    "Name_of_district": "Austin, Corpus Christi, El Paso, Lubbock",
+    "State_of_district": "Texas",
+    "Other_relevant_info": "Types of Government: Strong Mayor, Council-Manager, City Commission, Hybrid",
+    "url": "https://ballotpedia.org/wiki/index.php?title=List_of_current_mayors_of_the_top_100_cities_in_the_United_States&oldid=9607242"
+}
