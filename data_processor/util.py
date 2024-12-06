@@ -13,6 +13,7 @@ def validate_extracted_positions(positions):
     pattern = r"^role: [\w\s]+ of region: [\w\s]+(?:-[\w]+)?$" # Regex pattern for validation
     for pos in positions:
         if re.match(pattern, pos):
+            pos = pos.replace("role: ", "").replace(" of region: ", " of ")
             validated.append(pos)
         else:
             print(f"Invalid entry skipped: {pos}")

@@ -33,7 +33,7 @@ def process_text_with_llms(text, url):
             position_data = use_llm_for_position_data(position, text)
             position_data = PositionDataTemplate(**position_data)
             # save_position_data_json(position, position_data, url)
-            # save_position_data_csv(position, position_data, url)
+            save_position_data_csv(position, position_data, url)
         except Exception as e:
             print(f"\nError processing data for {position}: {e}\n")
             continue

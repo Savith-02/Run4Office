@@ -10,6 +10,7 @@ class PositionDataTemplate(BaseModel):
     Name_of_district: Optional[str] = Field(None, title="Name of the district")
     State_of_district: Optional[str] = Field(None, title="State of the district")
     Other_relevant_info: Optional[str | Any] = Field(None, title="Any other relevant information")
+    Vacancy_date: Optional[str] = Field(None, title="Date when the position will be vacant")
 
     class Config:
         json_schema_extra = {
@@ -21,6 +22,7 @@ class PositionDataTemplate(BaseModel):
                 "Filing_window_end": "July 15, 2023",
                 "Name_of_district": "N/A",
                 "State_of_district": "Indiana",
-                "Other_relevant_info": "Current Mayor: Sharon Tucker (D), assumed office April 23, 2024."
+                "Other_relevant_info": "Current Mayor: Sharon Tucker (D), assumed office April 23, 2024.",
+                "Vacancy_date": "N/A"
             }
         }
