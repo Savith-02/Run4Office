@@ -1,18 +1,22 @@
 import os
+import re
 import json
 
 SHARED_DATA_DIR = "./../shared_data"
 
 def validate_extracted_positions(positions):
     """
-    Validates the extracted positions list to ensure it contains valid role names.
+    Validates extracted positions to ensure they match the required format.
+    Returns a list of valid positions.
     """
-    if not positions:
-        raise ValueError("No roles were extracted from the text. Ensure the text contains role information.")
+    validated = []
+    pattern = r"^role: [\w\s]+ of region: [\w\s]+(?:-[\w]+)?$" # Regex pattern for validation
     for pos in positions:
-        if not isinstance(pos, str) or len(pos.strip()) == 0:
-            raise ValueError(f"Invalid role detected: {pos}. Ensure roles are properly formatted.")
-    return positions
+        if re.match(pattern, pos):
+            validated.append(pos)
+        else:
+            print(f"Invalid entry skipped: {pos}")
+    return validated
 
 def save_position_data_json(position, data, url, base_dir=f"{SHARED_DATA_DIR}/structured_data_json"):
     """

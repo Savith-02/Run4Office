@@ -13,14 +13,22 @@ def use_llm_for_extraction(text):
     Returns a list of positions.
     """
     system_prompt = (
-        "You are an assistant tasked with extracting complete roles and positions mentioned in the following text. "
-        "Only list entries where both a role and a specific position are present, and ignore any incomplete entries. "
-        "Ensure that each entry includes a clear role and its corresponding position, such as a city, county, or municipality. "
-        "Please provide the results in a comma-separated format without additional context or explanation. "
-        "For example: 'Mayor of Los Angeles, County Clerk of Cook County, Trustee of Plymouth Township'."
+        "You are an assistant tasked with extracting roles and positions mentioned in the provided text. "
+        "Each extracted entry must strictly follow this format: "
+        "'role: [local government position] of region: [county/municipality/township]'.\n"
+        "If the entry does not fit this format, it should not be included.\n\n"
+        "Examples of valid entries:\n"
+        "- role: Mayor of region: Los Angeles\n"
+        "- role: County Clerk of region: Cook County\n"
+        "- role: Trustee of region: Plymouth Township\n\n"
+        "Examples of invalid entries (to be ignored):\n"
+        "- Mayor (missing region)\n"
+        "- County Clerk Cook County (missing 'of region:')\n"
+        "- Plymouth Township (missing role and 'of region:')\n\n"
+        "Output the extracted positions as a comma-separated list, with no additional text or explanation."
     )
-    user_prompt = f"Extract the roles and positions from the following text:\n\n{text}"
     
+    user_prompt = f"Extract the roles and positions from the following text:\n\n{text}"
     try:
         response = client.chat.completions.create(
             model="gpt-4",
@@ -75,6 +83,7 @@ def use_llm_for_position_data(position, text):
             print(f"No data extracted for position: {position}. Skipping this position.")
             return None
         position_data_dict = json.loads(position_data)
+        print(f"Extracted data for position {position}: {position_data_dict}")
         return position_data_dict
     except Exception as e:
         print(f"Error extracting data for position {position}: {e}")

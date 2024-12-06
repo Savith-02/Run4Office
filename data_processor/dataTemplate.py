@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field
-from typing import Optional
+from typing import Optional, Any
 
 class PositionDataTemplate(BaseModel):
     Position_title: str = Field(..., title="Title of the position")
@@ -9,7 +9,7 @@ class PositionDataTemplate(BaseModel):
     Filing_window_end: Optional[str] = Field(None, title="End date of filing window")
     Name_of_district: Optional[str] = Field(None, title="Name of the district")
     State_of_district: Optional[str] = Field(None, title="State of the district")
-    Other_relevant_info: Optional[str] = Field(None, title="Any other relevant information")
+    Other_relevant_info: Optional[str | Any] = Field(None, title="Any other relevant information")
 
     class Config:
         json_schema_extra = {

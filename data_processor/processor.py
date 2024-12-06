@@ -22,18 +22,18 @@ def process_text_with_llms(text, url):
         print("No roles extracted. Ensure the text contains relevant role information.")
         return
 
-    print(f"Extracted positions: {', '.join(positions)}")
+    # print(f"Extracted positions: {', '.join(positions)}")
     
     for position in positions[:POSITION_LIMIT_PER_FILE]:
-        print(f"Processing data for: {position}")
+        # print(f"Processing data for: {position}")
         
         # Fetch position-specific data using LLM
-
         try:
+            print(f"\nProcessing data for: {position}")
             position_data = use_llm_for_position_data(position, text)
             position_data = PositionDataTemplate(**position_data)
-            save_position_data_json(position, position_data, url)
-            save_position_data_csv(position, position_data, url)
+            # save_position_data_json(position, position_data, url)
+            # save_position_data_csv(position, position_data, url)
         except Exception as e:
             print(f"\nError processing data for {position}: {e}\n")
             continue
