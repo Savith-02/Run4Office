@@ -59,9 +59,11 @@ def get_urls_from_tavily(query: str=query):
     else:
         print("No relevant results found.")
 
-
 if __name__ == "__main__":
     urls_from_google = get_urls_from_google()
     urls_from_tavily = get_urls_from_tavily()
-    for url in urls_from_google + urls_from_tavily:
-        print(url)
+    urls = urls_from_google + urls_from_tavily
+    
+    with open("urls.txt", "w") as f:
+        for url in urls:
+            f.write(url + "\n")

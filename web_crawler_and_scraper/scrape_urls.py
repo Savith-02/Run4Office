@@ -11,12 +11,20 @@ primary_urls = [
 ]
 
 
-
+os.makedirs("urls", exist_ok=True)
 def scrape_urls():
     urls_from_google = get_urls_from_google()
     urls_from_tavily = get_urls_from_tavily()
     all_urls = primary_urls + urls_from_google + urls_from_tavily
     filtered_urls = filter_relevant_urls(all_urls)
+
+    with open("./urls/initial_urls.txt", "w") as f:
+        for url in all_urls:
+            f.write(url + "\n")
+
+    with open("./urls/initial_filtered_urls.txt", "w") as f:
+        for url in filtered_urls:
+            f.write(url + "\n")
 
     for url in filtered_urls:
         print(f"Scraping URL: {url}")
