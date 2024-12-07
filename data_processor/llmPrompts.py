@@ -95,7 +95,7 @@ def use_llm_for_position_data(position, text):
     try:
         # LLM call
         response = client.chat.completions.create(
-            model="gpt-4",
+            model=os.getenv("GPT_MODEL_MINI"),
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},

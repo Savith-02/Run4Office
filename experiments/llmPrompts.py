@@ -2,6 +2,8 @@ from openai import OpenAI
 import os
 import json
 from data_processor.util import validate_extracted_positions
+from dotenv import load_dotenv
+load_dotenv()
 
 client = OpenAI(
     api_key=os.environ.get("OPENAI_API_KEY"),
@@ -23,7 +25,7 @@ def use_llm_for_extraction(text):
 
     try:
         response = client.chat.completions.create(
-            model="gpt-4",
+            model=os.getenv("GPT_MODEL_MINI"),
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},
@@ -92,7 +94,7 @@ def use_llm_for_position_data_with_tool(position, text):
     try:
         # LLM call
         response = client.chat.completions.create(
-            model="gpt-4",
+            model=os.getenv("GPT_MODEL_MINI"),
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},
