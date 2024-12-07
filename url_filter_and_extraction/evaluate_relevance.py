@@ -1,8 +1,11 @@
 from openai import OpenAI
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 client = OpenAI(
-    api_key=os.environ.get("OPENAI_API_KEY"),
+    api_key=os.getenv("OPENAI_API_KEY"),
 )
 
 
@@ -18,7 +21,7 @@ def evaluate_relevance(content):
             # Example of LLM API call (adjust as per your setup)
             print("Evaluating relevance of content")
             response = client.chat.completions.create(
-                model="gpt-4o-mini",  # Replace with your LLM model name
+                model=os.getenv("GPT_MODEL_MINI"),  # Replace with your LLM model name
                 messages=[
                     {"role": "system", "content": (
                         "You are an expert in analyzing content related to U.S. local government elections. "

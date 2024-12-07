@@ -2,6 +2,9 @@ import os
 from openai import OpenAI
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
+from dotenv import load_dotenv
+load_dotenv()
+
 from utils import extract_content
 
 # Directories
@@ -9,7 +12,7 @@ FILTERED_DIR = "./filtered"
 OUTPUT_DIR = "./../shared_data/unstructured_data"
 
 client = OpenAI(
-    api_key=os.environ.get("OPENAI_API_KEY"),
+    api_key=os.getenv("OPENAI_API_KEY"),
 )
 
 
@@ -30,7 +33,7 @@ def generate_extraction_prompt(text):
     """
 
 # Function to process a single file
-def process_file(content, model="gpt-4o-mini"):
+def process_file(content, model=os.getenv("GPT_MODEL_MINI")):
     try:
         # Create the extraction prompt
         prompt = generate_extraction_prompt(content)

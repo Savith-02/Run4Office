@@ -2,9 +2,12 @@ from openai import OpenAI
 import os
 import json
 from util import validate_extracted_positions
+from dotenv import load_dotenv
+
+load_dotenv()
 
 client = OpenAI(
-    api_key=os.environ.get("OPENAI_API_KEY"),
+    api_key=os.getenv("OPENAI_API_KEY"),
 )
 
 def use_llm_for_extraction(text):
@@ -31,7 +34,7 @@ def use_llm_for_extraction(text):
     user_prompt = f"Extract the roles and positions from the following text:\n\n{text}"
     try:
         response = client.chat.completions.create(
-            model="gpt-4",
+            model=os.getenv("GPT_MODEL_MINI"),
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},

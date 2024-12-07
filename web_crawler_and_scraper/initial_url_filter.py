@@ -72,7 +72,7 @@ def is_relevant(url: str, description: str):
     try:
         print("checking relevance for ", url)
         response = openai_client.chat.completions.create(
-            model="gpt-4o-mini",
+            model=os.getenv("GPT_MODEL_MINI"),
             messages=[{"role": "system", "content": prompt}],
             max_tokens=10,
             temperature=0
