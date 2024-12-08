@@ -2,8 +2,10 @@
 __pycache__
 __pycache__/
 .venv
+
 */formatted_files/*
 */scraped_files/*
+web_crawler_and_scraper/scraped_files/*
 */logs/*
 */filtered/*
 shared_data/*
