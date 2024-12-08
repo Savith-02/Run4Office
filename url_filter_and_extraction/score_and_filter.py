@@ -37,7 +37,7 @@ def test_single_file(file_name):
         print("File does not exist or is not a text file.")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Process all files in the input directory.")
+    parser = argparse.ArgumentParser(description="Process files in the input directory. If --count is specified, only that many files will be processed.")
     parser.add_argument("--count", type=int, default=None, help="Number of files to process. If not specified, all files will be processed.")
     args = parser.parse_args()
     for file in os.listdir(input_dir)[:args.count] if args.count else os.listdir(input_dir):

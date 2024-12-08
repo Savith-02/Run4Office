@@ -8,7 +8,7 @@ google_cx = os.getenv("CX")
 tavily_client = TavilyClient(api_key=TAVILY_API_KEY)
 
 query = "Local government vacancies of 2024 onwards and upcoming election information in the USA"
-or_terms = "elections, public office, candidacy filing, ballot measures, election boards, government positions, usa"
+keywords = "elections, public office, candidacy filing, ballot measures, election boards, government positions, usa"
 date_restrict = "y3"
 num = 10 
 
@@ -23,7 +23,7 @@ params = {
     "lr": "lang_en",
     "num": num,
     "dateRestrict": date_restrict,
-    "orTerms": or_terms,
+    "orTerms": keywords,
     "fileType": "html"
 }
 
@@ -46,7 +46,7 @@ def get_urls_from_tavily(query: str=query):
         query=query,
         include_answer=True,  # Exclude direct answers, focus on results
         include_images=False,  # Exclude images
-        max_results=10         # Limit results for relevance
+        max_results=num         # Limit results for relevance
     )
 
     # Process and extract relevant URLs
@@ -59,11 +59,11 @@ def get_urls_from_tavily(query: str=query):
     else:
         print("No relevant results found.")
 
-if __name__ == "__main__":
-    urls_from_google = get_urls_from_google()
-    urls_from_tavily = get_urls_from_tavily()
-    urls = urls_from_google + urls_from_tavily
+# if __name__ == "__main__":
+#     urls_from_google = get_urls_from_google()
+#     urls_from_tavily = get_urls_from_tavily()
+#     urls = urls_from_google + urls_from_tavily
     
-    with open("urls.txt", "w") as f:
-        for url in urls:
-            f.write(url + "\n")
+#     with open("urls.txt", "w") as f:
+#         for url in urls:
+#             f.write(url + "\n")
