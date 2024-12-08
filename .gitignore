@@ -10,6 +10,8 @@ web_crawler_and_scraper/scraped_files/*
 */filtered/*
 shared_data/*
 shared_data/structured_data_csv/*
+shared_data/structured_data_json/*
+shared_data/unstructured_data/*
 *checkpoint*
 
 main.py
