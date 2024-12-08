@@ -85,15 +85,15 @@ def is_relevant(url: str, description: str):
         return False
 
 
-if __name__ == "__main__":
-    # Example usage
-    test_urls = [
-        "https://sosmt.gov/elections/filing/",
-        "https://www.elections.alaska.gov/candidates/",
-        "https://example.com/unrelated-content",
-    ]
+# if __name__ == "__main__":
+#     # Example usage
+#     test_urls = [
+#         "https://sosmt.gov/elections/filing/",
+#         "https://www.elections.alaska.gov/candidates/",
+#         "https://example.com/unrelated-content",
+#     ]
     
-    relevant_urls = filter_relevant_urls(test_urls)
-    print("\nRelevant URLs:")
-    for url in relevant_urls:
-        print(url)
+#     relevant_urls = filter_relevant_urls(test_urls)
+#     print("\nRelevant URLs:")
+#     for url in relevant_urls:
+#         print(url)
