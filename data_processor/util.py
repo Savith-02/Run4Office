@@ -37,7 +37,7 @@ def save_position_data_json(position, data, url, base_dir=f"{SHARED_DATA_DIR}/st
     
     try:
         # Save data to the file
-        with open(file_path, "w") as file:
+        with open(file_path, "w", encoding='utf-8', errors='replace') as file:
             data_dict = data.model_dump()
             data_dict["url"] = url.split(": ")[1]
             file.write(json.dumps(data_dict, indent=4))
@@ -71,7 +71,7 @@ def save_position_data_csv(position: str, data: Dict, url: str, base_dir: str = 
     # Check if the CSV file exists and write data accordingly
     file_exists = os.path.isfile(csv_file_path)
     try:
-        with open(csv_file_path, mode="a", newline="", encoding="utf-8") as csvfile:
+        with open(csv_file_path, mode="a", newline="", encoding="utf-8", errors='replace') as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames=headers)
             
             # Write the header only if the file doesn't already exist
@@ -87,7 +87,7 @@ def save_position_data_csv(position: str, data: Dict, url: str, base_dir: str = 
 
 
 def extract_content(file_path):
-    with open(file_path, 'r', encoding='utf-8') as file:
+    with open(file_path, 'r', encoding='utf-8', errors='replace') as file:
         lines = file.readlines()
         url = lines[0].strip()
         content = "".join(lines[1:]).strip()

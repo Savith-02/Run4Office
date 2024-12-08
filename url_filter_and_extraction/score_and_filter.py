@@ -23,7 +23,7 @@ def test_single_file(file_name):
         score = evaluate_relevance(content)
 
         # Append the score to the second line
-        with open(file_path, 'w', encoding='utf-8') as file:
+        with open(file_path, 'w', encoding='utf-8', errors='replace') as file:
             file.write(f"{url}\n")
             file.write(f"Score: {score}\n")
             file.write(content)

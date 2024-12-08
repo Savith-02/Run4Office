@@ -63,7 +63,7 @@ def process_all_files(count=None):
             if extracted_data:
                 # Save unstructured data to the output directory
                 output_file_path = os.path.join(OUTPUT_DIR, f"{file_name}_unstructured.txt")
-                with open(output_file_path, "w") as output_file:
+                with open(output_file_path, "w", encoding='utf-8', errors='replace') as output_file:
                     output_file.write(f"{url}\n")
                     output_file.write(extracted_data)
                 print(f"Saved unstructured data to {output_file_path}")
