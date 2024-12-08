@@ -1,7 +1,7 @@
 import os
 import shutil
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
-
+import argparse
 from evaluate_relevance import evaluate_relevance
 from utils import extract_content
 
@@ -36,6 +36,9 @@ def test_single_file(file_name):
     else:
         print("File does not exist or is not a text file.")
 
-for file in os.listdir(input_dir):
-    test_single_file(file)
-    # break
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Process all files in the input directory.")
+    parser.add_argument("--count", type=int, default=None, help="Number of files to process. If not specified, all files will be processed.")
+    args = parser.parse_args()
+    for file in os.listdir(input_dir)[:args.count] if args.count else os.listdir(input_dir):
+        test_single_file(file)

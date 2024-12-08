@@ -1,7 +1,7 @@
 import os
 from openai import OpenAI
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
-
+import argparse
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -53,8 +53,8 @@ def process_file(content, model=os.getenv("GPT_MODEL_MINI")):
         return None
 
 # Process all files in the filtered directory
-def process_all_files():
-    for file_name in os.listdir(FILTERED_DIR):
+def process_all_files(count=None):
+    for file_name in os.listdir(FILTERED_DIR)[:count] if count else os.listdir(FILTERED_DIR):
         file_path = os.path.join(FILTERED_DIR, file_name)
         if os.path.isfile(file_path):
             url, content = extract_content(file_path)
@@ -71,5 +71,8 @@ def process_all_files():
                 print(f"Skipping: {file_name} due to errors.")
 
 if __name__ == "__main__":
-    # Process all files
-    process_all_files()
+    parser = argparse.ArgumentParser(description="Process all files in the filtered directory.")
+    parser.add_argument("--count", type=int, default=None, help="Number of files to process. If not specified, all files will be processed.")
+    args = parser.parse_args()
+    print(f"Processing {args.count if args.count else 'all'} files.")
+    process_all_files(args.count)
