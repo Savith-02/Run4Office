@@ -17,25 +17,32 @@ def use_llm_for_extraction(text):
     Returns a list of positions.
     """
     system_prompt = (
-        "You are an assistant tasked with extracting roles and positions mentioned in the provided text. "
-        "Each extracted entry must strictly follow this format: "
-        "'role: [local government position] of region: [county/municipality/township]'.\n"
-        "If the entry does not fit this format, it should not be included.\n\n"
-        "Examples of valid entries:\n"
+        "You are an expert assistant tasked with extracting specific government roles and positions from the provided text. "
+        "Your job is to extract entries that meet the following strict criteria:\n\n"
+        "1. Each entry must represent a **specific government role** (e.g., Mayor, City Council Member, County Clerk).\n"
+        "2. Each entry must specify the **region** it applies to, such as a county, municipality, or township. "
+        "Use the format: 'role: [specific position] of region: [specific location]'.\n"
+        "3. General terms such as 'elections,' 'voting,' or 'processes' are NOT roles and must be excluded.\n"
+        "4. If the role or the region is missing or incomplete, do NOT include the entry.\n\n"
+        "### Examples of Valid Entries:\n"
         "- role: Mayor of region: Los Angeles\n"
         "- role: County Clerk of region: Cook County\n"
         "- role: Trustee of region: Plymouth Township\n\n"
-        "Examples of invalid entries (to be ignored):\n"
-        "- Mayor (missing region)\n"
-        "- County Clerk Cook County (missing 'of region:')\n"
-        "- Plymouth Township (missing role and 'of region:')\n\n"
-        "Output the extracted positions as a comma-separated list, with no additional text or explanation."
+        "### Examples of Invalid Entries:\n"
+        "- 'Municipal elections' (This is an event, not a role.)\n"
+        "- 'Voting process of region: Cook County' (This is a process, not a role.)\n"
+        "- 'Elections in Plymouth Township' (General term, not a role.)\n"
+        "- 'Mayor' (Missing region.)\n\n"
+        "### Output Format:\n"
+        "Output all valid entries as a comma-separated list of strings, with no additional text or explanations. "
+        "If no valid entries are found, return an empty string."
     )
+
     
-    user_prompt = f"Extract the roles and positions from the following text:\n\n{text}"
+    user_prompt = f"Extract the roles with their positions from the following text:\n\n{text}"
     try:
         response = client.chat.completions.create(
-            model=os.getenv("GPT_MODEL_LARGE"),
+            model=os.getenv("GPT_MODEL_MINI"),
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},
