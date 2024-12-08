@@ -125,19 +125,16 @@ $ python ./data_processor/merge_csv_files.py
 ## Requirements
 
 Ensure you have all necessary dependencies installed. You can manage Python packages using Poetry as specified in your environment setup.
+Run `poetry install` to install the dependencies.
+Poetry should be installed in the python environment you are using. Otherwise, install the dependencies manually.
 
 ## Diagrams included
 
-To better understand the system, consider the following diagrams:
-
-1. **System Architecture Diagram**: Illustrates the components of the system and their interactions, including the flow of data from web scraping to storage.
-
-2. **Data Flow Diagram**: Shows the flow of data through the system, highlighting key processes like validation and extraction.
-
-3. **Sequence Diagram**: Details the sequence of operations for a single URL, from initial scraping to final data storage.
+To better understand the system, consider the diagrams included in the `assets` directory.
+The flowchart in `assets/flowchart.png` shows the flow of the system.
 
 ## Notes
 
-- Edit the `.env.sample` file to include your OpenAI API key and save it as `.env`.
+- Edit the `.env.sample` file to include your OpenAI API key and other required variables and keys and save it as `.env`.
 - The project is designed to run on Windows using Git Bash as the terminal. Adjust paths and commands if using a different setup.
 - The files in the `shared_data` directory are not tracked by git to avoid large file storage issues.
