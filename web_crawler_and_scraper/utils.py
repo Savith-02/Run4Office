@@ -2,7 +2,7 @@ import os
 from additional_cleaning import remove_whitespace_between_tags, remove_whitespace_between_tags_and_text
 
 def get_base_filename(url):
-    sanitized_url = url.replace("https://", "").replace("http://", "").replace("/", "_")
+    sanitized_url = url.replace("https://", "").replace("http://", "").replace("/", "_").replace(":", "_").replace("?", "_").replace("=", "_").replace("&", "_")
     return sanitized_url.rstrip("_")
 
 def update_checkpoint_file(current_url, checkpoint_file='checkpoint.txt'):
