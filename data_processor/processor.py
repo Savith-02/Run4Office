@@ -21,7 +21,7 @@ def process_text_with_llms(text, url):
     if not positions:
         print("No roles extracted. Ensure the text contains relevant role information.")
         return
-    # print(f"Extracted positions: {', '.join(positions)}")
+    print(f"Extracted positions: {', '.join(positions)}")
     for position in positions[:POSITION_LIMIT_PER_FILE]:
         # print(f"Processing data for: {position}")
         # Fetch position-specific data using LLM
