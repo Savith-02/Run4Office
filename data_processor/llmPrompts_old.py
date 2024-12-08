@@ -39,7 +39,7 @@ def use_llm_for_extraction(text):
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},
-            ],
+            ]
         )
         extracted_text = response.choices[0].message.content
         positions = [pos.strip() for pos in extracted_text.split(",") if pos.strip()]
@@ -56,36 +56,43 @@ def use_llm_for_position_data(position, text):
     Extracts information like position title, description, election dates, filing window, and other details.
     Returns only the relevant extracted information in JSON format.
     """
+    # Tool definition
+    tools = [
+        {
+            "type": "function",
+            "function": {
+                "name": "extract_government_positions",
+                "description": "Extract government position details from the provided text",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "Position_title": {"type": "string", "description": "Title of the position."},
+                        "Description": {"type": "string", "description": "Description of the position."},
+                        "Next_election_date": {"type": "string", "format": "date", "description": f"Date of the next election. Only dates after {today_date} are relevant or if the date is not specified, leave it blank."},
+                        "Filing_window_start": {"type": "string", "format": "date", "description": f"Start date of the filing window. Only dates after {today_date} are relevant or if the date is not specified, leave it blank."},
+                        "Filing_window_end": {"type": "string", "format": "date", "description": f"End date of the filing window. Only dates after {today_date} are relevant or if the date is not specified, leave it blank."},
+                        "Name_of_district": {"type": "string", "description": "Name of the district."},
+                        "State_of_district": {"type": "string", "description": "State of the district."},
+                        "Other_relevant_info": {"type": "string", "description": "Any other relevant information."},
+                        "Vacancy_date": {"type": "string", "format": "date", "description": f"Date when the position will be vacant. Only dates after {today_date} are relevant or if the date is not specified, leave it blank."}
+                    },
+                    "additionalProperties": False
+                }
+            }
+        }
+    ]
 
-    # Define the system prompt with integrated parameter instructions
+    # System prompt with tool description
     system_prompt = (
-        f"You are a highly skilled data extraction specialist focused on extracting structured and accurate information about government positions. "
-        f"Your task is to extract the following detailed information from the provided text, ensuring that each field is accurate and complete:\n\n"
-        f"1. **Position_title**: The official title of the position.\n"
-        f"2. **Description**: A clear and concise description of the responsibilities or role of the position.\n"
-        f"3. **Next_election_date**: The date of the next election. \n"
-        f"    - Include only dates after {today_date}. \n"
-        f"    - If the term end date of the current position holder is mentioned but no election date is explicitly provided, use this term end date as the next election date and prefix it with 'after'. \n"
-        f"    - If no date is specified, leave this field blank.\n"
-        f"4. **Filing_window_start**: The start date of the filing window for candidates.\n"
-        f"    - Include only dates after {today_date}.\n"
-        f"    - If no start date is mentioned, leave this field blank.\n"
-        f"5. **Filing_window_end**: The end date of the filing window for candidates.\n"
-        f"    - Include only dates after {today_date}.\n"
-        f"    - If no end date is mentioned, leave this field blank.\n"
-        f"6. **Name_of_district**: The name of the district the position belongs to.\n"
-        f"7. **State_of_district**: The state where the district is located.\n"
-        f"8. **Other_relevant_info**: Any additional relevant information about the position.\n"
-        f"9. **Vacancy_date**: The date when the position will become vacant.\n"
-        f"    - Include only dates after {today_date}.\n"
-        f"    - If no vacancy date is mentioned, leave this field blank.\n\n"
-        f"**Formatting Guidelines**:\n"
-        f"- Ensure the output is strictly in JSON format, with each field adhering to the specifications above.\n"
-        f"- For fields lacking relevant information in the text, leave them blank (e.g., \"Filing_window_start\": \"\").\n"
-        f"- Do not include speculative or inferred data. Use only the information explicitly mentioned in the text.\n"
-        f"- Ensure completeness and precision. Avoid adding any extra comments, explanations, or text outside the JSON structure.\n\n"
-        f"Focus on accuracy, ensuring that all extracted information is relevant to the position and formatted correctly."
+        "You are a highly skilled data extraction specialist focused on government positions. "
+        "Your task is to extract detailed and structured information from the provided text. "
+        "Ensure that the extracted data adheres strictly to the specified parameter definitions and output format. "
+        "The output must be in JSON format, precisely matching the tool's parameters. "
+        "If certain fields lack relevant data, leave them blank. "
+        "Avoid including any speculative or imaginary dates. "
+        "Focus on accuracy and completeness, ensuring that all extracted information is relevant and correctly formatted."
     )
+
     # User prompt
     user_prompt = f"Extract all relevant data for the following position: '{position}'.\n\nText: {text}"
 
@@ -97,13 +104,13 @@ def use_llm_for_position_data(position, text):
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},
             ],
+            tools=tools,  # Pass tools definition
+            tool_choice={"type": "function", "function": {"name": "extract_government_positions"}}  # Explicitly invoke the defined tool
         )
 
         # Parse response to extract JSON
-        # Assuming the response is in JSON format
-        extracted_data = response.choices[0].message.content
-        # print(f"Extracted data: {extracted_data}")
-        position_data_dict = json.loads(extracted_data.strip("```json").strip("```"))
+        extracted_data = response.choices[0].message.tool_calls[0].function.arguments
+        position_data_dict = json.loads(extracted_data)
         print(f"Extracted data for position {position}: {position_data_dict}")
         print(f"Extracted dates: {position_data_dict['Next_election_date'] if position_data_dict['Next_election_date'] else 'N/A'}, {position_data_dict['Filing_window_start'] if position_data_dict['Filing_window_start'] else 'N/A'}, {position_data_dict['Filing_window_end'] if position_data_dict['Filing_window_end'] else 'N/A'}, {position_data_dict['Vacancy_date'] if position_data_dict['Vacancy_date'] else 'N/A'}")
         # Validate response content

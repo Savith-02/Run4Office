@@ -2,11 +2,12 @@
 __pycache__
 __pycache__/
 .venv
-# */formatted_files/*
-# */scraped_files/*
+*/formatted_files/*
+*/scraped_files/*
 */logs/*
 */filtered/*
-# */shared_data/*
+shared_data/*
+shared_data/structured_data_csv/*
 *checkpoint*
 
 main.py

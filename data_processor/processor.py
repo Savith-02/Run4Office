@@ -7,7 +7,7 @@ from dataTemplate import PositionDataTemplate
 SHARED_DATA_DIR = "./../shared_data"
 UNSTRUCTURED_DIR = f"{SHARED_DATA_DIR}/unstructured_data"
 os.makedirs(UNSTRUCTURED_DIR, exist_ok=True)
-POSITION_LIMIT_PER_FILE = 5
+POSITION_LIMIT_PER_FILE = 15
 
 def process_text_with_llms(text, url):
     """
@@ -31,6 +31,10 @@ def process_text_with_llms(text, url):
         try:
             print(f"\nProcessing data for: {position}")
             position_data = use_llm_for_position_data(position, text)
+            if position_data is None:
+                print(f"Error: No data extracted for position {position}.")
+                continue      
+
             position_data = PositionDataTemplate(**position_data)
             # save_position_data_json(position, position_data, url)
             save_position_data_csv(position, position_data, url)
@@ -43,6 +47,6 @@ if __name__ == "__main__":
   for file_name in os.listdir(UNSTRUCTURED_DIR):
     file_path = os.path.join(UNSTRUCTURED_DIR, file_name)
     with open(file_path, "r") as file:
-      print(f"Processing file: {file_name}")
+      print(f"\nProcessing file: {file_name}")
       url, input_text = extract_content(file_path)
       process_text_with_llms(input_text, url)
