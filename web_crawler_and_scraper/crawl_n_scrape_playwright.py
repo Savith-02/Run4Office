@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from langdetect import detect
 from logger import open_log_files, log_rejection, log_crawled_link
 from init import initialize_directories, clear_scraped_files
-from utils import get_base_filename, update_checkpoint_file, format_and_save_file
+from utils import get_base_filename, format_and_save_file
 from additional_cleaning import clean_html
 
 visited = set()

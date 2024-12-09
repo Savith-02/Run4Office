@@ -17,7 +17,7 @@ from init import initialize_directories
 from bs4 import BeautifulSoup
 from init import clear_scraped_files
 from additional_cleaning import clean_html
-from utils import get_base_filename, update_checkpoint_file, format_and_save_file
+from utils import get_base_filename, format_and_save_file
 
 # Set a custom process name
 os.system("title web_crawler_scraper")  # For Windows
@@ -177,7 +177,6 @@ def worker(driver):
 # Main entry point
 def scrape_website(start_url, page_limit=None):
     print("Scraping website started")
-    update_checkpoint_file(start_url)
     # Initialize logs and directories
     global PAGE_LIMIT
     if page_limit:
