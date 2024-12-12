@@ -15,17 +15,18 @@ openai_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Configuration
 
-TARGET_URL_COUNT = 70 # Total number of URLs to collect
-GOOGLE_URL_COUNT = 50 # Number of URLs to collect from Google
-GOOGLE_URLS_PER_QUERY = 8 # Number of URLs to collect from each Google query
+TARGET_URL_COUNT = 20 # Total number of URLs to collect
+GOOGLE_URL_COUNT = 10 # Number of URLs to collect from Google
+GOOGLE_URLS_PER_QUERY = 4 # Number of URLs to collect from each Google query
 DATE_RESTRICT = "y3" # Date restriction for Google search
 
 if TARGET_URL_COUNT < GOOGLE_URL_COUNT:
     raise ValueError("Target URL count must be greater than Google URL count")
 TAVILY_URL_COUNT = TARGET_URL_COUNT - GOOGLE_URL_COUNT
-TAVILY_URLS_PER_QUERY = 10 # Number of URLs to collect from each Tavily query
+TAVILY_URLS_PER_QUERY = 4 # Number of URLs to collect from each Tavily query
 
 # Initialize file
+os.makedirs("urls", exist_ok=True)
 open("./urls/initial_urls.txt", "w").close()
 
 class PromptGenerator:
@@ -226,8 +227,8 @@ def fetch_all_urls() -> List[str]:
     print(f"\nFinal URL collection complete: {len(all_urls)} URLs.")
     return all_urls
 
-if __name__ == "__main__":
-    all_urls = fetch_all_urls()
-    print("\nFinal Collected URLs (Excluding Ballotpedia):")
-    for url in all_urls:
-        print(url)
+# if __name__ == "__main__":
+#     all_urls = fetch_all_urls()
+#     print("\nFinal Collected URLs (Excluding Ballotpedia):")
+#     for url in all_urls:
+#         print(url)
