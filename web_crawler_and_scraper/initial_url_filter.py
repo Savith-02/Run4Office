@@ -1,99 +1,71 @@
+from typing import Set, Dict, Any
+from urllib.parse import urlparse
 import os
-from tavily import TavilyClient
-from openai import OpenAI
-import dotenv
-dotenv.load_dotenv()
+os.chdir("e:\\WORK\\langchains\\run4Office\\web_crawler_and_scraper")
 
-TAVILY_API_KEY = os.environ.get("TAVILY_API_KEY")
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
-tavily_client = TavilyClient(api_key=TAVILY_API_KEY)
-openai_client = OpenAI(api_key=OPENAI_API_KEY)
-
-def filter_relevant_urls(urls: list[str]):
+def filter_urls(urls: Set[str], config: Dict[str, Any]) -> Set[str]:
     """
-    Filter a list of URLs by determining their relevance to U.S. elections and related information.
-    
-    Args:
-        urls (list[str]): List of URLs to filter.
-        
+    Filters URLs based on a configuration object using urllib.parse for parsing.
+
+    Parameters:
+        urls (Set[str]): The set of URLs to filter.
+        config (Dict[str, Any]): Configuration object containing filter criteria:
+            - "exclude_domains" (Set[str]): Domains to exclude from URLs.
+            - "include_domains" (Set[str], optional): Domains to include in URLs.
+            - "exclude_paths" (Set[str], optional): Substrings in paths to exclude.
+            - "include_paths" (Set[str], optional): Substrings in paths to include.
+            - "schemes" (Set[str], optional): Allowed schemes (e.g., "https", "http").
+            - "max_length" (int, optional): Maximum length of the URL.
+
     Returns:
-        list[str]: Filtered list of relevant URLs.
+        Set[str]: The filtered set of URLs.
     """
-    filtered_urls = []
+    exclude_domains = config.get("exclude_domains", set())
+    include_domains = config.get("include_domains", set())
+    exclude_paths = config.get("exclude_paths", set())
+    include_paths = config.get("include_paths", set())
+    schemes = config.get("schemes", {"http", "https"})
+    max_length = config.get("max_length", None)
+
+    filtered_urls = set()
+
     for url in urls:
-        try:
-            description = get_url_description(url)
-            if description and is_relevant(url, description):
-                filtered_urls.append(url)
-        except Exception as e:
-            print(f"Error processing URL {url}: {e}")
+        parsed_url = urlparse(url)
+
+        # Check scheme
+        if schemes and parsed_url.scheme not in schemes:
+            with open("./urls/rejected_urls.txt", "a") as rejected_file:
+                rejected_file.write(f"{url}\n")
+            append_to_file(url, f"Skipping URL due to scheme {parsed_url.scheme} not in schemes")
+            continue
+
+        # Check domain (netloc)
+        domain = parsed_url.netloc
+        if domain in exclude_domains:
+            append_to_file(url, f"Skipping URL due to domain {domain} in exclude_domains")
+            continue
+        if include_domains and domain not in include_domains:
+            append_to_file(url, f"Skipping URL due to domain {domain} not in include_domains")
+            continue
+
+        # Check path
+        path = parsed_url.path
+        if any(exclude in path for exclude in exclude_paths):
+            append_to_file(url, f"Skipping URL due to path {path} in exclude_paths")
+            continue
+        if include_paths and not any(include in path for include in include_paths):
+            append_to_file(url, f"Skipping URL due to path {path} not in include_paths")
+            continue
+
+        # Check URL length
+        if max_length and len(url) > max_length:
+            append_to_file(url, f"Skipping URL due to length {len(url)} > max_length {max_length}")
+            continue
+
+        filtered_urls.add(url)
+
     return filtered_urls
 
-
-def get_url_description(url: str):
-    """
-    Retrieve a description of the content for a given URL using Tavily's search API.
-    Args:
-        url (str): The URL to describe.
-
-    Returns:
-        str: Description of the URL content, or None if not available.
-    """
-    query = f"Give me a brief description of {url}"
-    print("\ngetting description for ", url)
-    response = tavily_client.search(query=query, include_answer=True, include_images=False, max_results=1)
-    
-    # Ensure response has the expected structure
-    if response and "results" in response and response["results"]:
-        print("description: ", response.get("answer", ""))
-        return response.get("answer", "")
-    return None
-
-
-def is_relevant(url: str, description: str):
-    """
-    Use OpenAI to determine if a URL and its description contain relevant information.
-    
-    Args:
-        url (str): The URL being checked.
-        description (str): The description of the URL's content.
-        
-    Returns:
-        bool: True if the URL is relevant, False otherwise.
-    """
-    prompt = (
-        f"Determine if the following URL and its description are relevant to the topics of U.S. elections, "
-        f"candidate profiles, ballot measures, election dates, or public office requirements:\n\n"
-        f"URL: {url}\n"
-        f"Description: {description}\n\n"
-        f"Answer 'Yes' or 'No'."
-    )
-    
-    try:
-        print("checking relevance for ", url)
-        response = openai_client.chat.completions.create(
-            model=os.getenv("GPT_MODEL_MINI"),
-            messages=[{"role": "system", "content": prompt}],
-            max_tokens=10,
-            temperature=0
-        )
-        answer = response.choices[0].message.content.strip().lower()
-        print("answer: ", answer)
-        return answer == "yes"
-    except Exception as e:
-        print(f"Error checking relevance for URL {url}: {e}")
-        return False
-
-
-# if __name__ == "__main__":
-#     # Example usage
-#     test_urls = [
-#         "https://sosmt.gov/elections/filing/",
-#         "https://www.elections.alaska.gov/candidates/",
-#         "https://example.com/unrelated-content",
-#     ]
-    
-#     relevant_urls = filter_relevant_urls(test_urls)
-#     print("\nRelevant URLs:")
-#     for url in relevant_urls:
-#         print(url)
+def append_to_file(url: str, message: str):
+    with open("./urls/rejected_urls.txt", "a", encoding="utf-8") as f:
+        f.write(f"{url} - {message}\n")

@@ -6,6 +6,7 @@ from typing import List, Set, Optional
 from tavily import TavilyClient
 from openai import OpenAI
 import dotenv
+from initial_url_filter import filter_urls
 os.chdir("e:\\WORK\\langchains\\run4Office\\web_crawler_and_scraper")
 
 # Load environment variables and initialize clients
@@ -14,16 +15,25 @@ tavily_client = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
 openai_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Configuration
-
-TARGET_URL_COUNT = 20 # Total number of URLs to collect
-GOOGLE_URL_COUNT = 10 # Number of URLs to collect from Google
-GOOGLE_URLS_PER_QUERY = 4 # Number of URLs to collect from each Google query
+TARGET_URL_COUNT = 80 # Total number of URLs to collect
+GOOGLE_URL_COUNT = 40 # Number of URLs to collect from Google
+GOOGLE_URLS_PER_QUERY = 8 # Number of URLs to collect from each Google query
 DATE_RESTRICT = "y3" # Date restriction for Google search
 
 if TARGET_URL_COUNT < GOOGLE_URL_COUNT:
     raise ValueError("Target URL count must be greater than Google URL count")
 TAVILY_URL_COUNT = TARGET_URL_COUNT - GOOGLE_URL_COUNT
-TAVILY_URLS_PER_QUERY = 4 # Number of URLs to collect from each Tavily query
+TAVILY_URLS_PER_QUERY = 8 # Number of URLs to collect from each Tavily query
+
+# Filter config
+config = {
+    "exclude_domains": {"ballotpedia.org"},
+    "include_domains": {},
+    "exclude_paths": {},
+    "include_paths": {},
+    "schemes": {"https"},
+    "max_length": 140
+}
 
 # Initialize file
 os.makedirs("urls", exist_ok=True)
@@ -137,10 +147,6 @@ def get_urls_from_tavily(query: str) -> Set[str]:
         print(f"Tavily API error: {e}")
         return set()
 
-def filter_urls(urls: Set[str]) -> Set[str]:
-    """Filter out unwanted URLs"""
-    return {url for url in urls if "ballotpedia.org" not in url}
-
 def get_all_urls_per_query_google(query: str, extra_keywords: str, needed_url_count: int) -> List[str]:
     """Fetch multiple pages of URLs from Google for a single query"""
     print(f"\nGetting URLs for query: {query}")
@@ -154,7 +160,7 @@ def get_all_urls_per_query_google(query: str, extra_keywords: str, needed_url_co
         start = 1 if i == 0 else (i * 10 + 1)
         urls.update(get_urls_from_google(query, extra_keywords, start))
     
-    urls = filter_urls(urls)
+    urls = filter_urls(urls, config)
     return list(urls)[:should_fetch_count]
 
 def collect_urls_from_source(source: str, prompt_generator: PromptGenerator) -> List[str]:
@@ -180,7 +186,7 @@ def collect_urls_from_source(source: str, prompt_generator: PromptGenerator) -> 
             urls = get_all_urls_per_query_google(prompt, prompt_generator.get_keywords(), needed_count)
         else:
             urls = get_urls_from_tavily(prompt)
-            urls = filter_urls(urls)
+            urls = filter_urls(urls, config)
         
         # Update URL store and count duplicates
         previous_size = len(url_store)

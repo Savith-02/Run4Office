@@ -1,0 +1,38 @@
+https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Venezuela.html - Skipping URL due to length 125 > max_length 120
+http://purecosmetiques.com/us-election-risks-and-impact-trumps-re-election-odds-financial-markets.html
+http://purecosmetiques.com/us-election-risks-and-impact-trumps-re-election-odds-financial-markets.html - Skipping URL due to scheme http not in schemes
+https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Italy.html - Skipping URL due to length 121 > max_length 120
+https://www.myuscisgov.com/green-card/green-card-processes-and-procedures/fiscal-year-2023-employment-based-adjustment-of-status-faqs.html - Skipping URL due to length 138 > max_length 120
+https://www.missionsq.org/about-us/news-and-updates/media-inquiries/news-20240109-msriunveilstoppublicserviceworkforcetrendsfor2024.html - Skipping URL due to length 136 > max_length 120
+https://www2.deloitte.com/us/en/insights/industry/engineering-and-construction/engineering-and-construction-industry-outlook.html - Skipping URL due to length 129 > max_length 120
+http://dol-stepcheck.com/dol/agencies/eta/llsil.html
+http://dol-stepcheck.com/dol/agencies/eta/llsil.html - Skipping URL due to scheme http not in schemes
+https://vrcdn.electionsfl.org/StaticPages/okeechobee.html?source=https://www.voteokeechobee.gov/LinkClick.aspx?link=http%3A%2F%2Fwww.co.okeechobee.fl.us%2F&tabid=6676&portalid=76&mid=11463 - Skipping URL due to length 188 > max_length 120
+https://ballotpedia.org/State_legislative_vacancies,_2024 - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/Local_elections_calendar - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://nces.ed.gov/blogs/nces/post/public-state-and-local-education-job-openings-hires-and-separations-for-february-2024 - Skipping URL due to length 121 > max_length 120
+https://ballotpedia.org/Local_elections_calendar - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/Statewide_elections_calendar - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/United_States_municipal_elections,_2024 - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/Local_elections_calendar - Skipping URL due to domain ballotpedia.org in exclude_domains
+http://purecosmetiques.com/us-election-risks-and-impact-trumps-re-election-odds-financial-markets.html
+http://purecosmetiques.com/us-election-risks-and-impact-trumps-re-election-odds-financial-markets.html - Skipping URL due to scheme http not in schemes
+https://vrcdn.electionsfl.org/StaticPages/okeechobee.html?source=https://www.voteokeechobee.gov/LinkClick.aspx?link=http%3A%2F%2Fwww.co.okeechobee.fl.us%2F&tabid=6676&portalid=76&mid=11463 - Skipping URL due to length 188 > max_length 140
+https://vrcdn.electionsfl.org/StaticPages/okeechobee.html?source=https://www.voteokeechobee.gov/LinkClick.aspx?link=http%3A%2F%2Fwww.co.okeechobee.fl.us%2F&tabid=6676&portalid=76&mid=11463 - Skipping URL due to length 188 > max_length 140
+http://anfindia.org/preventing-us-election-violence-2024.html
+http://anfindia.org/preventing-us-election-violence-2024.html - Skipping URL due to scheme http not in schemes
+https://ballotpedia.org/State_legislative_vacancies,_2024 - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/Local_elections_calendar - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/Elections_calendar - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/Election_results,_2024:_Analysis_of_voter_turnout_in_the_2024_general_election - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/Local_elections_calendar - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/United_States_municipal_elections,_2024 - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/Local_elections_calendar - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/2024_election_and_voting_dates - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/United_States_municipal_elections,_2024 - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/Ballotpedia's_Election_Analysis_Hub,_2024 - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/Ballotpedia's_Top_15_Ballot_Measures_and_Trends_to_Watch,_2024 - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/United_States_municipal_elections,_2024 - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/Election_results,_2024:_State_executive_officials - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/United_States_municipal_elections,_2024 - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/Official_voter_guides_to_2024_statewide_ballot_measures - Skipping URL due to domain ballotpedia.org in exclude_domains
