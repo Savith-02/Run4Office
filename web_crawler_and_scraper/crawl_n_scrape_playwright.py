@@ -7,6 +7,7 @@ from langdetect import detect
 from logger import open_log_files, log_rejection, log_crawled_link
 from init import initialize_directories, clear_scraped_files
 from utils import get_base_filename, format_and_save_file
+from clean_html import clean_soup
 from additional_cleaning import clean_html
 
 visited = set()
@@ -27,6 +28,7 @@ async def save_to_file(url, soup):
             counter += 1
         filename = f"{base}_{counter}{ext}"
 
+    clean_soup(soup)
     plain_text = str(soup)
     text = clean_html(plain_text)
 
