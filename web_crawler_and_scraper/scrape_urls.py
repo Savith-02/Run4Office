@@ -8,7 +8,7 @@ import asyncio
 os.chdir("e:\\WORK\\langchains\\run4Office\\web_crawler_and_scraper")
 os.makedirs("urls", exist_ok=True)
 
-page_count_to_scrape = 20 # number of pages to scrape for each url
+page_count_to_scrape = 20  # number of pages to scrape for each url
 
 
 def get_urls_and_filter():
@@ -24,12 +24,14 @@ def get_urls_and_filter():
     for url in filtered_urls:
         print(f"- {url}")
 
+
 def scrape_urls():
     with open("./urls/initial_filtered_urls.txt", "r") as f:
         urls = f.readlines()
         for url in urls:
             print(f"\nScraping URL: {url.strip()}")
             asyncio.run(scrape_website(url.strip(), page_count_to_scrape))
+
 
 def get_system_urls() -> List[str]:
     try:
@@ -38,15 +40,17 @@ def get_system_urls() -> List[str]:
     except FileNotFoundError:
         print("System URLs file not found. Returning an empty list.")
         return []
-    
+
+
 def main():
-    parser = argparse.ArgumentParser(description="Web scraping and data processing script.")
+    parser = argparse.ArgumentParser(
+        description="Web scraping and data processing script.")
     parser.add_argument(
         "action",
         choices=["get_urls", "scrape"],
         help="Specify the action to perform: 'get_urls' or 'scrape'."
     )
-    
+
     args = parser.parse_args()
 
     if args.action == "get_urls":
@@ -57,4 +61,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

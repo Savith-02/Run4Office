@@ -1,12 +1,12 @@
 import os
-import requests
+from typing import List, Set, Optional
 import math
 import random
-from typing import List, Set, Optional
 from tavily import TavilyClient
 from openai import OpenAI
 import dotenv
 from initial_url_filter import filter_urls
+import requests
 os.chdir("e:\\WORK\\langchains\\run4Office\\web_crawler_and_scraper")
 
 # Load environment variables and initialize clients

@@ -164,3 +164,4 @@ The flowchart in `assets/flowchart.png` shows the flow of the system.
 - Edit the `.env.sample` file to include your OpenAI API key and other required variables and keys and save it as `.env`.
 - The project is designed to run on Windows using Git Bash as the terminal. Adjust paths and commands if using a different setup.
 - The files in the `shared_data` directory are not tracked by git to avoid large file storage issues.
+- CUSTOMIZABLE: This is placed where optional features are placed.

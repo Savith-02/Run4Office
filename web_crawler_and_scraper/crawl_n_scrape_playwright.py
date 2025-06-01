@@ -4,7 +4,7 @@ from playwright.async_api import async_playwright
 from urllib.parse import urljoin, urlparse, parse_qs
 from bs4 import BeautifulSoup
 from langdetect import detect
-from logger import open_log_files, log_rejection, log_crawled_link
+from logger import open_log_files, log_rejection, log_crawled_link, log_timeout
 from init import initialize_directories, clear_scraped_files
 from utils import get_base_filename, format_and_save_file
 from clean_html import clean_soup
@@ -12,10 +12,12 @@ from additional_cleaning import clean_html
 
 visited = set()
 queue = asyncio.Queue()
-PAGE_LIMIT = 5
+PAGE_LIMIT = 20
 crawled_count = 0
 
 # Save cleaned HTML to a file
+
+
 async def save_to_file(url, soup):
     base_filename = urlparse(url).path.replace("/", "_") or "index"
     filename = f"./scraped_files/{BASE_DIRECTORY}/{base_filename}.txt"
@@ -39,12 +41,15 @@ async def save_to_file(url, soup):
     print(f"[DEBUG] File saved: {filename}")
 
 # Parse links from a page
+
+
 async def parse_links(soup, base_url):
     print(f"[DEBUG] Parsing links from: {base_url}")
     links = set()
     rejected_links = []
     required_params = {"lang": "en"}
-    rejected_extensions = ['.pdf', '.doc', '.docx', '.xls', '.xlsx', '.zip', '.rar', '.7z', '.jpg', '.png', '.gif']
+    rejected_extensions = ['.pdf', '.doc', '.docx', '.xls',
+                           '.xlsx', '.zip', '.rar', '.7z', '.jpg', '.png', '.gif']
 
     for a_tag in soup.find_all("a", href=True):
         url = urljoin(base_url, a_tag["href"])
@@ -64,10 +69,13 @@ async def parse_links(soup, base_url):
                 links.add(url)
     if rejected_links:
         log_rejection(rejected_links, "Rejected due to query parameters.")
-    print(f"[DEBUG] Found {len(links)} valid links, {len(rejected_links)} rejected links.")
+    print(f"[DEBUG] Found {len(links)} valid links, {
+          len(rejected_links)} rejected links.")
     return links
 
 # Crawl a single URL
+
+
 async def crawl(playwright, url):
     global crawled_count
     if PAGE_LIMIT is not None and crawled_count >= PAGE_LIMIT:
@@ -81,7 +89,8 @@ async def crawl(playwright, url):
     log_crawled_link(url)
     print(f"[DEBUG] Visiting URL: {url}")
 
-    browser = await playwright.chromium.launch(headless=True)  # Use non-headless for debugging
+    # Use non-headless for debugging
+    browser = await playwright.chromium.launch(headless=True)
     context = await browser.new_context(
         user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
     )
@@ -89,11 +98,14 @@ async def crawl(playwright, url):
     try:
         # Navigate to the URL with a timeout
         try:
-            response = await page.goto(url, timeout=8000)
-            await page.wait_for_load_state("networkidle", timeout=3000)
-            print(f"[DEBUG] Successfully loaded URL: {url} with status {response.status}")
+            response = await page.goto(url, timeout=15000)
+            await page.wait_for_load_state("networkidle", timeout=15000)
+            print(f"[DEBUG] Successfully loaded URL: {
+                  url} with status {response.status}")
         except Exception as e:
-            print(f"[WARNING] Timeout exceeded for URL: {url}, proceeding with partially loaded content. Error: {e}")
+            log_timeout(url)
+            print(f"[WARNING] Timeout exceeded for URL: {
+                  url}, proceeding with partially loaded content. Error: {e}")
 
         # Get the page content, regardless of timeout
         content = await page.content()
@@ -101,10 +113,10 @@ async def crawl(playwright, url):
             print(f"[DEBUG] Empty content for URL: {url}, skipping.")
             return
 
-        # Check for language
-        if detect(content) != "en":
-            log_rejection(url, "Rejected due to non-English content")
-            return
+        # # Check for language // CUSTOMIZABLE
+        # if detect(content) != "en":
+        #     log_rejection(url, "Rejected due to non-English content")
+        #     return
 
         # Parse and process the content
         soup = BeautifulSoup(content, 'html.parser')
@@ -143,6 +155,8 @@ async def worker(playwright):
             print(f"[ERROR] Worker error: {e}")
 
 # Main function
+
+
 async def scrape_website(start_url, page_limit=None):
     global PAGE_LIMIT
     if page_limit:
@@ -151,8 +165,9 @@ async def scrape_website(start_url, page_limit=None):
 
     initialize_directories(start_url)
     clear_scraped_files(start_url)
-    global rejected_log, crawled_log
-    rejected_log, crawled_log = open_log_files(start_url)
+    global rejected_log, crawled_log, timeout_log
+    rejected_log, crawled_log, timeout_log = open_log_files(
+        start_url)  # Used only in logger.py
     global BASE_DIRECTORY
     BASE_DIRECTORY = get_base_filename(start_url)
     print(f"[DEBUG] Base directory set to: {BASE_DIRECTORY}")
@@ -170,4 +185,5 @@ async def scrape_website(start_url, page_limit=None):
     crawled_count = 0
     rejected_log.close()
     crawled_log.close()
+    timeout_log.close()
     visited.clear()
