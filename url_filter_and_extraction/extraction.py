@@ -1,11 +1,11 @@
+from utils import extract_content
+from dotenv import load_dotenv
+import argparse
 import os
 from openai import OpenAI
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
-import argparse
-from dotenv import load_dotenv
 load_dotenv()
 
-from utils import extract_content
 
 # Directories
 FILTERED_DIR = "./filtered"
@@ -20,6 +20,8 @@ client = OpenAI(
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Define the prompt for unstructured data extraction
+
+
 def generate_extraction_prompt(text):
     return f"""
     You are an expert in analyzing data related to U.S. local government elections and positions. 
@@ -33,6 +35,8 @@ def generate_extraction_prompt(text):
     """
 
 # Function to process a single file
+
+
 def process_file(content, model=os.getenv("GPT_MODEL_MINI")):
     try:
         # Create the extraction prompt
@@ -44,7 +48,7 @@ def process_file(content, model=os.getenv("GPT_MODEL_MINI")):
             messages=[{"role": "system", "content": prompt}],
             temperature=0.2
         )
-        
+
         # Extract LLM response
         extracted_data = response.choices[0].message.content
         return extracted_data
@@ -53,6 +57,8 @@ def process_file(content, model=os.getenv("GPT_MODEL_MINI")):
         return None
 
 # Process all files in the filtered directory
+
+
 def process_all_files(count=None):
     for file_name in os.listdir(FILTERED_DIR)[:count] if count else os.listdir(FILTERED_DIR):
         file_path = os.path.join(FILTERED_DIR, file_name)
@@ -62,7 +68,8 @@ def process_all_files(count=None):
 
             if extracted_data:
                 # Save unstructured data to the output directory
-                output_file_path = os.path.join(OUTPUT_DIR, f"{file_name}_unstructured.txt")
+                output_file_path = os.path.join(
+                    OUTPUT_DIR, f"{file_name}_unstructured.txt")
                 with open(output_file_path, "w", encoding='utf-8', errors='replace') as output_file:
                     output_file.write(f"{url}\n")
                     output_file.write(extracted_data)
@@ -70,9 +77,12 @@ def process_all_files(count=None):
             else:
                 print(f"Skipping: {file_name} due to errors.")
 
+
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Process all files in the filtered directory.")
-    parser.add_argument("--count", type=int, default=None, help="Number of files to process. If not specified, all files will be processed.")
+    parser = argparse.ArgumentParser(
+        description="Process all files in the filtered directory.")
+    parser.add_argument("--count", type=int, default=None,
+                        help="Number of files to process. If not specified, all files will be processed.")
     args = parser.parse_args()
     print(f"Processing {args.count if args.count else 'all'} files.")
     process_all_files(args.count)
