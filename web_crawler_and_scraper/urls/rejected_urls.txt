@@ -36,3 +36,15 @@ https://ballotpedia.org/United_States_municipal_elections,_2024 - Skipping URL d
 https://ballotpedia.org/Election_results,_2024:_State_executive_officials - Skipping URL due to domain ballotpedia.org in exclude_domains
 https://ballotpedia.org/United_States_municipal_elections,_2024 - Skipping URL due to domain ballotpedia.org in exclude_domains
 https://ballotpedia.org/Official_voter_guides_to_2024_statewide_ballot_measures - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/Local_election_coverage,_2024 - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/United_States_municipal_elections,_2024 - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/Local_elections_calendar - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/2024_election_and_voting_dates - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/Statewide_elections_calendar - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/United_States_municipal_elections,_2024 - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/Main_Page - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/Main_Page - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/United_States_municipal_elections,_2024 - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/Local_elections_calendar - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/Local_Politics - Skipping URL due to domain ballotpedia.org in exclude_domains
+https://ballotpedia.org/Local_government_officials_and_elections_ballot_measures - Skipping URL due to domain ballotpedia.org in exclude_domains
