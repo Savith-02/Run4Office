@@ -37,7 +37,7 @@ def generate_extraction_prompt(text):
 # Function to process a single file
 
 
-def process_file(content, model=os.getenv("GPT_MODEL_MINI")):
+def process_file(content, model=os.getenv("GPT_MODEL_MINI", "gpt-4o-mini")):
     try:
         # Create the extraction prompt
         prompt = generate_extraction_prompt(content)

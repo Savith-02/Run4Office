@@ -21,7 +21,8 @@ def evaluate_relevance(content):
             # Example of LLM API call (adjust as per your setup)
             print("Evaluating relevance of content")
             response = client.chat.completions.create(
-                model=os.getenv("GPT_MODEL_MINI"),  # Replace with your LLM model name
+                # Replace with your LLM model name
+                model=os.getenv("GPT_MODEL_MINI", "gpt-4o-mini"),
                 messages=[
                     {"role": "system", "content": (
                         "You are an expert in analyzing content related to U.S. local government elections. "
@@ -40,12 +41,15 @@ def evaluate_relevance(content):
                         "- 8-10: Highly relevant, clear, and updated info.\n"
                         "Respond with **only** the numeric score (0 to 10)."
                     )},
-                    {"role": "user", "content": content}
+                    {"role": "user", "content": str(content)}
                 ]
             )
 
             # Parse the response
-            score = response.choices[0].message.content.strip()
+            content = response.choices[0].message.content
+            if content is None:
+                raise ValueError("Response content is None")
+            score = content.strip()
             score = float(score)
             print(f"Score: {score}")
             # Ensure score is within range
